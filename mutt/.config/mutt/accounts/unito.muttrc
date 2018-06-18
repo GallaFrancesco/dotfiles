@@ -1,0 +1,46 @@
+# vim: filetype=neomuttrc
+# muttrc file for account unito
+source "gpg -d ~/.mutt/passwords.gpg |"
+set realname = "Francesco Galla'"
+set from = "francesco.galla@edu.unito.it"
+set imap_user = "francesco.galla@edu.unito.it"
+set smtp_url = "smtp://francesco.galla@edu.unito.it@smtp.gmail.com:587/"
+set smtp_authenticators="gssapi:login"
+set sendmail = "/usr/bin/msmtp -a unito"
+set folder = "~/.mail/unito"
+set header_cache = ~/.config/mutt/accounts/unito/cache/headers
+set message_cachedir = ~/.config/mutt/accounts/unito/cache/bodies
+set certificate_file = ~/.config/mutt/accounts/unito/certificates
+
+set mbox_type = Maildir
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+bind index,pager gg noop
+bind index,pager g noop
+bind index gg first-entry
+unmailboxes *
+mailboxes =unito =------------------- "=[Gmail].Spam" "=INBOX" "=Drafts" "=Sent" "=[Gmail].Tutti i messaggi" "=[Gmail].Speciali" "=[Gmail].Importanti" "=[Gmail].Cestino" "=[Gmail].Bozze" "=[Gmail].Posta inviata" "=Trash"
+macro index,pager gi "<change-folder>=INBOX<enter>" "Go to inbox."
+macro index,pager gs "<change-folder>=Sent<enter>" "Go to sent."
+macro index,pager gd "<change-folder>=Drafts<enter>" "Go to drafts."
+macro index,pager gt "<change-folder>=Trash<enter>" "Go to trash."
+macro index,pager gS "<change-folder>=[Gmail].Spam<enter>" "Go to spam."
+set spoolfile = "+INBOX"
+set record = "+Sent"
+set postponed = "+Drafts"
+set trash = "+Trash"
+
+# folders
+set folder = 'imaps://imap.gmail.com'
+set spoolfile = '+INBOX' 
+set postponed ='+[Google Mail]/Drafts' 
+set trash = '+[Google Mail]/Trash'
+
+set header_cache =~/.mutt/cache/headers 
+set message_cachedir =~/.mutt/cache/bodies 
+set certificate_file =~/.mutt/certificates
+
+set move = no
+set imap_keepalive = 9000
+unset imap_passive
