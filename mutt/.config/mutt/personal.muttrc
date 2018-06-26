@@ -1,2 +1,2 @@
-macro index,pager i1 '<sync-mailbox><enter-command>source /home/fra/.config/mutt/accounts/unito.muttrc<enter><change-folder>!<enter>'
-source /home/fra/.config/mutt/accounts/unito.muttrc
+macro index,pager i1 '<sync-mailbox><enter-command>source /home/fra/.config/mutt/accounts/fragal.muttrc<enter><change-folder>!<enter>'
+source /home/fra/.config/mutt/accounts/fragal.muttrc

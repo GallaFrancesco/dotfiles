@@ -3,7 +3,8 @@
 source ./etc/muttcol
 source ./etc/aliases
 source ~/.mutt/gpg.rc
-source ~/.config/mutt/accounts/unito.muttrc
+source ~/.config/mutt/accounts/fragal.muttrc
+
 bind index,pager i noop
 bind index,pager g noop
 bind index \Cf noop

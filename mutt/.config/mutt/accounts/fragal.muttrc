@@ -1,0 +1,28 @@
+# vim: filetype=neomuttrc
+# muttrc file for account fragal
+set realname = "Francesco Galla'"
+set from = "me@fragal.eu"
+set smtp_url = "smtp://lagfra@disroot.org:587/"
+set sendmail = "/usr/bin/msmtp -a fragal"
+set header_cache = ~/.config/mutt/accounts/fragal/cache/headers
+set message_cachedir = ~/.config/mutt/accounts/fragal/cache/bodies
+set certificate_file = ~/.config/mutt/accounts/fragal/certificates
+source "~/.config/mutt/credentials/getmuttpass fragal |"
+
+set folder = "~/.mail/fragal/INBOX"
+set mbox_type = Maildir
+set mbox="~/.mail/fragal"
+set mask="!^\\.[^.]"
+set record="+Sent"
+set postponed="+Drafts"
+set spoolfile="~/.mail/fragal/INBOX"
+mailboxes `find ~/.mail/fragal/ -mindepth 1 -maxdepth 1 -type d -printf "+'%f' ";`
+
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+bind index,pager gg noop
+bind index,pager g noop
+bind index gg first-entry
+
+send-hook "~f me@fragal.eu"  set pgp_sign_as=5AC058289D81C00B
