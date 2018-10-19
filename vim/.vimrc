@@ -41,7 +41,7 @@ set tabstop=4
 " " when indenting with '>', use 4 spaces width
 set shiftwidth=4
 " " On pressing tab, insert 4 spaces
-set expandtab
+"set expandtab
 set nu
 " capitalize automatically after 93 chars
 set tw=93
@@ -77,7 +77,9 @@ Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-classpath'
 Plugin 'ervandew/supertab'
 Plugin 'artur-shaik/vim-javacomplete2'
+Plugin 'jreybert/vimagit'
 "Plugin 'SirVer/ultisnips'
+
 "Plugin 'honza/vim-snippets'
 Plugin 'tmux-plugins/vim-tmux'
 "Plugin 'omnisharp/omnisharp-vim'
@@ -157,12 +159,12 @@ map <leader>e :Eval<CR>
 map <leader>jjc :!javac %<CR>
 map <leader>jjj :!java %:r
 
-nnoremap <f3> :wincmd w<cr>
+nnoremap <f3> :bdelete!<cr>
 " Unittest in D
 function! DTest()
     new
     :terminal dub test
-    :wincmd w
+    ":wincmd w
 endfunction
 
 autocmd FileType d nnoremap <f2> :call DTest()<cr>
@@ -184,6 +186,9 @@ map <leader>ddd :!./%:r
 " cycle through buffer
 nnoremap j :bnext<CR>
 nnoremap ; :
+
+" fold code block
+map <leader>b zfa{<CR>
 " NERDtree config
 nnoremap <leader>f :NERDTreeToggle<CR>
 let NERDTreeMinimalUI = 1
@@ -204,3 +209,7 @@ let g:limelight_conceal_ctermfg = 240
 
 " allow repeating command on each selected line
 vnoremap . :normal .<CR>
+
+" hide tmux window when opening nvim and open it back when exiting it
+autocmd VimEnter,VimLeave * silent !tmux set status
+"
