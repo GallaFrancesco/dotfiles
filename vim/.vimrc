@@ -78,6 +78,7 @@ Plugin 'tpope/vim-classpath'
 Plugin 'ervandew/supertab'
 Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'jreybert/vimagit'
+Plugin 'vim-airline/vim-airline'
 "Plugin 'SirVer/ultisnips'
 
 "Plugin 'honza/vim-snippets'
@@ -213,3 +214,11 @@ vnoremap . :normal .<CR>
 " hide tmux window when opening nvim and open it back when exiting it
 autocmd VimEnter,VimLeave * silent !tmux set status
 "
+"
+"airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 0
+let g:airline_section_b = '%{fugitive#head()}'
+let g:airline_section_x = ''
+let g:airline_section_y = ''
+let g:airline_section_z ="%3l/%L:%2v"
