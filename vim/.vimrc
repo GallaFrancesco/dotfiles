@@ -212,13 +212,16 @@ let g:limelight_conceal_ctermfg = 240
 vnoremap . :normal .<CR>
 
 " hide tmux window when opening nvim and open it back when exiting it
-autocmd VimEnter,VimLeave * silent !tmux set status
+"autocmd VimEnter,VimLeave * silent !tmux set status
 "
 "
 "airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 0
+let g:airline_symbols_ascii = 1
 let g:airline_section_b = '%{fugitive#head()}'
 let g:airline_section_x = ''
 let g:airline_section_y = ''
 let g:airline_section_z ="%3l/%L:%2v"
+let g:airline_section_error = ''
+let g:airline_section_warning = ''

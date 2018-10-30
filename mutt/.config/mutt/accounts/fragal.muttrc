@@ -9,11 +9,12 @@ set message_cachedir = ~/.config/mutt/accounts/fragal/cache/bodies
 set certificate_file = ~/.config/mutt/accounts/fragal/certificates
 source "~/.config/mutt/credentials/getmuttpass fragal |"
 
+set copy = yes
 set folder = "~/.mail/fragal/INBOX"
 set mbox_type = Maildir
 set mbox="~/.mail/fragal"
 set mask="!^\\.[^.]"
-set record="+Sent"
+set record="+/Sent"
 set postponed="+Drafts"
 set spoolfile="~/.mail/fragal/INBOX"
 mailboxes `find ~/.mail/fragal/ -mindepth 1 -maxdepth 1 -type d -printf "+'%f' ";`

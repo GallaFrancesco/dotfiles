@@ -11,7 +11,7 @@ bind index \Cf noop
 set sleep_time = 0
 set sort = 'reverse-date'
 set editor = 'vim'
-#set copy = no
+set copy = yes
 set timeout = "5"
 set mail_check = "10"
 set mailcap_path = ~/.config/mutt/etc/mailcap
