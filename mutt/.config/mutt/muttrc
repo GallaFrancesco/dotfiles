@@ -99,11 +99,10 @@ set ssl_use_tlsv1_2=yes
 set ssl_verify_dates=yes
 set ssl_verify_host=yes
 
-# default account
-source ~/.config/mutt/accounts/fragal.muttrc
-folder-hook ~/.mail/fragal/* source ~/.config/mutt/accounts/fragal.muttrc
-
 # unito account
 source ~/.config/mutt/accounts/unito.muttrc
 folder-hook ~/.mail/unito/* source ~/.config/mutt/accounts/unito.muttrc
 
+# default account
+source ~/.config/mutt/accounts/fragal.muttrc
+folder-hook ~/.mail/fragal/* source ~/.config/mutt/accounts/fragal.muttrc
