@@ -8,6 +8,6 @@ function fish_prompt --description 'Write out the prompt'
     end
 
     echo -n -s "$USER" @ (prompt_hostname) ' ' "$__fish_prompt_cwd" (prompt_pwd) \
-	(__fish_vcs_prompt)  ' [' (ls /home/fra/.mail/fragal/INBOX/new/ | wc -l) '] ' \
+	(__fish_vcs_prompt)  ' [' (python /home/fra/.config/fish/checkunreadmail.py) '] ' \
 	"$__fish_prompt_normal" '> '
 end
