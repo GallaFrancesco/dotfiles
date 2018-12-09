@@ -1,0 +1,42 @@
+[general]
+accounts = fragal,unito
+starttls = yes
+ssl = yes
+pythonfile = ~/.mutt/pass.py
+
+[Account fragal]
+
+localrepository = fragal-local
+remoterepository = fragal-remote
+
+[Repository fragal-remote]
+auth_mechanisms = LOGIN
+type = IMAP
+remoteuser = lagfra
+remotepasseval = mailpasswd("fragal")
+remotehost = disroot.org
+remoteport = 993
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+folderfilter = lambda fname: not "ME" in fname
+
+[Repository fragal-local]
+type = Maildir
+localfolders = ~/.mail/fragal
+
+[Account unito]
+localrepository = unito-local
+remoterepository = unito-remote
+
+[Repository unito-remote]
+auth_mechanisms = LOGIN
+type = Gmail
+remoteuser = francesco.galla@edu.unito.it
+remotepasseval = mailpasswd("unito")
+remotehost = imap.gmail.com
+remoteport = 993
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+folderfilter = lambda fname: not "UNITO" in fname
+
+[Repository unito-local]
+type = Maildir
+localfolders = ~/.mail/unito

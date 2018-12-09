@@ -1,0 +1,27 @@
+# vim: filetype=neomuttrc
+# muttrc file for account unito
+set realname = "Francesco Galla'"
+set from = "francesco.galla@edu.unito.it"
+set smtp_url = "smtp://francesco.galla@edu.unito.it@smtp.gmail.com:587/"
+set smtp_pass = `pass unito-mail`
+set header_cache = ~/.config/mutt/accounts/unito/cache/headers
+set message_cachedir = ~/.config/mutt/accounts/unito/cache/bodies
+set certificate_file = ~/.config/mutt/accounts/unito/certificates
+
+set copy = yes
+set folder = "~/.mail/unito"
+set mbox_type = Maildir
+set mbox="~/.mail/unito/INBOX"
+set mask="!^\\.[^.]"
+set record="~/.mail/unito/Sent"
+set postponed="+Drafts"
+set spoolfile="~/.mail/unito/INBOX"
+#mailboxes `find ~/.mail/unito/ -mindepth 1 -maxdepth 1 -type d -printf "+'%f' ";`
+mailboxes "~/.mail/unito/INBOX" "~/.mail/unito/Sent" "~/.mail/unito/Drafts"
+
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+bind index,pager gg noop
+bind index,pager g noop
+bind index gg first-entry

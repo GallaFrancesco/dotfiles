@@ -3,7 +3,6 @@
 source ./etc/muttcol
 source ./etc/aliases
 source ~/.mutt/gpg.rc
-source ~/.config/mutt/accounts/fragal.muttrc
 
 bind index,pager i noop
 bind index,pager g noop
@@ -74,10 +73,11 @@ set sidebar_visible = yes
 set sidebar_width = 20
 set sidebar_short_path = yes
 set sidebar_next_new_wrap = yes
+set sidebar_folder_indent = yes
 set mail_check_stats
 set sidebar_format = '%B%?F? [%F]?%* %?N?%N/? %?S?%S?'
-bind index,pager \Ck sidebar-prev
-bind index,pager \Cj sidebar-next
+bind index,pager \Cu sidebar-prev
+bind index,pager \Ce sidebar-next
 bind index,pager \Co sidebar-open
 bind index,pager <F3> sidebar-page-up
 bind index,pager <F4> sidebar-page-down
@@ -85,7 +85,8 @@ bind index,pager \Cp sidebar-prev-new
 bind index,pager \Cn sidebar-next-new
 bind index,pager B sidebar-toggle-visible
 
-#source personal.muttrc
+# edit 
+bind compose f edit-from
 
 # SSL hardening
 set ssl_force_tls=yes
@@ -97,3 +98,12 @@ set ssl_use_tlsv1_1=no
 set ssl_use_tlsv1_2=yes
 set ssl_verify_dates=yes
 set ssl_verify_host=yes
+
+# default account
+source ~/.config/mutt/accounts/fragal.muttrc
+folder-hook ~/.mail/fragal/* source ~/.config/mutt/accounts/fragal.muttrc
+
+# unito account
+source ~/.config/mutt/accounts/unito.muttrc
+folder-hook ~/.mail/unito/* source ~/.config/mutt/accounts/unito.muttrc
+

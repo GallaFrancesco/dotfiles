@@ -10,6 +10,10 @@ def mailpasswd(account):
         # print(subprocess.check_output(["gpg", "--quiet", "--armor", "--batch",
         # "--pinentry-mode", "loopback", "--passphrase-fd", "0", "-d", path],
         # stdin=ps.stdout).strip().decode("utf-8"))
+    elif account == "unito":
+        return subprocess.check_output(["pass","unito-mail"]).strip().decode("utf-8")
     else:
-        return ''
+        return ""
+
+
 
