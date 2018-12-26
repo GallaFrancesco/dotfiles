@@ -79,6 +79,8 @@ Plugin 'ervandew/supertab'
 Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'jreybert/vimagit'
 Plugin 'vim-airline/vim-airline'
+Plugin 'markonm/traces.vim'
+
 "Plugin 'SirVer/ultisnips'
 
 "Plugin 'honza/vim-snippets'
