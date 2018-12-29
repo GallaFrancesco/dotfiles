@@ -62,7 +62,10 @@ Plugin 'zchee/deoplete-clang'
 Plugin 'junegunn/limelight.vim'
 Plugin 'clojure-vim/async-clj-omni'
 "Plugin 'landaire/deoplete-d'
-Plugin 'idanarye/vim-dutyl'
+"Plugin 'idanarye/vim-dutyl'
+Plugin 'ncm2/ncm2'
+Plugin 'ncm2/ncm2-d'
+Plugin 'roxma/nvim-yarp'
 Plugin 'zchee/deoplete-jedi'
 Plugin 'justinmk/vim-syntax-extra'
 Plugin 'godlygeek/tabular'
@@ -176,12 +179,15 @@ autocmd FileType d nnoremap <f2> :call DTest()<cr>
 " dcd server start (dutyl)
 autocmd filetype d :DUDCDstartServer
 "autocmd filetype d :TagbarToggle
-let g:dutyl_stdImportPaths=['/usr/include/dlang/dmd']
-call dutyl#register#tool('dcd-client','/usr/bin/dcd-client')
-call dutyl#register#tool('dcd-server','/usr/bin/dcd-server')
+"let g:dutyl_stdImportPaths=['/usr/include/dlang/dmd']
+"call dutyl#register#tool('dcd-client','/usr/bin/dcd-client')
+"call dutyl#register#tool('dcd-server','/usr/bin/dcd-server')
 "let g:deoplete#sources#d#dcd_client_binary = '/usr/bin/dcd-client'
 "let g:deoplete#sources#d#dcd_server_binary = '/usr/bin/dcd-server'
 "let g:deoplete#sources#d#dcd_server_autostart = 1
+" enable ncm2 for all buffers and set completeopt
+autocmd BufEnter * call ncm2#enable_for_buffer()
+set completeopt=noinsert,menuone
 
 map <leader>ddc :!dmd %<CR>
 map <leader>ddd :!./%:r
