@@ -177,7 +177,7 @@ autocmd FileType d nnoremap <f2> :call DTest()<cr>
 " D requires dcd config
 "
 " dcd server start (dutyl)
-autocmd filetype d :DUDCDstartServer
+"autocmd filetype d :DUDCDstartServer
 "autocmd filetype d :TagbarToggle
 "let g:dutyl_stdImportPaths=['/usr/include/dlang/dmd']
 "call dutyl#register#tool('dcd-client','/usr/bin/dcd-client')
