@@ -34,6 +34,23 @@ hi Comment ctermfg=darkblue
 :command W w
 :command Q q
 
+" movement mappings for COLEMAK
+"
+" up
+:noremap U k
+" left
+:noremap N h
+" down
+:noremap E j
+" right
+:noremap I l
+" page down
+:noremap L <C-b>
+" page up
+:noremap Y <C-f>
+" matching bracket
+:noremap B %
+
 " permit switching buffer without saving
 set hidden
 " show existing tab with 4 spaces width
@@ -177,7 +194,7 @@ autocmd FileType d nnoremap <f2> :call DTest()<cr>
 " D requires dcd config
 "
 " dcd server start (dutyl)
-autocmd filetype d :DUDCDstartServer
+"autocmd filetype d :DUDCDstartServer
 "autocmd filetype d :TagbarToggle
 "let g:dutyl_stdImportPaths=['/usr/include/dlang/dmd']
 "call dutyl#register#tool('dcd-client','/usr/bin/dcd-client')
