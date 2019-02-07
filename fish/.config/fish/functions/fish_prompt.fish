@@ -12,7 +12,7 @@ function fish_prompt --description 'Write out the prompt'
 	if test $st -eq 0
 		set -e st
 	else
-		set st " [$st]"
+		set st "($st)"
 	end
 
     echo -n -s '[' (python /home/fra/.config/fish/checkunreadmail.py) '] '"$USER" "$__fish_prompt_cwd"  \
