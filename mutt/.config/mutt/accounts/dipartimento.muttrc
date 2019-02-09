@@ -1,0 +1,27 @@
+# muttrc file for account dipartimento
+# vim: filetype=neomuttrc
+set realname = "Francesco Galla'"
+set from = "galla@di.unito.it"
+set smtp_url = "smtp://galla@mail.di.unito.it:587/"
+set smtp_pass = `pass di.unito.it`
+set header_cache = ~/.config/mutt/accounts/dipartimento/cache/headers
+set message_cachedir = ~/.config/mutt/accounts/dipartimento/cache/bodies
+set certificate_file = ~/.config/mutt/accounts/dipartimento/certificates
+
+set copy = yes
+set folder = "~/.mail/dipartimento"
+set mbox_type = Maildir
+set mbox="~/.mail/dipartimento/INBOX"
+set mask="!^\\.[^.]"
+set record="~/.mail/dipartimento/mail.Sent"
+set postponed="~/.mail/dipartimento/mail.Drafts"
+set spoolfile="~/.mail/dipartimento/INBOX"
+#mailboxes `find ~/.mail/unito/ -mindepth 1 -maxdepth 1 -type d -printf "+'%f' ";`
+mailboxes "~/.mail/dipartimento/INBOX" "~/.mail/dipartimento/mail.Sent" "~/.mail/dipartimento/mail.Drafts"
+
+set ssl_starttls = yes
+set ssl_force_tls = no
+
+bind index,pager gg noop
+bind index,pager g noop
+bind index gg first-entry

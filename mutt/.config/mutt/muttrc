@@ -8,7 +8,8 @@ bind index,pager i noop
 bind index,pager g noop
 bind index \Cf noop
 set sleep_time = 0
-set sort = 'reverse-date'
+set sort = 'threads' # display threaded view
+set sort_aux = 'reverse-last-date-received'
 set editor = 'vim'
 set copy = yes
 set timeout = "5"
@@ -24,6 +25,13 @@ auto_view text/html
 auto_view application/pdf
 alternative_order text/plain text/enriched text/html
 set rfc2047_parameters = yes
+
+# colors
+#source ~/.config/mutt/colors.muttrc
+
+# if you don't like the black progress bar at the bottom of the screen,
+# comment out the following line
+color progress    white          black
 
 # General remappings
 bind editor <space> noop
@@ -102,6 +110,10 @@ set ssl_verify_host=yes
 # unito account
 source ~/.config/mutt/accounts/unito.muttrc
 folder-hook ~/.mail/unito/* source ~/.config/mutt/accounts/unito.muttrc
+
+# dipartimento
+source ~/.config/mutt/accounts/dipartimento.muttrc
+folder-hook ~/.mail/dipartimento/* source ~/.config/mutt/accounts/dipartimento.muttrc
 
 # default account
 source ~/.config/mutt/accounts/fragal.muttrc

@@ -1,5 +1,5 @@
-# vim: filetype=neomuttrc
 # muttrc file for account unito
+# vim: filetype=neomuttrc
 set realname = "Francesco Galla'"
 set from = "francesco.galla@edu.unito.it"
 set smtp_url = "smtp://francesco.galla@edu.unito.it@smtp.gmail.com:587/"

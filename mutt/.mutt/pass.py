@@ -12,6 +12,8 @@ def mailpasswd(account):
         # stdin=ps.stdout).strip().decode("utf-8"))
     elif account == "unito":
         return subprocess.check_output(["pass","unito-mail"]).strip().decode("utf-8")
+    elif account == "dipartimento":
+        return subprocess.check_output(["pass","di.unito.it"]).strip().decode("utf-8").split('\n')[1]
     else:
         return ""
 
