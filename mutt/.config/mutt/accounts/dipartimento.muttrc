@@ -17,11 +17,13 @@ set record="~/.mail/dipartimento/mail.Sent"
 set postponed="~/.mail/dipartimento/mail.Drafts"
 set spoolfile="~/.mail/dipartimento/INBOX"
 #mailboxes `find ~/.mail/unito/ -mindepth 1 -maxdepth 1 -type d -printf "+'%f' ";`
-mailboxes "~/.mail/dipartimento/INBOX" "~/.mail/dipartimento/mail.Sent" "~/.mail/dipartimento/mail.Drafts"
+mailboxes "=====DIPARTIMENTO=====" "~/.mail/dipartimento/INBOX" "~/.mail/dipartimento/mail.Sent" "~/.mail/dipartimento/mail.Drafts"
 
 set ssl_starttls = yes
-set ssl_force_tls = no
+set ssl_force_tls = yes
 
 bind index,pager gg noop
 bind index,pager g noop
 bind index gg first-entry
+
+set sidebar_delim_chars="./"
