@@ -7,6 +7,8 @@ source ~/.mutt/gpg.rc
 bind index,pager i noop
 bind index,pager g noop
 bind index \Cf noop
+set charset = utf8
+set assumed_charset = "it:utf8:us-ascii"
 set sleep_time = 0
 set sort = 'threads' # display threaded view
 set sort_aux = 'reverse-last-date-received'
