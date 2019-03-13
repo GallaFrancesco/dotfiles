@@ -1,11 +1,10 @@
 [general]
-accounts = fragal,unito
+accounts = fragal,unito,dipartimento
 starttls = yes
 ssl = yes
 pythonfile = ~/.mutt/pass.py
 
 [Account fragal]
-
 localrepository = fragal-local
 remoterepository = fragal-remote
 
@@ -22,6 +21,7 @@ folderfilter = lambda fname: not "ME" in fname
 [Repository fragal-local]
 type = Maildir
 localfolders = ~/.mail/fragal
+
 
 [Account unito]
 localrepository = unito-local
@@ -40,3 +40,23 @@ folderfilter = lambda fname: not "UNITO" in fname
 [Repository unito-local]
 type = Maildir
 localfolders = ~/.mail/unito
+
+
+[Account dipartimento]
+localrepository = dipartimento-local
+remoterepository = dipartimento-remote
+
+[Repository dipartimento-remote]
+auth_mechanisms = LOGIN
+type = IMAP
+remoteuser = galla
+remotepasseval = mailpasswd("dipartimento")
+remotehost = mail.di.unito.it
+remoteport = 143
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+ssl = no
+folderfilter = lambda fname: not "mailboxlist" in fname and fname in [ "Drafts", "INBOX", "mail.Drafts", "mail.Junk", "mail.Sent", "mail.Trash", "Sent", "Trash"]
+
+[Repository dipartimento-local]
+type = Maildir
+localfolders = ~/.mail/dipartimento

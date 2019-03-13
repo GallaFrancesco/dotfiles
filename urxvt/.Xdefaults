@@ -18,6 +18,30 @@ URxvt.font: 	       		      	  xft:monospace:size=12:antialias=true,xft:Kochi:an
 URxvt.boldFont: 	       		      xft:monospace:bold:size=12:antialias=true,xft:Kochi:antialias=true
 URxvt.italicFont: 	       		      xft:monospace:italic:size=12,xft:Kochi:antialias=true
 
+*foreground:   #bcbcbc
+*background:   #000000
+
+! AUTUMN COLORSCHEME
+!*.foreground:   #5b5b5b
+!*.background:   #1b1b1b
+*.cursorColor:  #737373
+*.color0:       #272727
+*.color8:       #503c40
+*.color1:       #2fcc93
+*.color9:       #7eeec6
+*.color2:       #3ea24f
+*.color10:      #8af69c
+*.color3:       #7bba4d
+*.color11:      #a8f470
+*.color4:       #5a5526
+*.color12:      #ead41f
+*.color5:       #a65841
+*.color13:      #842e15
+*.color6:       #b1b360
+*.color14:      #26734d
+*.color7:       #b3b3b3
+*.color15:      #d2d2d2
+!
 ! Perl extensions
 !URxvt*perl-lib:    					  /usr/lib/xterm/perl/
 !URxvt.perl-ext-common: 				  default,selection-to-clipboard,pasta,matcher,keyboard-select,url-select
@@ -151,8 +175,6 @@ URxvt.italicFont: 	       		      xft:monospace:italic:size=12,xft:Kochi:antiali
 !#define base0E #D09339
 !#define base0F #DA9561
 
-*foreground:   #bcbcbc
-*background:   #000000
 !*cursorColor:  #2F4643
 
 !URxvt*color0:       #181818
@@ -288,26 +310,6 @@ URxvt.italicFont: 	       		      xft:monospace:italic:size=12,xft:Kochi:antiali
 !*color7:   #e2e2e5
 !*color15:  #e2e2e5
 
-! AUTUMN COLORSCHEME
-!*.foreground:   #5b5b5b
-!*.background:   #1b1b1b
-*.cursorColor:  #737373
-*.color0:       #272727
-*.color8:       #503c40
-*.color1:       #2fcc93
-*.color9:       #7eeec6
-*.color2:       #3ea24f
-*.color10:      #8af69c
-*.color3:       #7bba4d
-*.color11:      #a8f470
-*.color4:       #5a5526
-*.color12:      #ead41f
-*.color5:       #a65841
-*.color13:      #842e15
-*.color6:       #b1b360
-*.color14:      #26734d
-*.color7:       #b3b3b3
-*.color15:      #d2d2d2
 
 ! SMYCK COLORSCHEME
 !xterm*foreground: white

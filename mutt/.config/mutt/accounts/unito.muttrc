@@ -1,5 +1,5 @@
-# vim: filetype=neomuttrc
 # muttrc file for account unito
+# vim: filetype=neomuttrc
 set realname = "Francesco Galla'"
 set from = "francesco.galla@edu.unito.it"
 set smtp_url = "smtp://francesco.galla@edu.unito.it@smtp.gmail.com:587/"
@@ -17,7 +17,7 @@ set record="~/.mail/unito/Sent"
 set postponed="+Drafts"
 set spoolfile="~/.mail/unito/INBOX"
 #mailboxes `find ~/.mail/unito/ -mindepth 1 -maxdepth 1 -type d -printf "+'%f' ";`
-mailboxes "~/.mail/unito/INBOX" "~/.mail/unito/Sent" "~/.mail/unito/Drafts"
+mailboxes "====== UNITO ======" "~/.mail/unito/INBOX" "~/.mail/unito/Sent" "~/.mail/unito/Drafts"
 
 set ssl_starttls = yes
 set ssl_force_tls = yes
@@ -25,3 +25,5 @@ set ssl_force_tls = yes
 bind index,pager gg noop
 bind index,pager g noop
 bind index gg first-entry
+
+set sidebar_delim_chars="/"

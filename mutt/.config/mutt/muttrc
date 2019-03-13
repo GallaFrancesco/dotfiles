@@ -7,8 +7,11 @@ source ~/.mutt/gpg.rc
 bind index,pager i noop
 bind index,pager g noop
 bind index \Cf noop
+set charset = utf8
+set assumed_charset = "it:utf8:us-ascii"
 set sleep_time = 0
-set sort = 'reverse-date'
+set sort = 'threads' # display threaded view
+set sort_aux = 'reverse-last-date-received'
 set editor = 'vim'
 set copy = yes
 set timeout = "5"
@@ -24,6 +27,13 @@ auto_view text/html
 auto_view application/pdf
 alternative_order text/plain text/enriched text/html
 set rfc2047_parameters = yes
+
+# colors
+#source ~/.config/mutt/colors.muttrc
+
+# if you don't like the black progress bar at the bottom of the screen,
+# comment out the following line
+color progress    white          black
 
 # General remappings
 bind editor <space> noop
@@ -71,9 +81,10 @@ macro index A "<limit>all\n" "show all messages (undo limit)"
 # Sidebar mappings
 set sidebar_visible = yes
 set sidebar_width = 20
-set sidebar_short_path = yes
+set sidebar_short_path = yes # Shorten mailbox names
+set sidebar_delim_chars = "/."
+set sidebar_folder_indent
 set sidebar_next_new_wrap = yes
-set sidebar_folder_indent = yes
 set mail_check_stats
 set sidebar_format = '%B%?F? [%F]?%* %?N?%N/? %?S?%S?'
 bind index,pager \Cu sidebar-prev
@@ -102,6 +113,10 @@ set ssl_verify_host=yes
 # unito account
 source ~/.config/mutt/accounts/unito.muttrc
 folder-hook ~/.mail/unito/* source ~/.config/mutt/accounts/unito.muttrc
+
+# dipartimento
+source ~/.config/mutt/accounts/dipartimento.muttrc
+folder-hook ~/.mail/dipartimento/* source ~/.config/mutt/accounts/dipartimento.muttrc
 
 # default account
 source ~/.config/mutt/accounts/fragal.muttrc

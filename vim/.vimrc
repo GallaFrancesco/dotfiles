@@ -61,7 +61,7 @@ set shiftwidth=4
 "set expandtab
 set nu
 " capitalize automatically after 93 chars
-set tw=93
+set tw=80
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim

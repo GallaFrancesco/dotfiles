@@ -17,7 +17,7 @@ set record="~/.mail/fragal/Sent"
 set postponed="+Drafts"
 set spoolfile="~/.mail/fragal/INBOX"
 #mailboxes `find ~/.mail/fragal/ -mindepth 1 -maxdepth 1 -type d -printf "+'%f' ";`
-mailboxes "~/.mail/fragal/INBOX" "~/.mail/fragal/Sent" "~/.mail/fragal/Drafts"
+mailboxes "======== ME ========" "~/.mail/fragal/INBOX" "~/.mail/fragal/Sent" "~/.mail/fragal/Drafts" "~/.mail/fragal/INBOX.Nexa" "~/.mail/fragal/INBOX.Github" "~/.mail/fragal/INBOX.Rockbox" "~/.mail/fragal/INBOX._To" "~/.mail/fragal/INBOX.Dlang"
 
 set ssl_starttls = yes
 set ssl_force_tls = yes
@@ -27,3 +27,5 @@ bind index,pager g noop
 bind index gg first-entry
 
 send-hook "~f me@fragal.eu"  set pgp_sign_as=5AC058289D81C00B
+
+set sidebar_delim_chars = "/."
