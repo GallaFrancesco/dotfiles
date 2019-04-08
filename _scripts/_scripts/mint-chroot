@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set x
+
+echo "===== Mounting Partitions ====="
+sudo mount /dev/sda4 /mnt
+sudo mount -t proc /proc /mnt/proc
+sudo mount --rbind /dev /mnt/dev
+sudo mount --rbind /sys /mnt/sys
+echo "Ok!"
+
+echo "===== Network setup ====="
+sudo cp /etc/resolv.conf /mnt/etc/resolv.conf
+echo "Ok!"
+
+echo "===== Chrooting ====="
+sudo chroot /mnt
