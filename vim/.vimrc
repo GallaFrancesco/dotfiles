@@ -210,7 +210,7 @@ map <leader>ddc :!dmd %<CR>
 map <leader>ddd :!./%:r
 
 " cycle through buffer
-nnoremap j :bnext<CR>
+nnoremap , :bnext<CR>
 nnoremap ; :
 
 " fold code block

@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*- 
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("ranger-"
+ (filename . "~/_progs/avrc/")
+ (front-context-string . "source/\n  drwxr-")
+ (rear-context-string . " 4k 09-02 10:04 ")
+ (position . 198))
+)
