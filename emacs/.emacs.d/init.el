@@ -63,11 +63,11 @@
 	  (lambda () (load-theme 'cyberpunk t)))
 
 ;; transparent bg
-(defun on-frame-open (&optional frame)
-  "If the FRAME created in terminal don't load background color."
-  (unless (display-graphic-p frame)
-    (set-face-background 'default "unspecified-bg" frame)))
-(add-hook 'after-make-frame-functions 'on-frame-open)
+;; (defun on-frame-open (&optional frame)
+;;   "If the FRAME created in terminal don't load background color."
+;;   (unless (display-graphic-p frame)
+;;     (set-face-background 'default "unspecified-bg" frame)))
+;; (add-hook 'after-make-frame-functions 'on-frame-open)
 
 ;; 80-column-rule
 (global-column-enforce-mode t)
