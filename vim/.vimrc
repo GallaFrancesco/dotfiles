@@ -250,3 +250,8 @@ let g:airline_section_y = ''
 let g:airline_section_z ="%3l/%L:%2v"
 let g:airline_section_error = ''
 let g:airline_section_warning = ''
+
+"recognize SConstruct files as python
+autocmd BufReadPre SConstruct set filetype=python
+autocmd BufReadPre SConscript set filetype=python
+

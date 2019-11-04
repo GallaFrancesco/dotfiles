@@ -44,6 +44,18 @@
 (require 'evil)
 (evil-mode t)
 
+;; remap movement keys
+(define-key evil-normal-state-map "I" nil)
+(define-key evil-motion-state-map "N" 'evil-backward-char)
+(define-key evil-motion-state-map "I" 'evil-forward-char)
+(define-key evil-motion-state-map "E" 'evil-next-line)
+(define-key evil-motion-state-map "U" 'evil-previous-line)
+
+;; allow :W and :Q
+(evil-ex-define-cmd "W" 'evil-write)
+(evil-ex-define-cmd "Q" 'evil-quit)
+(evil-ex-define-cmd "WQ" 'evil-save-and-close)
+
 ;; line numbers always on
 (global-display-line-numbers-mode)
 
@@ -63,11 +75,11 @@
 	  (lambda () (load-theme 'cyberpunk t)))
 
 ;; transparent bg
-;; (defun on-frame-open (&optional frame)
-;;   "If the FRAME created in terminal don't load background color."
-;;   (unless (display-graphic-p frame)
-;;     (set-face-background 'default "unspecified-bg" frame)))
-;; (add-hook 'after-make-frame-functions 'on-frame-open)
+(defun on-frame-open (&optional frame)
+  "If the FRAME created in terminal don't load background color."
+  (unless (display-graphic-p frame)
+    (set-face-background 'default "unspecified-bg" frame)))
+(add-hook 'after-make-frame-functions 'on-frame-open)
 
 ;; 80-column-rule
 (global-column-enforce-mode t)
@@ -84,3 +96,4 @@
   (lambda ()
     (highlight-parentheses-mode t)))
 (global-highlight-parentheses-mode t)
+

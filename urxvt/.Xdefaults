@@ -13,7 +13,7 @@ Xft.lcdfilter: lcddefault
 URxvt*scrollBar:                      false
 URxvt*transparent:                    true
 
-URxvt*shading:                        11
+URxvt*shading:                        8
 URxvt.font: 	       		      	  xft:monospace:size=12:antialias=true,xft:Kochi:antialias=true
 URxvt.boldFont: 	       		      xft:monospace:bold:size=12:antialias=true,xft:Kochi:antialias=true
 URxvt.italicFont: 	       		      xft:monospace:italic:size=12,xft:Kochi:antialias=true
@@ -175,6 +175,11 @@ URxvt.italicFont: 	       		      xft:monospace:italic:size=12,xft:Kochi:antiali
 !#define base0E #D09339
 !#define base0F #DA9561
 
+<<<<<<< Updated upstream
+=======
+*foreground:   #bcbcbc
+*background:   #817e7e
+>>>>>>> Stashed changes
 !*cursorColor:  #2F4643
 
 !URxvt*color0:       #181818
