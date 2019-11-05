@@ -44,6 +44,18 @@
 (require 'evil)
 (evil-mode t)
 
+;; remap movement keys
+(define-key evil-normal-state-map "I" nil)
+(define-key evil-motion-state-map "N" 'evil-backward-char)
+(define-key evil-motion-state-map "I" 'evil-forward-char)
+(define-key evil-motion-state-map "E" 'evil-next-line)
+(define-key evil-motion-state-map "U" 'evil-previous-line)
+
+;; allow :W and :Q
+(evil-ex-define-cmd "W" 'evil-write)
+(evil-ex-define-cmd "Q" 'evil-quit)
+(evil-ex-define-cmd "WQ" 'evil-save-and-close)
+
 ;; line numbers always on
 (global-display-line-numbers-mode)
 
@@ -84,3 +96,4 @@
   (lambda ()
     (highlight-parentheses-mode t)))
 (global-highlight-parentheses-mode t)
+
