@@ -72,7 +72,7 @@
 
 ;; theming (cyberpunk)
 (add-hook 'after-init-hook
-	  (lambda () (load-theme 'cyberpunk t)))
+          (lambda () (load-theme 'cyberpunk t)))
 
 ;; transparent bg
 (defun on-frame-open (&optional frame)
@@ -83,9 +83,6 @@
 
 ;; 80-column-rule
 (global-column-enforce-mode t)
-
-;; tabs are 4 spaces
-(setq tab-stop-list (number-sequence 4 120 4))
 
 ;; disable menu bar
 (menu-bar-mode -1)
@@ -109,3 +106,12 @@
   '(add-to-list 'company-backends 'company-irony))
 
 (global-set-key (kbd "TAB") 'company-complete)
+
+;; no tabs for indentation
+(setq-default indent-tabs-mode nil)
+
+;; tabs are 4 spaces
+(setq-default tab-stop-list (number-sequence 4 120 4))
+(setq-default tab-width 4) ; or any other preferred value
+(setq-default c-basic-offset 4)
+(setq-default evil-shift-width 4)
