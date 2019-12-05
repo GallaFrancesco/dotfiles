@@ -6,4 +6,4 @@ if [ -z "$1" ]; then
 fi
 
 song="$1"
-elinks "g $song site:azlyrics.com !"
+elinks "g \ $song site:azlyrics.com"
