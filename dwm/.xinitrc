@@ -58,12 +58,12 @@ if [ -n "$failsafe" ]; then
  exec urxvtd &
  exec emacs --daemon &
  while true; do
-	 xsetroot -name " $(vpn) | $(date +%s) | $(battery) | $(date +"%F %R") "
+	 xsetroot -name " $(vpn) | $(battery) | $(date +"%F %R %s") "
    sleep 1s    # Update time every second
  done &
  exec setxkbmap us -variant colemak &
  exec xmodmap ~/.Xmodmap &
- exec feh --bg-fill /home/fra/images/wall/giap.jpg &
+ exec feh --bg-fill /home/fra/images/wall/flower.jpg &
  exec redshift -t 6501:3500 &
  exec dwm
 else

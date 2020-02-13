@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+    echo "No song given. Exiting."
+    exit 1
+fi
+
+song="$1"
+elinks "g \ $song site:azlyrics.com"

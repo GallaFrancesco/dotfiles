@@ -17,7 +17,7 @@
     ("3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "6bc387a588201caf31151205e4e468f382ecc0b888bac98b2b525006f7cb3307" default)))
  '(package-selected-packages
    (quote
-    (company-irony irony markdown-mode highlight-parentheses smart-mode-line column-enforce-mode cyberpunk-theme ranger rainbow-delimiters ## yasnippet ac-dcd d-mode magit use-package evil-visual-mark-mode))))
+    (bison-mode sclang-snippets sclang-extensions org-edit-latex org-evil company company-irony irony markdown-mode highlight-parentheses smart-mode-line column-enforce-mode cyberpunk-theme ranger rainbow-delimiters ## yasnippet ac-dcd d-mode magit use-package evil-visual-mark-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -38,6 +38,7 @@
   "l" 'list-buffers
   "b" 'switch-to-buffer
   "k" 'kill-buffer
+  "x" 'execute-extended-command
   "c" 'comment-or-uncomment-region)
 
 ;; evil mode always on
@@ -115,3 +116,13 @@
 (setq-default tab-width 4) ; or any other preferred value
 (setq-default c-basic-offset 4)
 (setq-default evil-shift-width 4)
+
+;; orgmode
+(global-set-key (kbd "C-l") 'org-store-link)
+(global-set-key (kbd "C-a") 'org-agenda)
+(global-set-key (kbd "C-c") 'org-capture)
+(global-set-key (kbd "C-b") 'org-switchb)
+
+;; supercollider (scel)
+(add-to-list 'load-path "~/_progs/scel/el")
+(require 'sclang)
