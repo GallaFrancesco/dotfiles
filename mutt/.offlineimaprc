@@ -1,5 +1,5 @@
 [general]
-accounts = fragal,unito,dipartimento
+accounts = fragal,brasello,unito,unito-intra,dipartimento
 starttls = yes
 ssl = yes
 pythonfile = ~/.mutt/pass.py
@@ -22,6 +22,23 @@ folderfilter = lambda fname: not "ME" in fname
 type = Maildir
 localfolders = ~/.mail/fragal
 
+[Account brasello]
+localrepository = brasello-local
+remoterepository = brasello-remote
+
+[Repository brasello-remote]
+auth_mechanisms = LOGIN
+type = IMAP
+remoteuser = brasello@autistici.org
+remotepasseval = mailpasswd("brasello")
+remotehost = mail.autistici.org
+remoteport = 993
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+folderfilter = lambda fname: not "AI" in fname
+
+[Repository brasello-local]
+type = Maildir
+localfolders = ~/.mail/brasello
 
 [Account unito]
 localrepository = unito-local
@@ -40,6 +57,25 @@ folderfilter = lambda fname: not "UNITO" in fname
 [Repository unito-local]
 type = Maildir
 localfolders = ~/.mail/unito
+
+
+[Account unito-intra]
+localrepository = unito-intra-local
+remoterepository = unito-intra-remote
+
+[Repository unito-intra-remote]
+auth_mechanisms = LOGIN
+type = Gmail
+remoteuser = francesco.galla@unito.it
+remotepasseval = mailpasswd("unito-intra")
+remotehost = imap.gmail.com
+remoteport = 993
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+folderfilter = lambda fname: not "UNITO-INTRA" in fname
+
+[Repository unito-intra-local]
+type = Maildir
+localfolders = ~/.mail/unito-intra
 
 
 [Account dipartimento]

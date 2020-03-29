@@ -114,6 +114,10 @@ set ssl_verify_host=yes
 source ~/.config/mutt/accounts/unito.muttrc
 folder-hook ~/.mail/unito/* source ~/.config/mutt/accounts/unito.muttrc
 
+# unito-intra account
+source ~/.config/mutt/accounts/unito-intra.muttrc
+folder-hook ~/.mail/unito-intra/* source ~/.config/mutt/accounts/unito-intra.muttrc
+
 # dipartimento
 source ~/.config/mutt/accounts/dipartimento.muttrc
 folder-hook ~/.mail/dipartimento/* source ~/.config/mutt/accounts/dipartimento.muttrc
@@ -121,3 +125,7 @@ folder-hook ~/.mail/dipartimento/* source ~/.config/mutt/accounts/dipartimento.m
 # default account
 source ~/.config/mutt/accounts/fragal.muttrc
 folder-hook ~/.mail/fragal/* source ~/.config/mutt/accounts/fragal.muttrc
+
+# brasello
+source ~/.config/mutt/accounts/brasello.muttrc
+folder-hook ~/.mail/brasello/* source ~/.config/mutt/accounts/brasello.muttrc
