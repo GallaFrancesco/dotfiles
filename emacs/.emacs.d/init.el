@@ -15,9 +15,10 @@
  '(custom-safe-themes
    (quote
     ("3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "6bc387a588201caf31151205e4e468f382ecc0b888bac98b2b525006f7cb3307" default)))
+ '(org-latex-caption-above nil)
  '(package-selected-packages
    (quote
-    (bison-mode sclang-snippets sclang-extensions org-edit-latex org-evil company company-irony irony markdown-mode highlight-parentheses smart-mode-line column-enforce-mode cyberpunk-theme ranger rainbow-delimiters ## yasnippet ac-dcd d-mode magit use-package evil-visual-mark-mode))))
+    (gradle-mode company-lsp ccls lsp-mode kotlin-mode company-irony-c-headers bison-mode sclang-snippets sclang-extensions org-edit-latex org-evil company company-irony irony markdown-mode highlight-parentheses smart-mode-line column-enforce-mode cyberpunk-theme ranger rainbow-delimiters ## yasnippet ac-dcd d-mode magit use-package evil-visual-mark-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -27,6 +28,9 @@
  '(rainbow-delimiters-depth-2-face ((t (:foreground "magenta")))))
 ;; load custom package manager
 (load "package.el")
+
+;; backup files all in same dir
+(setq backup-directory-alist `(("." . "~/.emacs/saves")))
 
 ;; evil-leader enabled globally to SPC (BEFORE evil-mode)
 (global-evil-leader-mode)
@@ -122,6 +126,24 @@
 (global-set-key (kbd "C-a") 'org-agenda)
 (global-set-key (kbd "C-c") 'org-capture)
 (global-set-key (kbd "C-b") 'org-switchb)
+
+;; orgmode latex
+(with-eval-after-load 'ox-latex
+  (add-to-list 'org-latex-classes
+               '("report-noparts"
+                 "\\documentclass{report}"
+                 ("\\chapter{%s}" . "\\chapter*{%s}")
+                 ("\\section{%s}" . "\\section*{%s}")
+                 ("\\subsection{%s}" . "\\subsection*{%s}")
+                 ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+                 ("\\paragraph{%s}" . "\\paragraph*{%s}")
+                 ("\\subparagraph{%s}" . "\\subparagraph*{%s}"))))
+
+(require 'ox-latex)
+(setq org-latex-inputenc-alist '(("utf8" . "utf8x")))
+
+;; highlight latex in org mode
+(setq org-highlight-latex-and-related '(latex script entities))
 
 ;; supercollider (scel)
 (add-to-list 'load-path "~/_progs/scel/el")

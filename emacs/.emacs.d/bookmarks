@@ -3,8 +3,8 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("ranger-"
- (filename . "~/_progs/avrc/")
- (front-context-string . "source/\n  drwxr-")
- (rear-context-string . " 4k 09-02 10:04 ")
- (position . 198))
+ (filename . "~/_progs/quartino/source/")
+ (front-context-string)
+ (rear-context-string . "288 03-12 01:01 ")
+ (position . 120))
 )
