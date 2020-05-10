@@ -60,7 +60,7 @@ if [ -n "$failsafe" ]; then
 	 xsetroot -name " $(date +%s) | $(date +"%F %R") "
    sleep 1s    # Update time every second
  done &
- exec feh --bg-fill /home/fra/images/heaven3.jpg &
+ exec feh --bg-fill /home/fra/images/west.jpg &
  exec redshift -t 6501:3500 &
  exec dwm
  exec /home/fra/.screenlayout/rotated.sh

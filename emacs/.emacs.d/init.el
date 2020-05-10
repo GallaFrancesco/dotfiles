@@ -17,7 +17,7 @@
     ("3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "6bc387a588201caf31151205e4e468f382ecc0b888bac98b2b525006f7cb3307" default)))
  '(package-selected-packages
    (quote
-    (bison-mode sclang-snippets sclang-extensions org-edit-latex org-evil company company-irony irony markdown-mode highlight-parentheses smart-mode-line column-enforce-mode cyberpunk-theme ranger rainbow-delimiters ## yasnippet ac-dcd d-mode magit use-package evil-visual-mark-mode))))
+    (bison-mode sclang-snippets sclang-extensions org-edit-latex org-evil company company-irony irony markdown-mode highlight-parentheses smart-mode-line column-enforce-mode cyberpunk-theme rainbow-delimiters ## yasnippet ac-dcd d-mode magit use-package evil-visual-mark-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -28,12 +28,15 @@
 ;; load custom package manager
 (load "package.el")
 
+;;
+(setq backup-directory-alist `(("." . "~/.emacs.d/saves")))
+
 ;; evil-leader enabled globally to SPC (BEFORE evil-mode)
 (global-evil-leader-mode)
 (evil-leader/set-leader "<SPC>")
 (evil-leader/set-key
   "u" 'undo-tree-visualize
-  "f" 'ranger
+  "f" 'dired
   "e" 'eval-region
   "l" 'list-buffers
   "b" 'switch-to-buffer

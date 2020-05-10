@@ -1,10 +1,9 @@
 # vim: filetype=neomuttrc
 # muttrc file for account brasello
-set realname = "brasello"
-set from = "brasello@autistici.org"
+set realname = "brasello@autistici.org"
+set from = "brasello <brasello@autistici.org>"
 set smtp_url = "smtp://brasello@autistici.org@smtp.autistici.org:587/"
-#set smtp_url = "smtp://brasello@autistici.org@smtp.autistici.org:587/"
-set smtp_pass = `pass autistici`
+set smtp_pass = "`pass autistici`"
 set header_cache = ~/.config/mutt/accounts/brasello/cache/headers
 set message_cachedir = ~/.config/mutt/accounts/brasello/cache/bodies
 set certificate_file = ~/.config/mutt/accounts/brasello/certificates
@@ -21,6 +20,7 @@ mailboxes "======== AI =======" "~/.mail/brasello/INBOX" "~/.mail/brasello/Sent"
 
 set ssl_starttls = yes
 set ssl_force_tls = yes
+#set smtp_authenticators="plain"
 
 bind index,pager gg noop
 bind index,pager g noop
