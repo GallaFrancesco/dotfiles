@@ -87,6 +87,13 @@ set sidebar_folder_indent = yes
 set sidebar_next_new_wrap = yes
 #set sidebar_format = '%B%?F? [%F]?%* %?N?%N/?%S'
 set sidebar_format = "%B %* [%?N?%N / ?%S]"
+color sidebar_indicator color3 color8         # Dark blue background
+color sidebar_highlight white   color238        # Grey background
+color sidebar_spoolfile yellow  default         # Yellow
+color sidebar_new       color2  default         # Green
+color sidebar_ordinary  default default         # Default colors
+color sidebar_flagged   red     default         # Red
+color sidebar_divider   color3  default         # Dark grey
 
 set mail_check_stats
 bind index,pager \Cu sidebar-prev
