@@ -16,7 +16,7 @@ set mask="!^\\.[^.]"
 set record="~/.mail/brasello/Sent"
 set postponed="+Drafts"
 set spoolfile="~/.mail/brasello/INBOX"
-named-mailboxes "=== Autistici" +'INBOX'
+named-mailboxes "===[autistici]------------------" +'INBOX'
 mailboxes +'Sent' +'Drafts'
 
 set ssl_starttls = yes

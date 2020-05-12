@@ -16,7 +16,7 @@ set mask="!^\\.[^.]"
 set record="~/.mail/unito-intra/Sent"
 set postponed="+Drafts"
 set spoolfile="~/.mail/unito-intra/INBOX"
-named-mailboxes "=== UNITO (intra)" +'INBOX'
+named-mailboxes "=== UNITO (intra) -------" +'INBOX'
 mailboxes +'Sent' +'Drafts'
 
 set ssl_starttls = yes
