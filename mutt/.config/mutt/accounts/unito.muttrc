@@ -16,8 +16,8 @@ set mask="!^\\.[^.]"
 set record="~/.mail/unito/Sent"
 set postponed="+Drafts"
 set spoolfile="~/.mail/unito/INBOX"
-#mailboxes `find ~/.mail/unito/ -mindepth 1 -maxdepth 1 -type d -printf "+'%f' ";`
-mailboxes "====== UNITO ======" "~/.mail/unito/INBOX" "~/.mail/unito/Sent" "~/.mail/unito/Drafts"
+named-mailboxes "==== UNITO" +'INBOX'
+mailboxes +'Sent' +'Drafts'
 
 set ssl_starttls = yes
 set ssl_force_tls = yes

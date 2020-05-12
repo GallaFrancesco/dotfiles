@@ -16,8 +16,8 @@ set mask="!^\\.[^.]"
 set record="~/.mail/dipartimento/mail.Sent"
 set postponed="~/.mail/dipartimento/mail.Drafts"
 set spoolfile="~/.mail/dipartimento/INBOX"
-
-mailboxes "=== DIPARTIMENTO ===" "~/.mail/dipartimento/INBOX" "~/.mail/dipartimento/mail.Sent" "~/.mail/dipartimento/mail.Drafts"
+named-mailboxes "=== Dipartimento" +'INBOX'
+mailboxes +'mail.Sent' +'mail.Drafts'
 
 set ssl_starttls = yes
 set ssl_force_tls = yes

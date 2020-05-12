@@ -80,13 +80,15 @@ macro index A "<limit>all\n" "show all messages (undo limit)"
 
 # Sidebar mappings
 set sidebar_visible = yes
-set sidebar_width = 20
+set sidebar_width = 25
+set sidebar_delim_chars = '/.'
 set sidebar_short_path = yes # Shorten mailbox names
-set sidebar_delim_chars = "/."
-set sidebar_folder_indent
+set sidebar_folder_indent = yes
 set sidebar_next_new_wrap = yes
+#set sidebar_format = '%B%?F? [%F]?%* %?N?%N/?%S'
+set sidebar_format = "%B %* [%?N?%N / ?%S]"
+
 set mail_check_stats
-set sidebar_format = '%B%?F? [%F]?%* %?N?%N/? %?S?%S?'
 bind index,pager \Cu sidebar-prev
 bind index,pager \Ce sidebar-next
 bind index,pager \Co sidebar-open
@@ -103,11 +105,11 @@ bind compose f edit-from
 set ssl_force_tls=yes
 set ssl_starttls=yes
 set ssl_use_sslv3=no
-set ssl_use_sslv2=no
-set ssl_use_tlsv1=no
-set ssl_use_tlsv1_1=no
+set ssl_use_tlsv1=yes
+set ssl_use_tlsv1_1=yes
 set ssl_use_tlsv1_2=yes
-#set ssl_use_tlsv1_3=yes # unrecognized?
+set ssl_use_tlsv1_3=yes
+
 set ssl_verify_dates=yes
 set ssl_verify_host=yes
 
@@ -115,9 +117,9 @@ set ssl_verify_host=yes
 source ~/.config/mutt/accounts/unito.muttrc
 folder-hook ~/.mail/unito/* source ~/.config/mutt/accounts/unito.muttrc
 
-# unito-intra account
-source ~/.config/mutt/accounts/unito-intra.muttrc
-folder-hook ~/.mail/unito-intra/* source ~/.config/mutt/accounts/unito-intra.muttrc
+## unito-intra account
+#source ~/.config/mutt/accounts/unito-intra.muttrc
+#folder-hook ~/.mail/unito-intra/* source ~/.config/mutt/accounts/unito-intra.muttrc
 
 # dipartimento
 source ~/.config/mutt/accounts/dipartimento.muttrc
@@ -125,7 +127,7 @@ folder-hook ~/.mail/dipartimento/* source ~/.config/mutt/accounts/dipartimento.m
 
 # brasello
 source ~/.config/mutt/accounts/brasello.muttrc
-folder-hook ~/.mail/brasello/* source ~/.config/mutt/accounts/dipartimento.muttrc
+folder-hook ~/.mail/brasello/* source ~/.config/mutt/accounts/brasello.muttrc
 
 # default account
 source ~/.config/mutt/accounts/fragal.muttrc

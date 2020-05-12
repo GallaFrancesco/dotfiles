@@ -16,11 +16,13 @@ set mask="!^\\.[^.]"
 set record="~/.mail/brasello/Sent"
 set postponed="+Drafts"
 set spoolfile="~/.mail/brasello/INBOX"
-mailboxes "======== AI =======" "~/.mail/brasello/INBOX" "~/.mail/brasello/Sent" "~/.mail/brasello/Drafts"
+named-mailboxes "=== Autistici" +'INBOX'
+mailboxes +'Sent' +'Drafts'
 
 set ssl_starttls = yes
 set ssl_force_tls = yes
-#set smtp_authenticators="plain"
+set smtp_authenticators="digest-md5:cram-md5:plain"
+#set ssl_ca_certificates_file = /etc/ssl/certs/ca-certificates.crt
 
 bind index,pager gg noop
 bind index,pager g noop

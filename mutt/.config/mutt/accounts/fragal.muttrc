@@ -16,8 +16,8 @@ set mask="!^\\.[^.]"
 set record="~/.mail/fragal/Sent"
 set postponed="+Drafts"
 set spoolfile="~/.mail/fragal/INBOX"
-#mailboxes `find ~/.mail/fragal/ -mindepth 1 -maxdepth 1 -type d -printf "+'%f' ";`
-mailboxes "======== ME ========" "~/.mail/fragal/INBOX" "~/.mail/fragal/Sent" "~/.mail/fragal/Drafts" "~/.mail/fragal/INBOX.Nexa" "~/.mail/fragal/INBOX.Github" "~/.mail/fragal/INBOX.Rockbox" "~/.mail/fragal/INBOX._To" "~/.mail/fragal/INBOX.Dlang"
+named-mailboxes "=== ME" +'INBOX'
+mailboxes +'Sent' +'Drafts' `find ~/.mail/fragal/ -mindepth 1 -maxdepth 1 -iname "INBOX.*" -type d -printf "+'%f' ";`
 
 set ssl_starttls = yes
 set ssl_force_tls = yes

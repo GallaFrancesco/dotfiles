@@ -1,5 +1,5 @@
 [general]
-accounts = fragal,brasello,unito,unito-intra,dipartimento
+accounts = fragal,brasello,unito,dipartimento
 starttls = yes
 ssl = yes
 pythonfile = ~/.mutt/pass.py
@@ -57,26 +57,6 @@ folderfilter = lambda fname: not "UNITO" in fname
 [Repository unito-local]
 type = Maildir
 localfolders = ~/.mail/unito
-
-
-[Account unito-intra]
-localrepository = unito-intra-local
-remoterepository = unito-intra-remote
-
-[Repository unito-intra-remote]
-auth_mechanisms = LOGIN
-type = Gmail
-remoteuser = francesco.galla@unito.it
-remotepasseval = mailpasswd("unito-intra")
-remotehost = imap.gmail.com
-remoteport = 993
-sslcacertfile = /etc/ssl/certs/ca-certificates.crt
-folderfilter = lambda fname: not "UNITO-INTRA" in fname
-
-[Repository unito-intra-local]
-type = Maildir
-localfolders = ~/.mail/unito-intra
-
 
 [Account dipartimento]
 localrepository = dipartimento-local
