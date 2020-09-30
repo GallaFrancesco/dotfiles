@@ -18,7 +18,7 @@
  '(org-latex-caption-above nil)
  '(package-selected-packages
    (quote
-    (gradle-mode company-lsp ccls lsp-mode kotlin-mode company-irony-c-headers bison-mode sclang-snippets sclang-extensions org-edit-latex org-evil company company-irony irony markdown-mode highlight-parentheses smart-mode-line column-enforce-mode cyberpunk-theme ranger rainbow-delimiters ## yasnippet ac-dcd d-mode magit use-package evil-visual-mark-mode))))
+    (csound-mode paredit geiser quack gradle-mode company-lsp ccls lsp-mode kotlin-mode company-irony-c-headers bison-mode org-edit-latex org-evil company company-irony irony markdown-mode highlight-parentheses smart-mode-line column-enforce-mode cyberpunk-theme ranger rainbow-delimiters ## yasnippet ac-dcd d-mode magit use-package evil-visual-mark-mode))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -43,6 +43,7 @@
   "b" 'switch-to-buffer
   "k" 'kill-buffer
   "x" 'execute-extended-command
+  "v" 'org-cycle
   "c" 'comment-or-uncomment-region)
 
 ;; evil mode always on
@@ -145,6 +146,5 @@
 ;; highlight latex in org mode
 (setq org-highlight-latex-and-related '(latex script entities))
 
-;; supercollider (scel)
-(add-to-list 'load-path "~/_progs/scel/el")
-(require 'sclang)
+;; geiser REPL for guile
+(setq geiser-active-implementations '(guile))
