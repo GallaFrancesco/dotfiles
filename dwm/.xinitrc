@@ -55,6 +55,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 if [ -n "$failsafe" ]; then
+ hour=$(date +"%H")
  exec urxvtd &
  exec emacs --daemon &
  while true; do
@@ -63,7 +64,7 @@ if [ -n "$failsafe" ]; then
  done &
  exec setxkbmap us -variant colemak &
  exec xmodmap ~/.Xmodmap &
- exec feh --bg-fill /home/fra/images/wall/flower.jpg &
+ exec feh --bg-fill /home/fra/images/wall/dino.jpg &
  exec redshift -t 6501:3500 &
  exec dwm
 else
