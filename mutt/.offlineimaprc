@@ -3,6 +3,7 @@ accounts = fragal,brasello,unito,dipartimento
 starttls = yes
 ssl = yes
 pythonfile = ~/.mutt/pass.py
+socktimeout = 60
 
 [Account fragal]
 localrepository = fragal-local
