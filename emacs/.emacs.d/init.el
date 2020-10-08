@@ -37,7 +37,7 @@
 (evil-leader/set-leader "<SPC>")
 (evil-leader/set-key
   "u" 'undo-tree-visualize
-  "f" 'ranger
+  "f" 'dired
   "e" 'eval-region
   "l" 'list-buffers
   "b" 'switch-to-buffer

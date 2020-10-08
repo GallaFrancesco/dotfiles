@@ -1,0 +1,29 @@
+# muttrc file for account unito-intra
+# vim: filetype=neomuttrc
+set realname = "Francesco Galla'"
+set from = "francesco.galla@unito.it"
+set smtp_url = "smtp://francesco.galla@unito.it@smtp.gmail.com:587/"
+set smtp_pass = "`pass borsa.unito.it`"
+set header_cache = ~/.config/mutt/accounts/unito-intra/cache/headers
+set message_cachedir = ~/.config/mutt/accounts/unito-intra/cache/bodies
+set certificate_file = ~/.config/mutt/accounts/unito-intra/certificates
+
+set copy = yes
+set folder = "~/.mail/unito-intra"
+set mbox_type = Maildir
+set mbox="~/.mail/unito-intra/INBOX"
+set mask="!^\\.[^.]"
+set record="~/.mail/unito-intra/Sent"
+set postponed="+Drafts"
+set spoolfile="~/.mail/unito-intra/INBOX"
+named-mailboxes "=== UNITO (intra) -------" +'INBOX'
+mailboxes +'Sent' +'Drafts'
+
+set ssl_starttls = yes
+set ssl_force_tls = yes
+
+bind index,pager gg noop
+bind index,pager g noop
+bind index gg first-entry
+
+set sidebar_delim_chars="/"

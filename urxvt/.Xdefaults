@@ -184,11 +184,6 @@ URxvt.keysym.C-slash:  font-size:show
 !#define base0E #D09339
 !#define base0F #DA9561
 
-<<<<<<< Updated upstream
-=======
-*foreground:   #bcbcbc
-*background:   #817e7e
->>>>>>> Stashed changes
 !*cursorColor:  #2F4643
 
 !URxvt*color0:       #181818
