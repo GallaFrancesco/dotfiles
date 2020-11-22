@@ -1,0 +1,86 @@
+2020-10-16 16:20:29	-->	lagfra_ (~fra@host-79-44-69-68.retail.telecomitalia.it) has joined #d
+2020-10-16 16:20:29	--	Topic for #d is "The D Programming Language https://dlang.org - DMD | https://gdcproject.org - GDC | https://wiki.dlang.org/LDC - LDC | https://run.dlang.io - D Paste | #d.feed - NG feed | Production uses: https://dlang.org/orgs-using-d"
+2020-10-16 16:20:29	--	Topic set by GnuYawk (~GnuYawk@unaffiliated/b4rbz) on Sat, 29 Aug 2020 20:12:07
+2020-10-16 16:20:29	--	Channel #d: 119 nicks (2 ops, 0 voices, 117 normals)
+2020-10-16 16:20:30	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2020-10-16 16:33:42	--	irc: disconnected from server
+2020-10-16 16:34:09	-->	lagfra_ (~fra@93-36-63-227.ip58.fastwebnet.it) has joined #d
+2020-10-16 16:34:09	--	Topic for #d is "The D Programming Language https://dlang.org - DMD | https://gdcproject.org - GDC | https://wiki.dlang.org/LDC - LDC | https://run.dlang.io - D Paste | #d.feed - NG feed | Production uses: https://dlang.org/orgs-using-d"
+2020-10-16 16:34:09	--	Topic set by GnuYawk (~GnuYawk@unaffiliated/b4rbz) on Sat, 29 Aug 2020 20:12:07
+2020-10-16 16:34:09	--	Channel #d: 119 nicks (2 ops, 0 voices, 117 normals)
+2020-10-16 16:34:11	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2020-10-16 16:54:33	<--	mojo_x (~mojo@84.16.44.86) has quit (Ping timeout: 260 seconds)
+2020-10-27 10:18:30	-->	lagfra_ (~fra@host-79-24-14-3.retail.telecomitalia.it) has joined #d
+2020-10-27 10:18:30	--	Topic for #d is "The D Programming Language https://dlang.org - DMD | https://gdcproject.org - GDC | https://wiki.dlang.org/LDC - LDC | https://run.dlang.io - D Paste | #d.feed - NG feed | Production uses: https://dlang.org/orgs-using-d"
+2020-10-27 10:18:30	--	Topic set by GnuYawk (~GnuYawk@unaffiliated/b4rbz) on Sat, 29 Aug 2020 20:12:07
+2020-10-27 10:18:30	--	Channel #d: 119 nicks (1 op, 0 voices, 118 normals)
+2020-10-27 10:18:30	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2020-10-27 10:25:48	opDispatch	nice issue feep, respect for finding it
+2020-10-27 10:27:46	alphaglosined	Sun did everything in their power to make Java easy to use
+2020-10-27 10:28:07	alphaglosined	don't blame a programmers choice on the maker of a tool ;)
+2020-10-27 10:38:01	-->	zaherdirkey (~zaherdirk@37.48.181.20) has joined #d
+2020-10-27 10:39:33	<--	zaherdirkey (~zaherdirk@37.48.181.20) has quit (Remote host closed the connection)
+2020-10-27 10:39:52	-->	zaherdirkey (~zaherdirk@37.48.181.20) has joined #d
+2020-10-27 10:50:44	opDispatch	you can run this alphaglosined, like everyday routine ?
+2020-10-27 10:51:04	alphaglosined	oh I'm not gonna try
+2020-10-27 10:52:16	opDispatch	ahah let's see. The big thing is that at some point it will have to run on a gitlab runner too
+2020-10-27 10:53:44	feep[work]	opDispatch: there was like an hour of confusion, lol
+2020-10-27 10:53:53	feep[work]	what the fuck is .call, what the hell is this variable colliding with?!"
+2020-10-27 10:53:57	feep[work]	"*
+2020-10-27 10:54:11	feep[work]	I was going through pragma(msg)ing all the mixins, but I wasn't seeing a "call" variable anywhere
+2020-10-27 10:54:22	feep[work]	I thought it was doing introspection over parameter names...
+2020-10-27 10:54:50	feep[work]	eventually I noticed that weird-ass is ... == __parameters thing and got suspicious :)
+2020-10-27 10:55:55	opDispatch	yeah very nice bug
+2020-10-27 11:01:02	opDispatch	alphaglosined: ahah let's not see
+2020-10-27 11:03:43	opDispatch	it should not be so hard to generate a railroad diagram from a grammar and I have an old unused SVG compatible canvas to help.
+2020-10-27 11:05:17	opDispatch	and if mine is not good enough there's also one in arsd, if i remember correctly what happened two yaers ago
+2020-10-27 11:10:23	opDispatch	The big problem with dot is the lack of control on the layout
+2020-10-27 11:14:24	-->	mojo__ (~mojo@84.16.44.86) has joined #d
+2020-10-27 11:15:14	opDispatch	just one letter can change the whole disposition of all the nodes.
+2020-10-27 11:16:23	opDispatch	railroad digramars rox in comparision. perfect to represent a grammar rule
+2020-10-28 09:27:27	-->	lagfra_ (~fra@host-79-45-18-248.retail.telecomitalia.it) has joined #d
+2020-10-28 09:27:27	--	Topic for #d is "The D Programming Language https://dlang.org - DMD | https://gdcproject.org - GDC | https://wiki.dlang.org/LDC - LDC | https://run.dlang.io - D Paste | #d.feed - NG feed | Production uses: https://dlang.org/orgs-using-d"
+2020-10-28 09:27:27	--	Topic set by GnuYawk (~GnuYawk@unaffiliated/b4rbz) on Sat, 29 Aug 2020 20:12:07
+2020-10-28 09:27:27	--	Channel #d: 117 nicks (1 op, 0 voices, 116 normals)
+2020-10-28 09:27:28	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2020-10-28 09:30:40	-->	stew_rt (~stew@2a00:23c2:2b82:be00::a49) has joined #d
+2020-10-28 09:30:49	<--	stew_rt (~stew@2a00:23c2:2b82:be00::a49) has quit (Remote host closed the connection)
+2020-10-28 09:32:57	-->	tyzoid (~tyzoid@archlinux32/developer/tyzoid) has joined #d
+2020-10-28 09:45:12	<--	tyzoid (~tyzoid@archlinux32/developer/tyzoid) has quit (Ping timeout: 260 seconds)
+2020-10-28 09:49:57	-->	tyzoid (~tyzoid@archlinux32/developer/tyzoid) has joined #d
+2020-10-28 09:59:16	<--	hnOsmium0001 (uid453710@gateway/web/irccloud.com/x-hxonwkkgkhrxlnbv) has quit (Quit: Connection closed for inactivity)
+2020-10-28 10:00:29	-->	lagfra_ (~fra@host-79-45-18-248.retail.telecomitalia.it) has joined #d
+2020-10-28 10:00:29	--	Topic for #d is "The D Programming Language https://dlang.org - DMD | https://gdcproject.org - GDC | https://wiki.dlang.org/LDC - LDC | https://run.dlang.io - D Paste | #d.feed - NG feed | Production uses: https://dlang.org/orgs-using-d"
+2020-10-28 10:00:29	--	Topic set by GnuYawk (~GnuYawk@unaffiliated/b4rbz) on Sat, 29 Aug 2020 20:12:07
+2020-10-28 10:00:29	--	Channel #d: 117 nicks (1 op, 0 voices, 116 normals)
+2020-10-28 10:00:29	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2020-10-28 10:07:33	-->	davispuh (~quassel@81.198.227.173) has joined #d
+2020-10-28 10:34:09	<--	alex|D-Guy (~alex|D-Gu@p200300d21f17b0002456443f846d0e63.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2020-10-28 10:35:04	-->	alex|D-Guy (~alex|D-Gu@p200300d21f17b0002456443f846d0e63.dip0.t-ipconnect.de) has joined #d
+2020-10-28 15:00:51	-->	lagfra (~fra@93-33-25-213.ip42.fastwebnet.it) has joined #d
+2020-10-28 15:00:51	--	Topic for #d is "The D Programming Language https://dlang.org - DMD | https://gdcproject.org - GDC | https://wiki.dlang.org/LDC - LDC | https://run.dlang.io - D Paste | #d.feed - NG feed | Production uses: https://dlang.org/orgs-using-d"
+2020-10-28 15:00:51	--	Topic set by GnuYawk (~GnuYawk@unaffiliated/b4rbz) on Sat, 29 Aug 2020 20:12:07
+2020-10-28 15:00:51	--	Channel #d: 120 nicks (1 op, 0 voices, 119 normals)
+2020-10-28 15:00:52	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2020-10-28 15:08:18	-->	lagfra_ (~fra@host-79-50-64-139.retail.telecomitalia.it) has joined #d
+2020-10-28 15:08:52	-->	zaherdirkey[w] (~zaherdirk@212.11.192.199) has joined #d
+2020-10-28 15:09:09	Dejan	https://www.active-analytics.com/blog/ - this blog is awesome
+2020-10-28 15:09:10	feepbot	Active Analytics Ltd - Blog (Statstics and Data Science Contractor)
+2020-10-30 11:35:15	-->	lagfra (~fra@host-79-24-14-3.retail.telecomitalia.it) has joined #d
+2020-10-30 11:35:15	--	Topic for #d is "The D Programming Language https://dlang.org - DMD | https://gdcproject.org - GDC | https://wiki.dlang.org/LDC - LDC | https://run.dlang.io - D Paste | #d.feed - NG feed | Production uses: https://dlang.org/orgs-using-d"
+2020-10-30 11:35:15	--	Topic set by GnuYawk (~GnuYawk@unaffiliated/b4rbz) on Sat, 29 Aug 2020 20:12:07
+2020-10-30 11:35:15	--	Channel #d: 116 nicks (1 op, 0 voices, 115 normals)
+2020-10-30 11:35:15	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2020-10-30 11:52:32	<--	AsumFace (~asumface@2a02:8108:3d40:62f::1de) has quit (Remote host closed the connection)
+2020-10-30 11:52:57	-->	AsumFace (~asumface@2a02:8108:3d40:62f::1de) has joined #d
+2020-10-30 12:05:56	-->	mojo__ (~mojo@84.16.44.86) has joined #d
+2020-10-30 12:08:08	 *	DFeed [GitHub] thewil‎sonator closed dmd pull request #11916 ("Revert "Added offset to the token location""): https://github.com/dlang/dmd/pull/11916
+2020-10-30 12:08:35	 *	DFeed [GitHub] thewil‎sonator merged dmd pull request #11915 ("Fix the circle CI failures"): https://github.com/dlang/dmd/pull/11915
+2020-10-30 12:10:12	 *	DFeed [GitHub] deni‎zzzka opened druntime pull request #3260 ("Moves ProtoGC.term() into gc.proxy.transfer()"): https://github.com/dlang/druntime/pull/3260
+2020-10-30 12:21:18	<--	GooberMan (uid32263@gateway/web/irccloud.com/x-mlxpgicjxjensrml) has quit (Quit: Connection closed for inactivity)
+2020-11-04 09:30:01	-->	lagfra_ (~fra@host-79-20-55-218.retail.telecomitalia.it) has joined #d
+2020-11-04 09:30:01	--	Topic for #d is "The D Programming Language https://dlang.org - DMD | https://gdcproject.org - GDC | https://wiki.dlang.org/LDC - LDC | https://run.dlang.io - D Paste | #d.feed - NG feed | Production uses: https://dlang.org/orgs-using-d"
+2020-11-04 09:30:01	--	Topic set by GnuYawk (~GnuYawk@unaffiliated/b4rbz) on Sat, 29 Aug 2020 20:12:07
+2020-11-04 09:30:01	--	Channel #d: 120 nicks (1 op, 0 voices, 119 normals)
+2020-11-04 09:30:02	--	Channel created on Sun, 26 Nov 2006 07:42:43
+2020-11-04 09:32:08	-->	ximion (~ximion@2a02:8071:a9c:a900::153d) has joined #d

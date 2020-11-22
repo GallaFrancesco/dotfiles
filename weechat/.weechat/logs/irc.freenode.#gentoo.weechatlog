@@ -1,0 +1,367 @@
+2020-10-16 16:20:29	-->	lagfra_ (~fra@host-79-44-69-68.retail.telecomitalia.it) has joined #gentoo
+2020-10-16 16:20:29	--	Topic for #gentoo is "Gentoo Linux Support | Can't speak? /j #gentoo-ops | long pastes: wgetpaste or dpaste.com | Perl conflicts? https://goo.gl/7Miost | Be nice! https://wiki.gentoo.org/wiki/Project:Ops#Channel_Policy | Switch to profile 17.1? https://bit.ly/322fxVr | startx permission problems? emerge -1a xorg-server[suid] or use elogind, systemd, or a DM"
+2020-10-16 16:20:29	--	Topic set by rej (~jer@gentoo/developer/jer) on Wed, 30 Sep 2020 06:40:57
+2020-10-16 16:20:30	--	Channel #gentoo: 1045 nicks (2 ops, 54 voices, 989 normals)
+2020-10-16 16:20:30	--	PvNotice(ChanServ): Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2020-10-16 16:20:30	--	URL for #gentoo: http://www.gentoo.org
+2020-10-16 16:20:32	--	Channel created on Sat, 15 Sep 2001 05:15:36
+2020-10-16 16:22:54	-->	nivrx_ (~nivirx@47.196.67.44) has joined #gentoo
+2020-10-16 16:23:50	<--	nivirx (~nivirx@unaffiliated/nivirx) has quit (Read error: Connection reset by peer)
+2020-10-16 16:26:06	-->	jarthur (~jarthur@cpe-70-114-215-149.austin.res.rr.com) has joined #gentoo
+2020-10-16 16:26:40	<--	cmyster (~cmyster@unaffiliated/cmyster) has quit (Ping timeout: 265 seconds)
+2020-10-16 16:33:43	--	irc: disconnected from server
+2020-10-16 16:34:09	-->	lagfra_ (~fra@93-36-63-227.ip58.fastwebnet.it) has joined #gentoo
+2020-10-16 16:34:09	--	Topic for #gentoo is "Gentoo Linux Support | Can't speak? /j #gentoo-ops | long pastes: wgetpaste or dpaste.com | Perl conflicts? https://goo.gl/7Miost | Be nice! https://wiki.gentoo.org/wiki/Project:Ops#Channel_Policy | Switch to profile 17.1? https://bit.ly/322fxVr | startx permission problems? emerge -1a xorg-server[suid] or use elogind, systemd, or a DM"
+2020-10-16 16:34:09	--	Topic set by rej (~jer@gentoo/developer/jer) on Wed, 30 Sep 2020 06:40:57
+2020-10-16 16:34:09	--	Channel #gentoo: 1045 nicks (2 ops, 54 voices, 989 normals)
+2020-10-16 16:34:10	--	PvNotice(ChanServ): Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2020-10-16 16:34:10	--	URL for #gentoo: http://www.gentoo.org
+2020-10-16 16:34:13	--	Channel created on Sat, 15 Sep 2001 05:15:36
+2020-10-16 16:34:16	<--	that_linux_guy (~sand49@2001:8003:8431:d200:7c07:c95f:99d4:a2e6) has quit (Quit: Konversation terminated!)
+2020-10-16 16:35:30	-->	akar (~akar@2a01:e0a:d5:f450:92dd:a01b:ffce:7703) has joined #gentoo
+2020-10-16 16:35:30	<--	david2 (~david2@212-186-25-215.cable.dynamic.surfer.at) has quit (Quit: WeeChat 2.9)
+2020-10-16 16:35:30	spacedust	https://wiki.gentoo.org/wiki/Project:Hardened
+2020-10-16 16:35:30	<--	CaptFrito (~CaptFrito@75.145.240.138) has quit (Quit: Leaving.)
+2020-10-16 16:35:30	-->	feriman (~feriman@178.212.96.165) has joined #gentoo
+2020-10-16 16:36:09	spacedust	King_Freenode: nothing is hardened in regular gentoo
+2020-10-16 16:36:26	<--	geodb27 (~quassel@cp-outside.ac-rouen.fr) has quit (Quit: http://quassel-irc.org - Discuter simplement. Partout.)
+2020-10-16 16:36:34	King_Freenode	so i need to install gentoo hardened to be safe ?
+2020-10-16 16:36:52	<--	virys (~virys@unaffiliated/virys) has quit (Quit: leaving)
+2020-10-16 16:37:04	-->	burak (~burak@unaffiliated/burak) has joined #gentoo
+2020-10-16 16:39:14	<--	amosbird (~amosbird@23.98.37.89) has quit (Quit: ZNC 1.7.5 - https://znc.in)
+2020-10-16 16:39:21	ajak	safe from what?
+2020-10-16 16:40:21	-->	MoosePrime (~moose@207.44.22.117) has joined #gentoo
+2020-10-16 16:40:31	King_Freenode	attacks
+2020-10-16 16:41:10	ajak	i'm not sure you understand what you might need to defend against..
+2020-10-16 16:41:37	King_Freenode	alien attacks? space dust
+2020-10-16 16:43:55	katp32	don't worry, the aliens are still using windows 95
+2020-10-16 16:44:25	<--	cosimone (~cosimone@93-47-228-249.ip115.fastwebnet.it) has quit (Ping timeout: 240 seconds)
+2020-10-16 16:44:37	King_Freenode	what about space dust? i am sure that is unhealthy.
+2020-10-16 16:44:56	katp32	usually only found in space.
+2020-10-16 16:45:04	ajak	this is quite unrelated to gentoo i'd think
+2020-10-16 16:45:13	katp32	indeed
+2020-10-16 16:45:37	King_Freenode	i want to program a space ship and send gentoo in space
+2020-10-16 16:46:24	doc235	take chat to #gentoo-chat
+2020-10-16 16:49:51	<--	arkamar (~arkamar@kancl.excello.cz) has quit (Remote host closed the connection)
+2020-10-16 16:50:26	<--	King_Freenode (~koker@178.175.142.195) has left #gentoo ("Leaving")
+2020-10-16 16:51:57	-->	Chiliparrot (~Tino@200116b860c910005903d5f4139e8f2d.dip.versatel-1u1.de) has joined #gentoo
+2020-10-16 16:52:01	<--	Kryptron_ (~Kryptron@unaffiliated/kryptron) has quit (Ping timeout: 246 seconds)
+2020-10-16 16:54:43	<--	p-core (~Thunderbi@2001:718:1e03:5128:2ab7:7f35:48a1:8515) has quit (Remote host closed the connection)
+2020-10-16 16:54:51	-->	Merzbow (~Merzbow@gateway/tor-sasl/merzbow) has joined #gentoo
+2020-10-16 16:55:16	<--	SkunkyFone (~skunky@unaffiliated/skunky) has quit (Remote host closed the connection)
+2020-10-16 16:55:20	<--	Major251 (~Major251@199.231.199.20) has quit (Quit: WeeChat 2.8)
+2020-10-16 16:55:36	-->	Major251 (~Major251@199.231.199.20) has joined #gentoo
+2020-10-16 16:55:46	-->	djdunn_ (~djdunn@c-71-226-95-242.hsd1.fl.comcast.net) has joined #gentoo
+2020-10-16 16:58:54	<--	djdunn (~djdunn@c-71-226-95-242.hsd1.fl.comcast.net) has quit (Ping timeout: 260 seconds)
+2020-10-27 10:18:30	-->	lagfra_ (~fra@host-79-24-14-3.retail.telecomitalia.it) has joined #gentoo
+2020-10-27 10:18:30	--	Topic for #gentoo is "Gentoo Linux Support | Can't speak? /j #gentoo-ops | long pastes: wgetpaste or dpaste.com | Perl conflicts? https://goo.gl/7Miost | Be nice! https://wiki.gentoo.org/wiki/Project:Ops#Channel_Policy | Switch to profile 17.1? https://bit.ly/322fxVr | startx permission problems? emerge -1a xorg-server[suid] or use elogind, systemd, or a DM"
+2020-10-27 10:18:30	--	Topic set by rej (~jer@gentoo/developer/jer) on Wed, 30 Sep 2020 06:40:57
+2020-10-27 10:18:30	--	Channel #gentoo: 1030 nicks (2 ops, 51 voices, 977 normals)
+2020-10-27 10:18:30	--	PvNotice(ChanServ): Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2020-10-27 10:18:30	--	URL for #gentoo: http://www.gentoo.org
+2020-10-27 10:18:32	--	Channel created on Sat, 15 Sep 2001 05:15:36
+2020-10-27 10:19:27	<--	Major251_ (~Major251@70.123.46.144) has quit (Ping timeout: 260 seconds)
+2020-10-27 10:20:50	-->	morci (~morci@unaffiliated/morci) has joined #gentoo
+2020-10-27 10:21:19	-->	chozen_ (~chozen@209.159.234.75) has joined #gentoo
+2020-10-27 10:23:29	<--	chozen (~chozen@209.159.234.75) has quit (Ping timeout: 240 seconds)
+2020-10-27 10:23:40	-->	pagurus (~user@87.123.120.29) has joined #gentoo
+2020-10-27 10:23:58	<--	luke-jr (~luke-jr@unaffiliated/luke-jr) has quit (Quit: ZNC - http://znc.sourceforge.net)
+2020-10-27 10:25:16	-->	luke-jr (~luke-jr@unaffiliated/luke-jr) has joined #gentoo
+2020-10-27 10:25:59	-->	braciszekodd_ (~braciszek@185.152.123.144) has joined #gentoo
+2020-10-27 10:27:25	<--	david2 (~david2@212-186-25-215.cable.dynamic.surfer.at) has quit (Quit: WeeChat 2.9)
+2020-10-27 10:27:33	<--	braciszekodd (~braciszek@185.152.123.144) has quit (Ping timeout: 256 seconds)
+2020-10-27 10:31:03	-->	ManDay (~manday@unaffiliated/manday) has joined #gentoo
+2020-10-27 10:31:50	-->	hej (~hedin@81.25.179.168) has joined #gentoo
+2020-10-27 10:32:09	-->	__uguu__ (~jeff@sapphire/devdood/notjeff) has joined #gentoo
+2020-10-27 10:33:30	satmd	thank you!
+2020-10-27 10:35:56	-->	fstd_ (~fstd@unaffiliated/fisted) has joined #gentoo
+2020-10-27 10:36:48	satmd	Forwarded to my fellow gentoo-using coworkers this very instant. First reply: "das ist cool"
+2020-10-27 10:39:25	Jannik2099	it is very cool, but fyi guys this is a support channel
+2020-10-27 10:40:42	<--	fstd (~fstd@unaffiliated/fisted) has quit (Ping timeout: 272 seconds)
+2020-10-27 10:40:42	--	fstd_ is now known as fstd
+2020-10-27 10:43:49	MichaelSeifert[m	Ah, sorry. I'm not around much in IRC. What would be the right place to discuss this?
+2020-10-27 10:44:13	satmd	probably #gentoo-chat
+2020-10-27 10:48:33	ManDay	This might be a totally ignorant question, but is #gentoo being logged somewhere (publicly)?
+2020-10-27 10:52:47	Demosthenex	ManDay: https://wiki.gentoo.org/wiki/Project:Ops#Channel_Policy  says no public logs
+2020-10-27 10:54:42	<--	S0rin (~S0rin@2001:41d0:1:90b1::1) has quit (Ping timeout: 244 seconds)
+2020-10-27 10:56:08	-->	custom (~custom@146-241-65-102.dyn.eolo.it) has joined #gentoo
+2020-10-27 10:58:42	ManDay	Thanks, I only looked at the irc.xml which didn't mention anything
+2020-10-27 10:59:03	Demosthenex	the channel policy is in the topic, which you see when you login.
+2020-10-27 10:59:14	Demosthenex	typical welcome message, gets ignored.
+2020-10-27 10:59:29	ManDay	I got the irc.xml from the ChanServ notice of #gentoo
+2020-10-27 10:59:38	<--	jess-o-lantern (jess@freenode/staff/jess) has quit (Quit: brb)
+2020-10-27 10:59:48	ManDay	And to date I still don't know what purpose the latter servers (character limit in /topic ?)
+2020-10-27 11:01:07	-->	Marbug_tldev7324 (~Marbug_tl@d51534DC9.access.telenet.be) has joined #gentoo
+2020-10-27 11:01:59	<--	YangMame (~Thunderbi@unaffiliated/yangmame) has quit (Remote host closed the connection)
+2020-10-27 11:03:09	-->	braciszekodd (~braciszek@185.152.123.144) has joined #gentoo
+2020-10-27 11:03:30	<--	braciszekodd_ (~braciszek@185.152.123.144) has quit (Ping timeout: 272 seconds)
+2020-10-27 11:04:01	<--	l_bratch (~l_bratch@2a02:c28:a065:36:428d:5cff:fee5:10ee) has quit (Ping timeout: 272 seconds)
+2020-10-27 11:04:05	-->	wolfman-irc (~wolfman-i@i5C741FCF.versanet.de) has joined #gentoo
+2020-10-27 11:04:17	-->	l_bratch (~l_bratch@2a02:c28:a065:36:428d:5cff:fee5:10ee) has joined #gentoo
+2020-10-27 11:05:26	-->	YangMame (~Thunderbi@unaffiliated/yangmame) has joined #gentoo
+2020-10-27 11:05:38	tzlil	sublime text keeps freezing, anyone else have this problem?
+2020-10-27 11:10:17	-->	endstille (~endstille@94.31.96.4) has joined #gentoo
+2020-10-27 11:10:22	<--	tmsmr (~Thunderbi@p54852115.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2020-10-27 11:11:38	-->	tmsmr (~Thunderbi@p54852115.dip0.t-ipconnect.de) has joined #gentoo
+2020-10-27 11:11:43	ManDay	tzlil: I'm sure sublime has a channel somewhere. It will help to know what is "freezing", strace may help with that.
+2020-10-27 11:12:46	<--	endstille (~endstille@94.31.96.4) has quit (Client Quit)
+2020-10-27 11:13:16	<--	Peppaq (~quassel@2001:470:1f0b:751:2ca0:4136:ada8:4b8e) has quit (Ping timeout: 260 seconds)
+2020-10-27 11:13:27	-->	samuelbernardo (~samuelber@a81-84-140-30.cpe.netcabo.pt) has joined #gentoo
+2020-10-27 11:13:49	-->	Peppard (~quassel@2001:470:1f0b:751:2ca0:4136:ada8:4b8e) has joined #gentoo
+2020-10-27 11:17:58	-->	Minung (~Thunderbi@154.17.24.26) has joined #gentoo
+2020-10-27 11:19:22	-->	honigkuchen (~honigkuch@ip5f5b9b83.dynamic.kabel-deutschland.de) has joined #gentoo
+2020-10-27 11:19:22	<--	giuseppef (~giuseppef@37.163.7.5) has quit (Remote host closed the connection)
+2020-10-27 11:19:47	-->	giuseppef (~giuseppef@37.163.7.5) has joined #gentoo
+2020-10-28 09:27:27	-->	lagfra_ (~fra@host-79-45-18-248.retail.telecomitalia.it) has joined #gentoo
+2020-10-28 09:27:27	--	Topic for #gentoo is "Gentoo Linux Support | Can't speak? /j #gentoo-ops | long pastes: wgetpaste or dpaste.com | Perl conflicts? https://goo.gl/7Miost | Be nice! https://wiki.gentoo.org/wiki/Project:Ops#Channel_Policy | Switch to profile 17.1? https://bit.ly/322fxVr | startx permission problems? emerge -1a xorg-server[suid] or use elogind, systemd, or a DM"
+2020-10-28 09:27:27	--	Topic set by rej (~jer@gentoo/developer/jer) on Wed, 30 Sep 2020 06:40:57
+2020-10-28 09:27:28	--	Channel #gentoo: 1033 nicks (2 ops, 51 voices, 980 normals)
+2020-10-28 09:27:28	--	PvNotice(ChanServ): Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2020-10-28 09:27:28	--	URL for #gentoo: http://www.gentoo.org
+2020-10-28 09:27:29	--	Channel created on Sat, 15 Sep 2001 05:15:36
+2020-10-28 09:27:37	<--	walking10 (c20ba406@194.11.164.6) has quit (Remote host closed the connection)
+2020-10-28 09:29:40	-->	mzcore_ (~mzcore@gateway/tor-sasl/mzcore) has joined #gentoo
+2020-10-28 09:32:09	-->	drazan (~drazan@216.243.54.231) has joined #gentoo
+2020-10-28 09:35:52	<--	krb (~krb@unaffiliated/krb) has quit (Read error: Connection reset by peer)
+2020-10-28 09:36:29	<--	io_default (~io_defaul@unaffiliated/io-default/x-1252863) has quit (Ping timeout: 240 seconds)
+2020-10-28 09:37:15	-->	feriman (~feriman@176.104.191.33) has joined #gentoo
+2020-10-28 09:37:46	-->	krb (~krb@152.84-48-244.nextgentel.com) has joined #gentoo
+2020-10-28 09:37:46	<--	krb (~krb@152.84-48-244.nextgentel.com) has quit (Changing host)
+2020-10-28 09:37:46	-->	krb (~krb@unaffiliated/krb) has joined #gentoo
+2020-10-28 09:38:44	<--	teapot9 (~teapot@2a01:cb14:817e:7500::2000) has quit (Ping timeout: 272 seconds)
+2020-10-28 09:41:36	-->	teapot9 (~teapot@lfbn-cle-1-321-247.w90-52.abo.wanadoo.fr) has joined #gentoo
+2020-10-28 09:41:41	<--	yonder (~yonder@unaffiliated/yonder) has quit (Remote host closed the connection)
+2020-10-28 09:41:43	-->	Hund (Hund@ubuntu/member/hund) has joined #gentoo
+2020-10-28 09:42:41	<--	cmyster (~cmyster@unaffiliated/cmyster) has quit (Quit: brb)
+2020-10-28 09:42:54	-->	cmyster (~cmyster@unaffiliated/cmyster) has joined #gentoo
+2020-10-28 09:43:34	-->	fstd_ (~fstd@unaffiliated/fisted) has joined #gentoo
+2020-10-28 09:43:46	<--	fstd (~fstd@unaffiliated/fisted) has quit (Ping timeout: 256 seconds)
+2020-10-28 09:43:59	--	fstd_ is now known as fstd
+2020-10-28 09:49:34	<--	[goyei2e2qals3v] (~hgxVPDCP~@gateway/tor-sasl/spareproject) has quit (Remote host closed the connection)
+2020-10-28 09:50:32	-->	[goyei2e2qals3v] (~lRBzbTIK~@gateway/tor-sasl/spareproject) has joined #gentoo
+2020-10-28 09:51:09	<--	sektour (~SEKTOUR@94.19.27.219) has quit (Ping timeout: 260 seconds)
+2020-10-28 09:51:10	<--	fstd (~fstd@unaffiliated/fisted) has quit (Ping timeout: 240 seconds)
+2020-10-28 09:52:13	-->	fstd (~fstd@unaffiliated/fisted) has joined #gentoo
+2020-10-28 09:52:28	-->	fstd_ (~fstd@unaffiliated/fisted) has joined #gentoo
+2020-10-28 09:55:58	-->	xylophone (~fn@m90-139-234-197.cust.tele2.lv) has joined #gentoo
+2020-10-28 09:56:33	-->	geodb27 (~quassel@cp-outside.ac-rouen.fr) has joined #gentoo
+2020-10-28 09:56:45	<--	fstd (~fstd@unaffiliated/fisted) has quit (Ping timeout: 260 seconds)
+2020-10-28 09:56:45	--	fstd_ is now known as fstd
+2020-10-28 09:57:23	<--	khaled_ (~khaled@213-240-64-61.hdsl.highway.telekom.at) has quit (Quit: Konversation terminated!)
+2020-10-28 09:57:52	-->	daniel_gc (~daniel@pc-63-36-83-200.cm.vtr.net) has joined #gentoo
+2020-10-28 09:58:03	-->	SteveGriff (~griff@88.96.227.110) has joined #gentoo
+2020-10-28 09:59:21	-->	khaled_ (~khaled@213-240-64-61.hdsl.highway.telekom.at) has joined #gentoo
+2020-10-28 10:00:29	-->	lagfra_ (~fra@host-79-45-18-248.retail.telecomitalia.it) has joined #gentoo
+2020-10-28 10:00:29	--	Topic for #gentoo is "Gentoo Linux Support | Can't speak? /j #gentoo-ops | long pastes: wgetpaste or dpaste.com | Perl conflicts? https://goo.gl/7Miost | Be nice! https://wiki.gentoo.org/wiki/Project:Ops#Channel_Policy | Switch to profile 17.1? https://bit.ly/322fxVr | startx permission problems? emerge -1a xorg-server[suid] or use elogind, systemd, or a DM"
+2020-10-28 10:00:29	--	Topic set by rej (~jer@gentoo/developer/jer) on Wed, 30 Sep 2020 06:40:57
+2020-10-28 10:00:29	--	Channel #gentoo: 1037 nicks (2 ops, 51 voices, 984 normals)
+2020-10-28 10:00:29	--	PvNotice(ChanServ): Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2020-10-28 10:00:29	--	URL for #gentoo: http://www.gentoo.org
+2020-10-28 10:00:31	--	Channel created on Sat, 15 Sep 2001 05:15:36
+2020-10-28 10:00:35	-->	ZyX-I (~ZyX-I@broadband-37-110-53-58.ip.moscow.rt.ru) has joined #gentoo
+2020-10-28 10:01:59	-->	epitamizor (~snake@2602:cf:7675:ec0c:8e89:a5ff:fe61:4cec) has joined #gentoo
+2020-10-28 10:04:04	-->	b413 (~bob@2001:1c00:b12:7bf1:44fa:a478:e82f:6ebe) has joined #gentoo
+2020-10-28 10:05:10	<--	_CrustY (~crusty@2001:a61:5030:f001:c8ba:a3a9:76c1:564b) has quit (Ping timeout: 240 seconds)
+2020-10-28 10:05:14	epitamizor	im putting <x11-libs/pixman-0.40.0 in package.accept_keywords, but when I emerge it is still showing the same version
+2020-10-28 10:06:50	<--	kab-el (~kabel@unaffiliated/kablik) has quit (Ping timeout: 240 seconds)
+2020-10-28 10:07:06	-->	SkunkyFone (~skunky@unaffiliated/skunky) has joined #gentoo
+2020-10-28 10:07:33	-->	davispuh (~quassel@81.198.227.173) has joined #gentoo
+2020-10-28 10:07:45	an_hero	what exactly are you trying to achieve?
+2020-10-28 10:08:05	epitamizor	i need to install lower version
+2020-10-28 10:08:45	+PrinceProspero	As far as I can see, 0.40.0 is the lowest available version. It's the only available version (other than live).
+2020-10-28 10:10:37	an_hero	if there was a lower version available then you'd have to put >x11-libs/pixman-0.40.0 into package.mask
+2020-10-28 10:11:16	-->	kab-el (~kabel@unaffiliated/kablik) has joined #gentoo
+2020-10-28 10:11:30	<--	ShiPa (~shipa@86.57.132.22) has quit (Ping timeout: 240 seconds)
+2020-10-28 10:11:34	rowbee	epitamizor: can you explain why you need that specific version? we might be able to help you better
+2020-10-28 10:11:53	<--	martiert (~martin@ti0185q160-2010.bb.online.no) has quit (Remote host closed the connection)
+2020-10-28 10:12:08	<--	[goyei2e2qals3v] (~lRBzbTIK~@gateway/tor-sasl/spareproject) has quit (Ping timeout: 240 seconds)
+2020-10-28 10:12:43	epitamizor	i thought gentoo held previous version of package to troubleshoot issues
+2020-10-28 10:12:56	rowbee	what sorts of issues, exactly?
+2020-10-28 10:13:16	rowbee	were you not able to upgrade pixman?
+2020-10-28 10:13:27	epitamizor	I'm having some issue with image borders
+2020-10-28 10:13:32	-->	ShiPa (~shipa@86.57.132.22) has joined #gentoo
+2020-10-28 10:13:50	rowbee	hm... do you have a gentoo bug in the bugzilla (or an upstream bug)?
+2020-10-28 10:13:58	epitamizor	not yet
+2020-10-28 10:14:09	rowbee	are you sure the bug is in pixman?
+2020-10-28 10:14:30	rowbee	if you haven't done an eclean-dist in a bit, you might still have the distfile in /usr/portage/distfiles/
+2020-10-28 10:14:34	epitamizor	no, i was trying to rule out currently installed versions
+2020-10-28 10:14:43	rowbee	you can also grab the ebuild from the gentoo git repository
+2020-10-28 10:15:12	rowbee	just look at the history of x11-libs/pixman in https://github.com/gentoo/gentoo
+2020-10-28 10:15:31	epitamizor	rowbee, ok that's what i was looking for
+2020-10-28 10:17:13	-->	martiert (~martin@ti0185q160-2010.bb.online.no) has joined #gentoo
+2020-10-28 10:19:34	<--	wolfman_irc (~wolfman-i@i5C742A51.versanet.de) has quit (Remote host closed the connection)
+2020-10-28 10:20:01	<--	kab-el (~kabel@unaffiliated/kablik) has quit (Ping timeout: 272 seconds)
+2020-10-28 10:20:43	<--	david2 (~david2@212-186-25-215.cable.dynamic.surfer.at) has quit (Quit: WeeChat 2.9)
+2020-10-28 10:21:02	<--	AlwaysLivid (~AlwaysLiv@unaffiliated/alwayslivid) has quit (Remote host closed the connection)
+2020-10-28 10:21:23	-->	chozen_ (~chozen@209.159.234.75) has joined #gentoo
+2020-10-28 10:21:37	-->	AlwaysLivid (~AlwaysLiv@unaffiliated/alwayslivid) has joined #gentoo
+2020-10-28 10:21:38	<--	nosoul (n0s0u1@gateway/vpn/protonvpn/n0s0u1) has quit (Remote host closed the connection)
+2020-10-28 10:21:43	-->	wolfman-irc (~wolfman-i@i5C74118A.versanet.de) has joined #gentoo
+2020-10-28 10:22:18	rowbee	no worries.
+2020-10-28 10:22:47	-->	nos0u1 (n0s0u1@gateway/vpn/protonvpn/n0s0u1) has joined #gentoo
+2020-10-28 10:22:47	rowbee	epitamizor: it might be better to get the pixman git repo and bisect
+2020-10-28 10:22:48	<--	AlwaysLivid (~AlwaysLiv@unaffiliated/alwayslivid) has quit (Client Quit)
+2020-10-28 10:22:53	epitamizor	also how come df is reporting different disk space values than gparted? which one is more accurate?
+2020-10-28 10:23:00	--	nos0u1 is now known as nosoul
+2020-10-28 10:23:08	rowbee	probably MB vs. MiB nonsense
+2020-10-28 10:23:21	<--	bier|x61 (~bier@pd956fc36.dip0.t-ipconnect.de) has quit (Ping timeout: 265 seconds)
+2020-10-28 10:23:28	-->	kab-el (~kabel@unaffiliated/kablik) has joined #gentoo
+2020-10-28 10:23:30	<--	chozen (~chozen@209.159.234.75) has quit (Ping timeout: 240 seconds)
+2020-10-28 10:23:34	rowbee	or it could be that your filesystem is smaller than your partition
+2020-10-28 10:23:52	rowbee	happens more than i'd like to admit when i'm using lvm
+2020-10-28 10:25:30	an_hero	maybe it's because of reserved blocks by your filesystem
+2020-10-28 10:26:14	<--	schallusion (~till@dynamic-093-135-051-011.93.135.pool.telefonica.de) has quit (Quit: Konversation terminated!)
+2020-10-28 10:28:19	rowbee	that could be it as well
+2020-10-28 10:28:32	rowbee	gparted shows the physical size allocated to the partition
+2020-10-28 10:28:43	rowbee	filesystems have a logical size that might not match the physical size
+2020-10-28 10:29:25	-->	[goyei2e2qals3v] (~pvMJcRKz~@gateway/tor-sasl/spareproject) has joined #gentoo
+2020-10-28 10:30:00	-->	glongo (uid17594@gateway/web/irccloud.com/x-shkdyevzlemeoihy) has joined #gentoo
+2020-10-28 10:30:05	--	Mo_ is now known as Mo
+2020-10-28 10:30:42	<--	dviola (~diego@unaffiliated/dviola) has quit (Ping timeout: 260 seconds)
+2020-10-28 10:31:01	<--	glongo (uid17594@gateway/web/irccloud.com/x-shkdyevzlemeoihy) has left #gentoo
+2020-10-28 10:32:25	<--	NewbieDan (~kvirc@2.sub-174-248-158.myvzw.com) has left #gentoo ("Once you know what it is you want to be true, instinct is a very useful device for enabling you to know that it is")
+2020-10-28 10:34:48	-->	szorfein (~daggoth@gateway/tor-sasl/szorfein) has joined #gentoo
+2020-10-28 10:35:41	<--	GNUmoon (~GNUmoon@gateway/tor-sasl/gnumoon) has quit (Remote host closed the connection)
+2020-10-28 10:35:47	<--	swimmer (~swimmer@unaffiliated/swimmer) has quit (Quit: WeeChat 3.0-dev)
+2020-10-28 10:35:55	-->	twnqx (~twnqx@2a01:130:11:1::30) has joined #gentoo
+2020-10-28 10:36:11	-->	GNUmoon (~GNUmoon@gateway/tor-sasl/gnumoon) has joined #gentoo
+2020-10-28 10:36:52	-->	swimmer (~swimmer@unaffiliated/swimmer) has joined #gentoo
+2020-10-28 15:00:51	-->	lagfra (~fra@93-33-25-213.ip42.fastwebnet.it) has joined #gentoo
+2020-10-28 15:00:51	--	Topic for #gentoo is "Gentoo Linux Support | Can't speak? /j #gentoo-ops | long pastes: wgetpaste or dpaste.com | Perl conflicts? https://goo.gl/7Miost | Be nice! https://wiki.gentoo.org/wiki/Project:Ops#Channel_Policy | Switch to profile 17.1? https://bit.ly/322fxVr | startx permission problems? emerge -1a xorg-server[suid] or use elogind, systemd, or a DM"
+2020-10-28 15:00:51	--	Topic set by rej (~jer@gentoo/developer/jer) on Wed, 30 Sep 2020 06:40:57
+2020-10-28 15:00:52	--	Channel #gentoo: 1054 nicks (2 ops, 50 voices, 1002 normals)
+2020-10-28 15:00:52	--	PvNotice(ChanServ): Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2020-10-28 15:00:52	--	URL for #gentoo: http://www.gentoo.org
+2020-10-28 15:00:55	--	Channel created on Sat, 15 Sep 2001 05:15:36
+2020-10-28 15:03:01	<--	akad (~akad@109107030050.radomsko.vectranet.pl) has quit (Ping timeout: 256 seconds)
+2020-10-28 15:04:54	-->	Minung (~Thunderbi@154.17.24.44) has joined #gentoo
+2020-10-28 15:06:48	<--	eu (~weechat@unaffiliated/eu) has quit (Quit: eu)
+2020-10-28 15:07:49	<--	KeiraT (~k4ra@gateway/tor-sasl/k4ra) has quit (Ping timeout: 240 seconds)
+2020-10-28 15:08:02	<--	feriman (~feriman@176.104.191.33) has quit (Ping timeout: 265 seconds)
+2020-10-28 15:08:13	-->	hardbot (~hardbot@lputeaux-656-1-75-52.w92-154.abo.wanadoo.fr) has joined #gentoo
+2020-10-28 15:08:18	-->	lagfra_ (~fra@host-79-50-64-139.retail.telecomitalia.it) has joined #gentoo
+2020-10-30 11:35:15	-->	lagfra (~fra@host-79-24-14-3.retail.telecomitalia.it) has joined #gentoo
+2020-10-30 11:35:15	--	Topic for #gentoo is "Gentoo Linux Support | Can't speak? /j #gentoo-ops | long pastes: wgetpaste or dpaste.com | Perl conflicts? https://goo.gl/7Miost | Be nice! https://wiki.gentoo.org/wiki/Project:Ops#Channel_Policy | Switch to profile 17.1? https://bit.ly/322fxVr | startx permission problems? emerge -1a xorg-server[suid] or use elogind, systemd, or a DM"
+2020-10-30 11:35:15	--	Topic set by rej (~jer@gentoo/developer/jer) on Wed, 30 Sep 2020 06:40:57
+2020-10-30 11:35:15	--	Channel #gentoo: 1034 nicks (2 ops, 51 voices, 981 normals)
+2020-10-30 11:35:15	--	PvNotice(ChanServ): Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2020-10-30 11:35:15	--	URL for #gentoo: http://www.gentoo.org
+2020-10-30 11:35:17	--	Channel created on Sat, 15 Sep 2001 05:15:36
+2020-10-30 11:38:24	-->	samuelbernardo (~samuelber@a81-84-140-30.cpe.netcabo.pt) has joined #gentoo
+2020-10-30 11:39:38	<--	_CrustY (~crusty@aftr-62-216-204-156.dynamic.mnet-online.de) has quit (Ping timeout: 264 seconds)
+2020-10-30 11:41:26	<--	ShiPa (~shipa@86.57.132.22) has quit (Ping timeout: 264 seconds)
+2020-10-30 11:41:48	<--	b413 (~bob@2001:1c00:b12:7b00:1d74:3a73:28c7:b201) has quit (Ping timeout: 268 seconds)
+2020-10-30 11:41:49	<--	Mo (~Mo@unaffiliated/mo) has quit (Ping timeout: 258 seconds)
+2020-10-30 11:45:08	<--	meandrain (~meandrain@94.53.25.30) has quit (Read error: Connection reset by peer)
+2020-10-30 11:50:50	<--	Olipro (~Olipro@uncyclopedia/pdpc.21for7.olipro) has quit (Remote host closed the connection)
+2020-10-30 11:50:51	<--	ManDay (~manday@unaffiliated/manday) has quit (Quit: WeeChat 2.9)
+2020-10-30 11:51:16	-->	Olipro (~Olipro@2001:8b0:14a7:1b24::1) has joined #gentoo
+2020-10-30 11:51:17	<--	Olipro (~Olipro@2001:8b0:14a7:1b24::1) has quit (Changing host)
+2020-10-30 11:51:17	-->	Olipro (~Olipro@uncyclopedia/pdpc.21for7.olipro) has joined #gentoo
+2020-10-30 11:51:19	<--	petan (~g@wikimedia/Petrb) has quit (Read error: Connection reset by peer)
+2020-10-30 11:52:32	<--	AsumFace (~asumface@2a02:8108:3d40:62f::1de) has quit (Remote host closed the connection)
+2020-10-30 11:52:57	-->	AsumFace (~asumface@2a02:8108:3d40:62f::1de) has joined #gentoo
+2020-10-30 11:54:16	Ninpo	you can symlink kvm-spice to kvm
+2020-10-30 11:54:19	Ninpo	that's all it is in deb
+2020-10-30 11:54:50	Ninpo	oh sorry just came back and you know that, disregard
+2020-10-30 11:55:03	-->	b413 (~bob@2001:1c00:b12:7b00:1d74:3a73:28c7:b201) has joined #gentoo
+2020-10-30 11:55:32	-->	SteveGriff (~griff@88.96.227.110) has joined #gentoo
+2020-10-30 11:56:16	<--	Nact (~l@host-85-27-113-107.dynamic.voo.be) has quit (Quit: Konversation terminated!)
+2020-10-30 11:57:46	<--	andreas303 (~andreas@gateway/tor-sasl/andreas303) has quit (Remote host closed the connection)
+2020-10-30 11:57:47	-->	ShiPa (~shipa@86.57.132.22) has joined #gentoo
+2020-10-30 11:58:27	-->	andreas303 (~andreas@gateway/tor-sasl/andreas303) has joined #gentoo
+2020-10-30 11:59:11	-->	p-core (~Thunderbi@2001:718:1e03:5128:2ab7:7f35:48a1:8515) has joined #gentoo
+2020-10-30 12:01:50	<--	GNUmoon (~GNUmoon@gateway/tor-sasl/gnumoon) has quit (Remote host closed the connection)
+2020-10-30 12:02:21	-->	GNUmoon (~GNUmoon@gateway/tor-sasl/gnumoon) has joined #gentoo
+2020-10-30 12:08:56	<--	ShiPa (~shipa@86.57.132.22) has quit (Ping timeout: 268 seconds)
+2020-10-30 12:10:09	-->	complexnumber (~complexnu@110-174-92-201.tpgi.com.au) has joined #gentoo
+2020-10-30 12:11:07	-->	hej (~hedin@46.227.113.156) has joined #gentoo
+2020-10-30 12:13:29	<--	sputnik_ (~sputnik@funtoo/user/sputnik-too) has quit (Ping timeout: 260 seconds)
+2020-10-30 12:14:50	<--	CMoH|notebook (~cipi@unaffiliated/c-moh) has quit (Quit: Konversation terminated!)
+2020-10-30 12:15:17	-->	ShiPa (~shipa@86.57.132.22) has joined #gentoo
+2020-10-30 12:17:01	<--	paulez (~paulez@2a01:e0a:21c:5320:7206:797c:ee6f:82fb) has quit (Read error: Connection reset by peer)
+2020-10-30 12:17:10	-->	paulez (~paulez@82-64-86-2.subs.proxad.net) has joined #gentoo
+2020-10-30 12:17:28	<--	hej (~hedin@46.227.113.156) has quit (Ping timeout: 246 seconds)
+2020-10-30 12:18:24	-->	immibis (~immibis@62.156.144.218) has joined #gentoo
+2020-10-30 12:23:36	-->	_CrustY (~crusty@aftr-62-216-204-156.dynamic.mnet-online.de) has joined #gentoo
+2020-10-30 12:25:52	<--	feddischson (~feddischs@HSI-KBW-109-192-195-161.hsi6.kabel-badenwuerttemberg.de) has quit (Ping timeout: 246 seconds)
+2020-10-30 12:26:24	sokan	>=media-sound/pulseaudio-13.0 abi_x86_32 required by openal. Can I see which packages require opanal?
+2020-10-30 12:26:38	sokan	or is openal x86_32 by default?
+2020-10-30 12:27:08	Jannik2099	equery d openal
+2020-10-30 12:27:13	bpkent	sokan: pretend to depclean a package to see what has deps on it (emerge -pvc <package>)
+2020-10-30 12:27:37	bpkent	Jannik2099: equery d is not always accurate
+2020-10-30 12:27:41	sokan	wine-staging. That makes sense
+2020-10-30 12:28:25	sokan	bpkent: good idea as well
+2020-10-30 12:28:45	sokan	bpkent: thing is that no package blocks openal deleting
+2020-10-30 12:28:54	sokan	s/deleting/removal
+2020-10-30 12:29:09	bpkent	sokan: is it in your world file?
+2020-10-30 12:29:51	sokan	openal?
+2020-10-30 12:29:56	sokan	not sure :S
+2020-10-30 12:30:58	bpkent	sokan: ok, is openal already installed? or are you asking why is it about to be added to your system?
+2020-10-30 12:31:07	sokan	the former
+2020-10-30 12:32:09	bpkent	sokan: if nothing has deps on it, and it's not listed in, emerge -ac, then it's likely in your world file, if you don't want it, emerge --deselect openal && emerge -ac
+2020-10-30 12:32:27	sokan	bpkent: got it :)
+2020-10-30 12:32:45	<--	josef64 (~quassel@unaffiliated/josef64) has quit
+2020-10-30 12:32:45	<--	Kelsar (~quassel@unaffiliated/kelsar) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+2020-10-30 12:32:50	-->	hej (~hedin@80.77.137.242) has joined #gentoo
+2020-11-04 09:30:01	-->	lagfra_ (~fra@host-79-20-55-218.retail.telecomitalia.it) has joined #gentoo
+2020-11-04 09:30:01	--	Topic for #gentoo is "Gentoo Linux Support | Can't speak? /j #gentoo-ops | long pastes: wgetpaste or dpaste.com | Perl conflicts? https://goo.gl/7Miost | Be nice! https://wiki.gentoo.org/wiki/Project:Ops#Channel_Policy | Switch to profile 17.1? https://bit.ly/322fxVr | startx permission problems? emerge -1a xorg-server[suid] or use elogind, systemd, or a DM"
+2020-11-04 09:30:01	--	Topic set by rej (~jer@gentoo/developer/jer) on Wed, 30 Sep 2020 06:40:57
+2020-11-04 09:30:02	--	Channel #gentoo: 1017 nicks (4 ops, 51 voices, 962 normals)
+2020-11-04 09:30:02	--	PvNotice(ChanServ): Welcome to #gentoo || Acceptable Usage Policy @ http://www.gentoo.org/main/en/irc.xml || Keep the language clean || Google is your friend || No bots or scripts that talk || Turn off public away messages || More than three lines to #flood or a pastebin service, no spam!
+2020-11-04 09:30:02	--	URL for #gentoo: http://www.gentoo.org
+2020-11-04 09:30:03	--	Channel created on Sat, 15 Sep 2001 05:15:36
+2020-11-04 09:30:04	-->	luxemboye (~luxemboye@gateway/tor-sasl/luxemboye) has joined #gentoo
+2020-11-04 09:30:38	ratrace	also, loadavg is poor limiter for emerge. many packages can start light (preprocessing, downloading, blah) and then later ramp up parallel compilation (which increases loadavg), while emerge is only considering it when _starting_ a new package.
+2020-11-04 09:32:43	ajak	(but keep in mind make and emerge both have their own --load-average option)
+2020-11-04 09:33:00	-->	horsepatat (~horsepata@80.89.76.239) has joined #gentoo
+2020-11-04 09:34:25	-->	Ycarus (~Ycarus@2001:bc8:47b0:1b0b::1) has joined #gentoo
+2020-11-04 09:35:41	-->	medard (~medard@unaffiliated/medard) has joined #gentoo
+2020-11-04 09:35:45	Aliekezhi	ratrace, for 8 cores, it should be 0.9*8 to load 90% ? Does it apply also if I'm already using -j4 ?
+2020-11-04 09:36:03	<--	Amt (~Amt@2607:5300:60:2a8b::1) has quit (Ping timeout: 264 seconds)
+2020-11-04 09:36:06	Aliekezhi	(or should it be 4*0.9 in that case ?)
+2020-11-04 09:37:15	-->	Amt (~Amt@2607:5300:60:2a8b::1) has joined #gentoo
+2020-11-04 09:37:16	ratrace	I don't know how loadavg combines with -j . and there's no guarantee setting any value of it will actually translate to that much of CPU capacity used
+2020-11-04 09:38:31	ratrace	I really wouldn't worry about that. You have two options here, imo. One, give it all cores, two: give it something like half so you know you'll always have half the cores for other work and it won't mess with you using the computer.
+2020-11-04 09:38:59	ratrace	Also important to consider, but there's no single equation for decision, how large -j is too large due to RAM constraints
+2020-11-04 09:39:32	<--	chaky (~chaky@gateway/tor-sasl/chaky) has quit (Remote host closed the connection)
+2020-11-04 09:39:34	ratrace	and also, HT != cores. difference betweeh -j8 and -j4 on a 4-core HT system is *NOT* 2x in computing capacity.
+2020-11-04 09:39:56	-->	chaky (~chaky@gateway/tor-sasl/chaky) has joined #gentoo
+2020-11-04 09:40:30	ratrace	HT adds UP TO ~30%, depending on the cache utilization capabilities of executed code
+2020-11-04 09:41:30	-->	Zblakany (~Zblakany@host-188-122-1-230.finemedia.pl) has joined #gentoo
+2020-11-04 09:41:50	Aliekezhi	ratrace, well I'm currently using -j4 instead of -j9 and still have freezes/crashes
+2020-11-04 09:43:09	<--	chaky (~chaky@gateway/tor-sasl/chaky) has quit (Remote host closed the connection)
+2020-11-04 09:43:32	-->	chaky (~chaky@gateway/tor-sasl/chaky) has joined #gentoo
+2020-11-04 09:46:20	alarig	 *  Downgrading glibc is not supported and a sure way to destruction.
+2020-11-04 09:46:33	alarig	Is it really a bad idea to downgrade glibc ?
+2020-11-04 09:46:38	blaise	yes
+2020-11-04 09:47:03	alarig	I can’t build a new module with the glibc from last night
+2020-11-04 09:47:05	alarig	https://bugs.gentoo.org/753053
+2020-11-04 09:47:15	ionen	yes it's bad, it's not kidding about this
+2020-11-04 09:47:22	alarig	So I really need to downgrade it
+2020-11-04 09:47:37	blaise	no, you really need to wait out the storm till the bug is fixed
+2020-11-04 09:48:02	alarig	arf
+2020-11-04 09:48:12	alarig	(and I can’t upgrade to 4.19 or 5.4 because IPv6 is nearly broken on thoses)
+2020-11-04 09:48:42	alarig	It should be fixed on 5.8, but I didn’t tried it yet
+2020-11-04 09:49:17	blaise	I recommend using sys-kernel/gentoo-kernel-bin-5.9.3
+2020-11-04 09:49:27	blaise	till this issue is resolved
+2020-11-04 09:49:52	ionen	is your currently built kernel an issue? could just stick with it for a bit to see how things go
+2020-11-04 09:50:27	<--	medard (~medard@unaffiliated/medard) has quit (Quit: Leaving)
+2020-11-04 09:51:01	ionen	assuming you have one anyway
+2020-11-04 09:51:11	alarig	ionen: no, the current kernel has been built some time ago
+2020-11-04 09:51:18	alarig	I just wanted to add a module
+2020-11-04 09:51:23	ionen	ah
+2020-11-04 09:53:58	ionen	guess I'll try giving 4.14.203 a build just to see
+2020-11-04 09:54:12	blaise	I cannot recreate the issue reported with that version of glibc using gcc-10.2.0-r2 and any kernel in the linux-5.x tree
+2020-11-04 09:54:17	+sam_	sys_errlist.h is dodgy
+2020-11-04 09:54:31	+sam_	wondering if nobody backported a fix to 4.14.x
+2020-11-04 09:54:36	-->	arkamar (~arkamar@kancl.excello.cz) has joined #gentoo
+2020-11-04 09:54:43	-->	ralphe (~ralphe@cable-78-34-46-61.nc.de) has joined #gentoo
+2020-11-04 09:54:51	+sam_	which seems unlikely?
+2020-11-04 09:56:03	-->	Chiliparrot (~Tino@mue-88-130-90-000.dsl.tropolys.de) has joined #gentoo
+2020-11-04 09:56:53	alarig	As 4.14 still has some years before EoL upstream and is stable in portage tree, I think that it should be done eventually
+2020-11-04 09:56:58	ionen	hmm, tried vanilla 4.14.203 with make defconfig, and seem to have built fine (this is a ~arch system)
+2020-11-04 09:57:05	alarig	What sys_errlist.h is supposed to do?
+2020-11-04 09:58:53	blaise	https://man7.org/linux/man-pages/man3/sys_errlist.3.html
+2020-11-04 10:01:21	alarig	Just have to move to office, brb
+2020-11-04 10:01:37	-->	tmsmr1 (~Thunderbi@p54852115.dip0.t-ipconnect.de) has joined #gentoo

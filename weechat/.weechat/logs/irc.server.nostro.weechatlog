@@ -1,0 +1,244 @@
+2020-10-16 16:20:20	--	irc: connecting to server francescomecca.eu/6697 (SSL)...
+2020-10-16 16:20:20	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-16 16:20:20	--	gnutls: receiving 1 certificate
+2020-10-16 16:20:20	--	 - certificate[1] info:
+2020-10-16 16:20:20	--	   - subject `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', issuer `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', serial 0x00ef0949a1cc8c07f7, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-14 14:38:44 UTC', expires `2024-10-14 14:38:44 UTC', pin-sha256="gAlBDdvIIcQzyhsgxE+TShhnu97fG2tecVDvjnnhIQY="
+2020-10-16 16:20:20	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-16 16:20:20	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-16 16:20:21	--	irc: connected to francescomecca.eu/6697 (88.98.235.109)
+2020-10-16 16:20:21	--	irc: nickname "brasello" is already in use, trying nickname "brasello_"
+2020-10-16 16:20:23	--	Welcome to the Internet Relay Network brasello_!brasello_@cloaked.host
+2020-10-16 16:20:23	--	Your host is francescomecca.eu, running version ngircd-26 (x86_64/pc/linux-gnu)
+2020-10-16 16:20:23	--	This server has been started Wed Oct 14 2020 at 14:40:54 (-00)
+2020-10-16 16:20:23	--	francescomecca.eu ngircd-26 abBcCFiIoqrRswx abehiIklmMnoOPqQrRstvVz
+2020-10-16 16:20:23	--	RFC2812 IRCD=ngIRCd CHARSET=UTF-8 CASEMAPPING=ascii PREFIX=(qaohv)~&@%+ CHANTYPES=#&+ CHANMODES=beI,k,l,imMnOPQRstVz CHANLIMIT=#&+:10 :are supported on this server
+2020-10-16 16:20:23	--	CHANNELLEN=50 NICKLEN=31 TOPICLEN=490 AWAYLEN=127 KICKLEN=400 MODES=5 MAXLIST=beI:50 EXCEPTS=e INVEX=I PENALTY FNC :are supported on this server
+2020-10-16 16:20:23	--	There are 7 users and 0 services on 1 servers
+2020-10-16 16:20:23	--	4 :channels formed
+2020-10-16 16:20:23	--	I have 7 users, 0 services and 0 servers
+2020-10-16 16:20:23	--	7 7 :Current local users: 7, Max: 7
+2020-10-16 16:20:23	--	7 7 :Current global users: 7, Max: 7
+2020-10-16 16:20:23	--	Highest connection count: 7 (126 connections received)
+2020-10-16 16:20:23	--	- francescomecca.eu message of the day
+2020-10-16 16:20:23	--	- Connected using Cipher ECDHE-RSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH     Au=RSA  Enc=AESGCM(256) Mac=AEAD
+2020-10-16 16:20:23	--	End of MOTD command
+2020-10-16 16:20:23	--	cloaked.host :is your displayed hostname now
+2020-10-16 16:20:23	--	User mode [+i] by brasello_
+2020-10-16 16:33:40	--	irc: lag is high, reconnecting to server nostro
+2020-10-16 16:33:40	--	irc: disconnected from server
+2020-10-16 16:33:40	--	irc: reconnecting to server in 10 seconds
+2020-10-16 16:33:50	--	irc: reconnecting to server...
+2020-10-16 16:33:50	--	irc: connecting to server francescomecca.eu/6697 (SSL)...
+2020-10-16 16:33:51	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-16 16:33:51	--	gnutls: receiving 1 certificate
+2020-10-16 16:33:51	--	 - certificate[1] info:
+2020-10-16 16:33:51	--	   - subject `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', issuer `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', serial 0x00ef0949a1cc8c07f7, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-14 14:38:44 UTC', expires `2024-10-14 14:38:44 UTC', pin-sha256="gAlBDdvIIcQzyhsgxE+TShhnu97fG2tecVDvjnnhIQY="
+2020-10-16 16:33:51	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-16 16:33:51	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-16 16:33:51	--	irc: connected to francescomecca.eu/6697 (88.98.235.109)
+2020-10-16 16:33:52	--	Welcome to the Internet Relay Network brasello_!brasello_@cloaked.host
+2020-10-16 16:33:52	--	Your host is francescomecca.eu, running version ngircd-26 (x86_64/pc/linux-gnu)
+2020-10-16 16:33:52	--	This server has been started Wed Oct 14 2020 at 14:40:54 (-00)
+2020-10-16 16:33:52	--	francescomecca.eu ngircd-26 abBcCFiIoqrRswx abehiIklmMnoOPqQrRstvVz
+2020-10-16 16:33:52	--	RFC2812 IRCD=ngIRCd CHARSET=UTF-8 CASEMAPPING=ascii PREFIX=(qaohv)~&@%+ CHANTYPES=#&+ CHANMODES=beI,k,l,imMnOPQRstVz CHANLIMIT=#&+:10 :are supported on this server
+2020-10-16 16:33:52	--	CHANNELLEN=50 NICKLEN=31 TOPICLEN=490 AWAYLEN=127 KICKLEN=400 MODES=5 MAXLIST=beI:50 EXCEPTS=e INVEX=I PENALTY FNC :are supported on this server
+2020-10-16 16:33:52	--	There are 7 users and 0 services on 1 servers
+2020-10-16 16:33:52	--	4 :channels formed
+2020-10-16 16:33:52	--	I have 7 users, 0 services and 0 servers
+2020-10-16 16:33:52	--	7 7 :Current local users: 7, Max: 7
+2020-10-16 16:33:52	--	7 7 :Current global users: 7, Max: 7
+2020-10-16 16:33:52	--	Highest connection count: 7 (127 connections received)
+2020-10-16 16:33:52	--	- francescomecca.eu message of the day
+2020-10-16 16:33:52	--	- Connected using Cipher ECDHE-RSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH     Au=RSA  Enc=AESGCM(256) Mac=AEAD
+2020-10-16 16:33:52	--	End of MOTD command
+2020-10-16 16:33:52	--	cloaked.host :is your displayed hostname now
+2020-10-16 16:33:52	--	User mode [+i] by brasello_
+2020-10-27 10:18:24	--	irc: connecting to server francescomecca.eu/6697 (SSL)...
+2020-10-27 10:18:24	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-27 10:18:24	--	gnutls: receiving 1 certificate
+2020-10-27 10:18:24	--	 - certificate[1] info:
+2020-10-27 10:18:24	--	   - subject `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', issuer `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', serial 0x00ef0949a1cc8c07f7, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-14 14:38:44 UTC', expires `2024-10-14 14:38:44 UTC', pin-sha256="gAlBDdvIIcQzyhsgxE+TShhnu97fG2tecVDvjnnhIQY="
+2020-10-27 10:18:24	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-27 10:18:24	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-27 10:18:24	--	irc: connected to francescomecca.eu/6697 (88.98.235.109)
+2020-10-27 10:18:24	--	irc: nickname "brasello" is already in use, trying nickname "brasello_"
+2020-10-27 10:18:26	--	Welcome to the Internet Relay Network brasello_!brasello_@cloaked.host
+2020-10-27 10:18:26	--	Your host is francescomecca.eu, running version ngircd-26 (x86_64/pc/linux-gnu)
+2020-10-27 10:18:26	--	This server has been started Sat Oct 17 2020 at 15:14:10 (-00)
+2020-10-27 10:18:26	--	francescomecca.eu ngircd-26 abBcCFiIoqrRswx abehiIklmMnoOPqQrRstvVz
+2020-10-27 10:18:26	--	RFC2812 IRCD=ngIRCd CHARSET=UTF-8 CASEMAPPING=ascii PREFIX=(qaohv)~&@%+ CHANTYPES=#&+ CHANMODES=beI,k,l,imMnOPQRstVz CHANLIMIT=#&+:10 :are supported on this server
+2020-10-27 10:18:26	--	CHANNELLEN=50 NICKLEN=31 TOPICLEN=490 AWAYLEN=127 KICKLEN=400 MODES=5 MAXLIST=beI:50 EXCEPTS=e INVEX=I PENALTY FNC :are supported on this server
+2020-10-27 10:18:26	--	There are 4 users and 0 services on 1 servers
+2020-10-27 10:18:26	--	3 :channels formed
+2020-10-27 10:18:26	--	I have 4 users, 0 services and 0 servers
+2020-10-27 10:18:26	--	4 7 :Current local users: 4, Max: 7
+2020-10-27 10:18:26	--	4 7 :Current global users: 4, Max: 7
+2020-10-27 10:18:26	--	Highest connection count: 7 (305 connections received)
+2020-10-27 10:18:26	--	- francescomecca.eu message of the day
+2020-10-27 10:18:26	--	- Connected using Cipher ECDHE-RSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH     Au=RSA  Enc=AESGCM(256) Mac=AEAD
+2020-10-27 10:18:26	--	End of MOTD command
+2020-10-27 10:18:26	--	cloaked.host :is your displayed hostname now
+2020-10-27 10:18:26	--	User mode [+i] by brasello_
+2020-10-28 09:27:13	--	irc: connecting to server francescomecca.eu/6697 (SSL)...
+2020-10-28 09:27:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-28 09:27:14	--	gnutls: receiving 1 certificate
+2020-10-28 09:27:14	--	 - certificate[1] info:
+2020-10-28 09:27:14	--	   - subject `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', issuer `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', serial 0x00ef0949a1cc8c07f7, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-14 14:38:44 UTC', expires `2024-10-14 14:38:44 UTC', pin-sha256="gAlBDdvIIcQzyhsgxE+TShhnu97fG2tecVDvjnnhIQY="
+2020-10-28 09:27:14	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-28 09:27:14	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-28 09:27:14	--	irc: connected to francescomecca.eu/6697 (88.98.235.109)
+2020-10-28 09:27:14	--	irc: nickname "brasello" is already in use, trying nickname "brasello_"
+2020-10-28 09:27:16	--	Welcome to the Internet Relay Network brasello_!brasello_@cloaked.host
+2020-10-28 09:27:16	--	Your host is francescomecca.eu, running version ngircd-26 (x86_64/pc/linux-gnu)
+2020-10-28 09:27:16	--	This server has been started Sat Oct 17 2020 at 15:14:10 (-00)
+2020-10-28 09:27:16	--	francescomecca.eu ngircd-26 abBcCFiIoqrRswx abehiIklmMnoOPqQrRstvVz
+2020-10-28 09:27:16	--	RFC2812 IRCD=ngIRCd CHARSET=UTF-8 CASEMAPPING=ascii PREFIX=(qaohv)~&@%+ CHANTYPES=#&+ CHANMODES=beI,k,l,imMnOPQRstVz CHANLIMIT=#&+:10 :are supported on this server
+2020-10-28 09:27:16	--	CHANNELLEN=50 NICKLEN=31 TOPICLEN=490 AWAYLEN=127 KICKLEN=400 MODES=5 MAXLIST=beI:50 EXCEPTS=e INVEX=I PENALTY FNC :are supported on this server
+2020-10-28 09:27:16	--	There are 4 users and 0 services on 1 servers
+2020-10-28 09:27:16	--	3 :channels formed
+2020-10-28 09:27:16	--	I have 4 users, 0 services and 0 servers
+2020-10-28 09:27:16	--	4 7 :Current local users: 4, Max: 7
+2020-10-28 09:27:16	--	4 7 :Current global users: 4, Max: 7
+2020-10-28 09:27:16	--	Highest connection count: 7 (309 connections received)
+2020-10-28 09:27:16	--	- francescomecca.eu message of the day
+2020-10-28 09:27:16	--	- Connected using Cipher ECDHE-RSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH     Au=RSA  Enc=AESGCM(256) Mac=AEAD
+2020-10-28 09:27:16	--	End of MOTD command
+2020-10-28 09:27:16	--	cloaked.host :is your displayed hostname now
+2020-10-28 09:27:16	--	User mode [+i] by brasello_
+2020-10-28 10:00:14	--	irc: connecting to server francescomecca.eu/6697 (SSL)...
+2020-10-28 10:00:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-28 10:00:14	--	gnutls: receiving 1 certificate
+2020-10-28 10:00:14	--	 - certificate[1] info:
+2020-10-28 10:00:14	--	   - subject `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', issuer `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', serial 0x00ef0949a1cc8c07f7, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-14 14:38:44 UTC', expires `2024-10-14 14:38:44 UTC', pin-sha256="gAlBDdvIIcQzyhsgxE+TShhnu97fG2tecVDvjnnhIQY="
+2020-10-28 10:00:14	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-28 10:00:14	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-28 10:00:14	--	irc: connected to francescomecca.eu/6697 (88.98.235.109)
+2020-10-28 10:00:14	--	irc: nickname "brasello" is already in use, trying nickname "brasello_"
+2020-10-28 10:00:16	--	Welcome to the Internet Relay Network brasello_!brasello_@cloaked.host
+2020-10-28 10:00:16	--	Your host is francescomecca.eu, running version ngircd-26 (x86_64/pc/linux-gnu)
+2020-10-28 10:00:16	--	This server has been started Sat Oct 17 2020 at 15:14:10 (-00)
+2020-10-28 10:00:16	--	francescomecca.eu ngircd-26 abBcCFiIoqrRswx abehiIklmMnoOPqQrRstvVz
+2020-10-28 10:00:16	--	RFC2812 IRCD=ngIRCd CHARSET=UTF-8 CASEMAPPING=ascii PREFIX=(qaohv)~&@%+ CHANTYPES=#&+ CHANMODES=beI,k,l,imMnOPQRstVz CHANLIMIT=#&+:10 :are supported on this server
+2020-10-28 10:00:16	--	CHANNELLEN=50 NICKLEN=31 TOPICLEN=490 AWAYLEN=127 KICKLEN=400 MODES=5 MAXLIST=beI:50 EXCEPTS=e INVEX=I PENALTY FNC :are supported on this server
+2020-10-28 10:00:16	--	There are 5 users and 0 services on 1 servers
+2020-10-28 10:00:16	--	3 :channels formed
+2020-10-28 10:00:16	--	I have 5 users, 0 services and 0 servers
+2020-10-28 10:00:16	--	5 7 :Current local users: 5, Max: 7
+2020-10-28 10:00:16	--	5 7 :Current global users: 5, Max: 7
+2020-10-28 10:00:16	--	Highest connection count: 7 (311 connections received)
+2020-10-28 10:00:16	--	- francescomecca.eu message of the day
+2020-10-28 10:00:16	--	- Connected using Cipher ECDHE-RSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH     Au=RSA  Enc=AESGCM(256) Mac=AEAD
+2020-10-28 10:00:16	--	End of MOTD command
+2020-10-28 10:00:16	--	cloaked.host :is your displayed hostname now
+2020-10-28 10:00:16	--	User mode [+i] by brasello_
+2020-10-28 15:00:35	--	irc: connecting to server francescomecca.eu/6697 (SSL)...
+2020-10-28 15:00:35	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-28 15:00:35	--	gnutls: receiving 1 certificate
+2020-10-28 15:00:35	--	 - certificate[1] info:
+2020-10-28 15:00:35	--	   - subject `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', issuer `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', serial 0x00ef0949a1cc8c07f7, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-14 14:38:44 UTC', expires `2024-10-14 14:38:44 UTC', pin-sha256="gAlBDdvIIcQzyhsgxE+TShhnu97fG2tecVDvjnnhIQY="
+2020-10-28 15:00:35	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-28 15:00:35	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-28 15:00:36	--	irc: connected to francescomecca.eu/6697 (88.98.235.109)
+2020-10-28 15:00:36	--	Welcome to the Internet Relay Network brasello!brasello@cloaked.host
+2020-10-28 15:00:36	--	Your host is francescomecca.eu, running version ngircd-26 (x86_64/pc/linux-gnu)
+2020-10-28 15:00:36	--	This server has been started Sat Oct 17 2020 at 15:14:10 (-00)
+2020-10-28 15:00:36	--	francescomecca.eu ngircd-26 abBcCFiIoqrRswx abehiIklmMnoOPqQrRstvVz
+2020-10-28 15:00:36	--	RFC2812 IRCD=ngIRCd CHARSET=UTF-8 CASEMAPPING=ascii PREFIX=(qaohv)~&@%+ CHANTYPES=#&+ CHANMODES=beI,k,l,imMnOPQRstVz CHANLIMIT=#&+:10 :are supported on this server
+2020-10-28 15:00:36	--	CHANNELLEN=50 NICKLEN=31 TOPICLEN=490 AWAYLEN=127 KICKLEN=400 MODES=5 MAXLIST=beI:50 EXCEPTS=e INVEX=I PENALTY FNC :are supported on this server
+2020-10-28 15:00:36	--	There are 4 users and 0 services on 1 servers
+2020-10-28 15:00:36	--	3 :channels formed
+2020-10-28 15:00:36	--	I have 4 users, 0 services and 0 servers
+2020-10-28 15:00:36	--	4 7 :Current local users: 4, Max: 7
+2020-10-28 15:00:36	--	4 7 :Current global users: 4, Max: 7
+2020-10-28 15:00:36	--	Highest connection count: 7 (314 connections received)
+2020-10-28 15:00:36	--	- francescomecca.eu message of the day
+2020-10-28 15:00:36	--	- Connected using Cipher ECDHE-RSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH     Au=RSA  Enc=AESGCM(256) Mac=AEAD
+2020-10-28 15:00:36	--	End of MOTD command
+2020-10-28 15:00:36	--	cloaked.host :is your displayed hostname now
+2020-10-28 15:00:36	--	User mode [+i] by brasello
+2020-10-30 11:35:07	--	irc: connecting to server francescomecca.eu/6697 (SSL)...
+2020-10-30 11:35:07	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-30 11:35:07	--	gnutls: receiving 1 certificate
+2020-10-30 11:35:07	--	 - certificate[1] info:
+2020-10-30 11:35:07	--	   - subject `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', issuer `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', serial 0x00ef0949a1cc8c07f7, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-14 14:38:44 UTC', expires `2024-10-14 14:38:44 UTC', pin-sha256="gAlBDdvIIcQzyhsgxE+TShhnu97fG2tecVDvjnnhIQY="
+2020-10-30 11:35:07	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-30 11:35:07	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-30 11:35:07	--	irc: connected to francescomecca.eu/6697 (88.98.235.109)
+2020-10-30 11:35:08	--	Welcome to the Internet Relay Network brasello!brasello@cloaked.host
+2020-10-30 11:35:08	--	Your host is francescomecca.eu, running version ngircd-26 (x86_64/pc/linux-gnu)
+2020-10-30 11:35:08	--	This server has been started Sat Oct 17 2020 at 15:14:10 (-00)
+2020-10-30 11:35:08	--	francescomecca.eu ngircd-26 abBcCFiIoqrRswx abehiIklmMnoOPqQrRstvVz
+2020-10-30 11:35:08	--	RFC2812 IRCD=ngIRCd CHARSET=UTF-8 CASEMAPPING=ascii PREFIX=(qaohv)~&@%+ CHANTYPES=#&+ CHANMODES=beI,k,l,imMnOPQRstVz CHANLIMIT=#&+:10 :are supported on this server
+2020-10-30 11:35:08	--	CHANNELLEN=50 NICKLEN=31 TOPICLEN=490 AWAYLEN=127 KICKLEN=400 MODES=5 MAXLIST=beI:50 EXCEPTS=e INVEX=I PENALTY FNC :are supported on this server
+2020-10-30 11:35:08	--	There are 3 users and 0 services on 1 servers
+2020-10-30 11:35:08	--	3 :channels formed
+2020-10-30 11:35:08	--	I have 3 users, 0 services and 0 servers
+2020-10-30 11:35:08	--	3 7 :Current local users: 3, Max: 7
+2020-10-30 11:35:08	--	3 7 :Current global users: 3, Max: 7
+2020-10-30 11:35:08	--	Highest connection count: 7 (336 connections received)
+2020-10-30 11:35:08	--	- francescomecca.eu message of the day
+2020-10-30 11:35:08	--	- Connected using Cipher ECDHE-RSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH     Au=RSA  Enc=AESGCM(256) Mac=AEAD
+2020-10-30 11:35:08	--	End of MOTD command
+2020-10-30 11:35:08	--	cloaked.host :is your displayed hostname now
+2020-10-30 11:35:08	--	User mode [+i] by brasello
+2020-10-30 12:23:33	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2020-10-30 12:23:33	--	irc: disconnecting from server...
+2020-10-30 12:23:33	--	irc: disconnected from server
+2020-10-30 12:23:33	--	irc: reconnecting to server in 10 seconds
+2020-10-30 12:23:43	--	irc: reconnecting to server...
+2020-10-30 12:23:43	--	irc: connecting to server francescomecca.eu/6697 (SSL)...
+2020-10-30 12:23:43	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-30 12:23:43	--	gnutls: receiving 1 certificate
+2020-10-30 12:23:43	--	 - certificate[1] info:
+2020-10-30 12:23:43	--	   - subject `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', issuer `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', serial 0x00ef0949a1cc8c07f7, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-14 14:38:44 UTC', expires `2024-10-14 14:38:44 UTC', pin-sha256="gAlBDdvIIcQzyhsgxE+TShhnu97fG2tecVDvjnnhIQY="
+2020-10-30 12:23:43	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-30 12:23:43	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-30 12:23:43	--	irc: connected to francescomecca.eu/6697 (88.98.235.109)
+2020-10-30 12:23:43	--	Welcome to the Internet Relay Network brasello!brasello@cloaked.host
+2020-10-30 12:23:43	--	Your host is francescomecca.eu, running version ngircd-26 (x86_64/pc/linux-gnu)
+2020-10-30 12:23:43	--	This server has been started Sat Oct 17 2020 at 15:14:10 (-00)
+2020-10-30 12:23:43	--	francescomecca.eu ngircd-26 abBcCFiIoqrRswx abehiIklmMnoOPqQrRstvVz
+2020-10-30 12:23:43	--	RFC2812 IRCD=ngIRCd CHARSET=UTF-8 CASEMAPPING=ascii PREFIX=(qaohv)~&@%+ CHANTYPES=#&+ CHANMODES=beI,k,l,imMnOPQRstVz CHANLIMIT=#&+:10 :are supported on this server
+2020-10-30 12:23:43	--	CHANNELLEN=50 NICKLEN=31 TOPICLEN=490 AWAYLEN=127 KICKLEN=400 MODES=5 MAXLIST=beI:50 EXCEPTS=e INVEX=I PENALTY FNC :are supported on this server
+2020-10-30 12:23:43	--	There are 4 users and 0 services on 1 servers
+2020-10-30 12:23:43	--	3 :channels formed
+2020-10-30 12:23:43	--	I have 4 users, 0 services and 0 servers
+2020-10-30 12:23:43	--	4 7 :Current local users: 4, Max: 7
+2020-10-30 12:23:43	--	4 7 :Current global users: 4, Max: 7
+2020-10-30 12:23:43	--	Highest connection count: 7 (338 connections received)
+2020-10-30 12:23:43	--	- francescomecca.eu message of the day
+2020-10-30 12:23:43	--	- Connected using Cipher ECDHE-RSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH     Au=RSA  Enc=AESGCM(256) Mac=AEAD
+2020-10-30 12:23:43	--	End of MOTD command
+2020-10-30 12:23:43	--	cloaked.host :is your displayed hostname now
+2020-10-30 12:23:43	--	User mode [+i] by brasello
+2020-11-04 09:29:43	--	irc: connecting to server francescomecca.eu/6697 (SSL)...
+2020-11-04 09:29:44	=!=	irc: address "francescomecca.eu" not found
+2020-11-04 09:29:44	=!=	irc: error: Temporary failure in name resolution
+2020-11-04 09:29:44	--	irc: reconnecting to server in 10 seconds
+2020-11-04 09:29:54	--	irc: reconnecting to server...
+2020-11-04 09:29:54	--	irc: connecting to server francescomecca.eu/6697 (SSL)...
+2020-11-04 09:29:54	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-11-04 09:29:54	--	gnutls: receiving 1 certificate
+2020-11-04 09:29:54	--	 - certificate[1] info:
+2020-11-04 09:29:54	--	   - subject `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', issuer `EMAIL=me@francescomecca.eu,CN=francescomecca.eu,O=banana associates ltd,L=London - Bassifondi,ST=London,C=UK', serial 0x00ef0949a1cc8c07f7, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-14 14:38:44 UTC', expires `2024-10-14 14:38:44 UTC', pin-sha256="gAlBDdvIIcQzyhsgxE+TShhnu97fG2tecVDvjnnhIQY="
+2020-11-04 09:29:54	=!=	gnutls: peer's certificate is NOT trusted
+2020-11-04 09:29:54	=!=	gnutls: peer's certificate issuer is unknown
+2020-11-04 09:29:54	--	irc: connected to francescomecca.eu/6697 (88.98.235.109)
+2020-11-04 09:29:55	--	irc: nickname "brasello" is already in use, trying nickname "brasello_"
+2020-11-04 09:29:57	--	Welcome to the Internet Relay Network brasello_!brasello_@cloaked.host
+2020-11-04 09:29:57	--	Your host is francescomecca.eu, running version ngircd-26 (x86_64/pc/linux-gnu)
+2020-11-04 09:29:57	--	This server has been started Sat Oct 17 2020 at 15:14:10 (-00)
+2020-11-04 09:29:57	--	francescomecca.eu ngircd-26 abBcCFiIoqrRswx abehiIklmMnoOPqQrRstvVz
+2020-11-04 09:29:57	--	RFC2812 IRCD=ngIRCd CHARSET=UTF-8 CASEMAPPING=ascii PREFIX=(qaohv)~&@%+ CHANTYPES=#&+ CHANMODES=beI,k,l,imMnOPQRstVz CHANLIMIT=#&+:10 :are supported on this server
+2020-11-04 09:29:57	--	CHANNELLEN=50 NICKLEN=31 TOPICLEN=490 AWAYLEN=127 KICKLEN=400 MODES=5 MAXLIST=beI:50 EXCEPTS=e INVEX=I PENALTY FNC :are supported on this server
+2020-11-04 09:29:57	--	There are 4 users and 0 services on 1 servers
+2020-11-04 09:29:57	--	3 :channels formed
+2020-11-04 09:29:57	--	I have 4 users, 0 services and 0 servers
+2020-11-04 09:29:57	--	4 7 :Current local users: 4, Max: 7
+2020-11-04 09:29:57	--	4 7 :Current global users: 4, Max: 7
+2020-11-04 09:29:57	--	Highest connection count: 7 (361 connections received)
+2020-11-04 09:29:57	--	- francescomecca.eu message of the day
+2020-11-04 09:29:57	--	- Connected using Cipher ECDHE-RSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH     Au=RSA  Enc=AESGCM(256) Mac=AEAD
+2020-11-04 09:29:57	--	End of MOTD command
+2020-11-04 09:29:57	--	cloaked.host :is your displayed hostname now
+2020-11-04 09:29:57	--	User mode [+i] by brasello_

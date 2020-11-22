@@ -1,0 +1,656 @@
+2020-10-16 16:20:20	--	irc: connecting to server irc.irchighway.net/6697 (SSL)...
+2020-10-16 16:20:22	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-16 16:20:22	--	gnutls: receiving 1 certificate
+2020-10-16 16:20:22	--	 - certificate[1] info:
+2020-10-16 16:20:22	--	   - subject `C=World,ST=World,L=World,O=Irchighway,OU=Routing Team,CN=irc.irchighway.net', issuer `C=World,ST=World,L=World,O=Irchighway,OU=Routing Team,CN=irc.irchighway.net', serial 0x5709ac7b, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-04-10 01:30:48 UTC', expires `2019-04-10 01:30:48 UTC', pin-sha256="/FQ8fL9PT8auD67Fmx8iYf0GJKHkZk1CtxqJPRThybE="
+2020-10-16 16:20:22	=!=	gnutls: certificate has expired
+2020-10-16 16:20:22	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-16 16:20:22	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-16 16:20:22	--	irc: connected to irc.irchighway.net/6697 (5.39.82.3)
+2020-10-16 16:20:22	--	infidel.fr.eu.irchighway.net: *** Looking up your hostname...
+2020-10-16 16:20:22	--	infidel.fr.eu.irchighway.net: *** Found your hostname (host-79-44-69-68.retail.telecomitalia.it)
+2020-10-16 16:20:22	--	irc: nickname "ozpekat" is already in use, trying nickname "ozpekat_"
+2020-10-16 16:20:23	--	infidel.fr.eu.irchighway.net: Welcome to irchighway!
+2020-10-16 16:20:23	--	Welcome to the irchighway IRC Network ozpekat_!fra@host-79-44-69-68.retail.telecomitalia.it
+2020-10-16 16:20:23	--	Your host is infidel.fr.eu.irchighway.net, running version InspIRCd-2.0
+2020-10-16 16:20:23	--	This server was created 01:48:44 Jan  1 2018
+2020-10-16 16:20:23	--	infidel.fr.eu.irchighway.net InspIRCd-2.0 BIRSWghiorswx ACDIMNORSTabcdehiklmnopqrstvz Iabdehkloqv
+2020-10-16 16:20:23	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibe,k,dl,ACDMNORSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ACNORSTUcjmz FNC INVEX=I :are supported by this server
+2020-10-16 16:20:23	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=30 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=irchighway NICKLEN=31 PREFIX=(qaohv)~&@%+ SILENCE=32 SSL=5.39.82.3:6697 :are supported by this server
+2020-10-16 16:20:23	--	STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2020-10-16 16:20:23	--	644AEETXW :your unique ID
+2020-10-16 16:20:23	--	infidel.fr.eu.irchighway.net message of the day
+2020-10-16 16:20:23	--	- no bottler clients please
+2020-10-16 16:20:23	--	- -
+2020-10-16 16:20:23	--	- The staff welcomes you at infidel.fr.eu.irchighway.net - SILENCE!! I KEEL YOU!
+2020-10-16 16:20:23	--	-
+2020-10-16 16:20:23	--	- This server is part of the the IRCHighWay network. If you do not disconnect
+2020-10-16 16:20:23	--	- right now, you agree with this network's Acceptable Use Policy (AUP)
+2020-10-16 16:20:23	--	- which can be found at the following URL:
+2020-10-16 16:20:23	--	-
+2020-10-16 16:20:23	--	- http://www.irchighway.net/rules
+2020-10-16 16:20:23	--	-
+2020-10-16 16:20:23	--	- By connecting to this network you agree to have your host scanned
+2020-10-16 16:20:23	--	- for open proxies.
+2020-10-16 16:20:23	--	-
+2020-10-16 16:20:23	--	- For more information about the IRCHighWay network, such as our Privacy Policy,
+2020-10-16 16:20:23	--	- you are welcome to visit our main website at http://www.irchighway.net/
+2020-10-16 16:20:23	--	-
+2020-10-16 16:20:23	--	- Server Admin:       OO7
+2020-10-16 16:20:23	--	-
+2020-10-16 16:20:23	--	- Location : France EU
+2020-10-16 16:20:23	--	- Ports : 6660 to 6669 and 7000, as well as 6697 & 9999 for SSL.
+2020-10-16 16:20:23	--	-
+2020-10-16 16:20:23	--	- We do not, and never will hire IRCops. So don't bother asking.
+2020-10-16 16:20:23	--	-
+2020-10-16 16:20:23	--	- Bottler bots, Flood bots, Irc-Ork bots, Spam bots
+2020-10-16 16:20:23	--	- and all other abusive Bots will be Banned.
+2020-10-16 16:20:23	--	-
+2020-10-16 16:20:23	--	- Non-abusive bots are tolerated, *NOT* supported.
+2020-10-16 16:20:23	--	-
+2020-10-16 16:20:23	--	- We reserve the right to disconnect/ban any user from this server at any time
+2020-10-16 16:20:23	--	- for any reason. If you were banned (akilled) and you think that it was
+2020-10-16 16:20:23	--	- unjustified, feel free to email banned [at] irchighway.net. The ban will be
+2020-10-16 16:20:23	--	- reviewed, and may (or may not) be removed.
+2020-10-16 16:20:23	--	-
+2020-10-16 16:20:23	--	- You might want to have a look at these channels:
+2020-10-16 16:20:23	--	-     #irchighway   - for general chat
+2020-10-16 16:20:23	--	-     #help         - official help Channel
+2020-10-16 16:20:23	--	-     #abuse        - for reporting abusive users
+2020-10-16 16:20:23	--	-     #vhost        - for vHost registration
+2020-10-16 16:20:23	--	-     #script       - for mIRC scripting help
+2020-10-16 16:20:23	--	-
+2020-10-16 16:20:23	--	- Enjoy your stay!
+2020-10-16 16:20:23	--	End of message of the day.
+2020-10-16 16:20:23	--	There are 897 users and 640 invisible on 19 servers
+2020-10-16 16:20:23	--	21 :operator(s) online
+2020-10-16 16:20:23	--	698 :channels formed
+2020-10-16 16:20:23	--	I have 209 clients and 1 servers
+2020-10-16 16:20:23	--	Current Local Users: 209  Max: 287
+2020-10-16 16:20:23	--	Current Global Users: 1537  Max: 2312
+2020-10-16 16:20:23	--	ihw-9j7ort.retail.telecomitalia.it :is now your displayed host
+2020-10-16 16:20:23	--	User mode [+x] by ozpekat_
+2020-10-16 16:20:23	--	infidel.fr.eu.irchighway.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-10-16 16:33:40	--	irc: lag is high, reconnecting to server irchighway
+2020-10-16 16:33:41	--	irc: disconnected from server
+2020-10-16 16:33:41	--	irc: reconnecting to server in 10 seconds
+2020-10-16 16:33:51	--	irc: reconnecting to server...
+2020-10-16 16:33:51	--	irc: connecting to server irc.irchighway.net/6697 (SSL)...
+2020-10-16 16:33:52	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-16 16:33:52	--	gnutls: receiving 1 certificate
+2020-10-16 16:33:52	--	 - certificate[1] info:
+2020-10-16 16:33:52	--	   - subject `C=World,ST=World,L=World,O=Irchighway,OU=Routing Team,CN=irc.irchighway.net', issuer `C=World,ST=World,L=World,O=Irchighway,OU=Routing Team,CN=irc.irchighway.net', serial 0x5709ac7b, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-04-10 01:30:48 UTC', expires `2019-04-10 01:30:48 UTC', pin-sha256="/FQ8fL9PT8auD67Fmx8iYf0GJKHkZk1CtxqJPRThybE="
+2020-10-16 16:33:52	=!=	gnutls: certificate has expired
+2020-10-16 16:33:52	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-16 16:33:52	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-16 16:33:52	--	irc: connected to irc.irchighway.net/6697 (5.39.82.3)
+2020-10-16 16:33:52	--	infidel.fr.eu.irchighway.net: *** Looking up your hostname...
+2020-10-16 16:33:52	--	infidel.fr.eu.irchighway.net: *** Found your hostname (93-36-63-227.ip58.fastwebnet.it)
+2020-10-16 16:33:53	--	infidel.fr.eu.irchighway.net: Welcome to irchighway!
+2020-10-16 16:33:53	--	Welcome to the irchighway IRC Network ozpekat_!fra@93-36-63-227.ip58.fastwebnet.it
+2020-10-16 16:33:53	--	Your host is infidel.fr.eu.irchighway.net, running version InspIRCd-2.0
+2020-10-16 16:33:53	--	This server was created 01:48:44 Jan  1 2018
+2020-10-16 16:33:53	--	infidel.fr.eu.irchighway.net InspIRCd-2.0 BIRSWghiorswx ACDIMNORSTabcdehiklmnopqrstvz Iabdehkloqv
+2020-10-16 16:33:53	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibe,k,dl,ACDMNORSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ACNORSTUcjmz FNC INVEX=I :are supported by this server
+2020-10-16 16:33:53	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=30 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=irchighway NICKLEN=31 PREFIX=(qaohv)~&@%+ SILENCE=32 SSL=5.39.82.3:6697 :are supported by this server
+2020-10-16 16:33:53	--	STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2020-10-16 16:33:53	--	644AEET0J :your unique ID
+2020-10-16 16:33:53	--	infidel.fr.eu.irchighway.net message of the day
+2020-10-16 16:33:53	--	- no bottler clients please
+2020-10-16 16:33:53	--	- -
+2020-10-16 16:33:53	--	- The staff welcomes you at infidel.fr.eu.irchighway.net - SILENCE!! I KEEL YOU!
+2020-10-16 16:33:53	--	-
+2020-10-16 16:33:53	--	- This server is part of the the IRCHighWay network. If you do not disconnect
+2020-10-16 16:33:53	--	- right now, you agree with this network's Acceptable Use Policy (AUP)
+2020-10-16 16:33:53	--	- which can be found at the following URL:
+2020-10-16 16:33:53	--	-
+2020-10-16 16:33:53	--	- http://www.irchighway.net/rules
+2020-10-16 16:33:53	--	-
+2020-10-16 16:33:53	--	- By connecting to this network you agree to have your host scanned
+2020-10-16 16:33:53	--	- for open proxies.
+2020-10-16 16:33:53	--	-
+2020-10-16 16:33:53	--	- For more information about the IRCHighWay network, such as our Privacy Policy,
+2020-10-16 16:33:53	--	- you are welcome to visit our main website at http://www.irchighway.net/
+2020-10-16 16:33:53	--	-
+2020-10-16 16:33:53	--	- Server Admin:       OO7
+2020-10-16 16:33:53	--	-
+2020-10-16 16:33:53	--	- Location : France EU
+2020-10-16 16:33:53	--	- Ports : 6660 to 6669 and 7000, as well as 6697 & 9999 for SSL.
+2020-10-16 16:33:53	--	-
+2020-10-16 16:33:53	--	- We do not, and never will hire IRCops. So don't bother asking.
+2020-10-16 16:33:53	--	-
+2020-10-16 16:33:53	--	- Bottler bots, Flood bots, Irc-Ork bots, Spam bots
+2020-10-16 16:33:53	--	- and all other abusive Bots will be Banned.
+2020-10-16 16:33:53	--	-
+2020-10-16 16:33:53	--	- Non-abusive bots are tolerated, *NOT* supported.
+2020-10-16 16:33:53	--	-
+2020-10-16 16:33:53	--	- We reserve the right to disconnect/ban any user from this server at any time
+2020-10-16 16:33:53	--	- for any reason. If you were banned (akilled) and you think that it was
+2020-10-16 16:33:53	--	- unjustified, feel free to email banned [at] irchighway.net. The ban will be
+2020-10-16 16:33:53	--	- reviewed, and may (or may not) be removed.
+2020-10-16 16:33:53	--	-
+2020-10-16 16:33:53	--	- You might want to have a look at these channels:
+2020-10-16 16:33:53	--	-     #irchighway   - for general chat
+2020-10-16 16:33:53	--	-     #help         - official help Channel
+2020-10-16 16:33:53	--	-     #abuse        - for reporting abusive users
+2020-10-16 16:33:53	--	-     #vhost        - for vHost registration
+2020-10-16 16:33:53	--	-     #script       - for mIRC scripting help
+2020-10-16 16:33:53	--	-
+2020-10-16 16:33:53	--	- Enjoy your stay!
+2020-10-16 16:33:53	--	End of message of the day.
+2020-10-16 16:33:53	--	There are 896 users and 642 invisible on 19 servers
+2020-10-16 16:33:53	--	21 :operator(s) online
+2020-10-16 16:33:53	--	699 :channels formed
+2020-10-16 16:33:53	--	I have 211 clients and 1 servers
+2020-10-16 16:33:53	--	Current Local Users: 211  Max: 287
+2020-10-16 16:33:53	--	Current Global Users: 1538  Max: 2312
+2020-10-16 16:33:53	--	ihw-h6seqh.ip58.fastwebnet.it :is now your displayed host
+2020-10-16 16:33:53	--	User mode [+x] by ozpekat_
+2020-10-16 16:33:53	--	infidel.fr.eu.irchighway.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-10-27 10:18:24	--	irc: connecting to server irc.irchighway.net/6697 (SSL)...
+2020-10-27 10:18:24	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-27 10:18:24	--	gnutls: receiving 1 certificate
+2020-10-27 10:18:24	--	 - certificate[1] info:
+2020-10-27 10:18:24	--	   - subject `C=World,ST=World,L=World,O=Irchighway,OU=Routing Team,CN=irc.irchighway.net', issuer `C=World,ST=World,L=World,O=Irchighway,OU=Routing Team,CN=irc.irchighway.net', serial 0x5709ac7b, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-04-10 01:30:48 UTC', expires `2019-04-10 01:30:48 UTC', pin-sha256="/FQ8fL9PT8auD67Fmx8iYf0GJKHkZk1CtxqJPRThybE="
+2020-10-27 10:18:24	=!=	gnutls: certificate has expired
+2020-10-27 10:18:24	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-27 10:18:24	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-27 10:18:24	--	irc: connected to irc.irchighway.net/6697 (5.39.82.3)
+2020-10-27 10:18:24	--	infidel.fr.eu.irchighway.net: *** Looking up your hostname...
+2020-10-27 10:18:24	--	irc: nickname "ozpekat" is already in use, trying nickname "ozpekat_"
+2020-10-27 10:18:25	--	infidel.fr.eu.irchighway.net: *** Found your hostname (host-79-24-14-3.retail.telecomitalia.it)
+2020-10-27 10:18:25	--	infidel.fr.eu.irchighway.net: Welcome to irchighway!
+2020-10-27 10:18:25	--	Welcome to the irchighway IRC Network ozpekat_!fra@host-79-24-14-3.retail.telecomitalia.it
+2020-10-27 10:18:25	--	Your host is infidel.fr.eu.irchighway.net, running version InspIRCd-2.0
+2020-10-27 10:18:25	--	This server was created 01:48:44 Jan  1 2018
+2020-10-27 10:18:25	--	infidel.fr.eu.irchighway.net InspIRCd-2.0 BIRSWghiorswx ACDIMNORSTabcdehiklmnopqrstvz Iabdehkloqv
+2020-10-27 10:18:25	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibe,k,dl,ACDMNORSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ACNORSTUcjmz FNC INVEX=I :are supported by this server
+2020-10-27 10:18:25	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=30 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=irchighway NICKLEN=31 PREFIX=(qaohv)~&@%+ SILENCE=32 SSL=5.39.82.3:6697 :are supported by this server
+2020-10-27 10:18:25	--	STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2020-10-27 10:18:25	--	644AEGYJY :your unique ID
+2020-10-27 10:18:25	--	infidel.fr.eu.irchighway.net message of the day
+2020-10-27 10:18:25	--	- no bottler clients please
+2020-10-27 10:18:25	--	- -
+2020-10-27 10:18:25	--	- The staff welcomes you at infidel.fr.eu.irchighway.net - SILENCE!! I KEEL YOU!
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- This server is part of the the IRCHighWay network. If you do not disconnect
+2020-10-27 10:18:25	--	- right now, you agree with this network's Acceptable Use Policy (AUP)
+2020-10-27 10:18:25	--	- which can be found at the following URL:
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- http://www.irchighway.net/rules
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- By connecting to this network you agree to have your host scanned
+2020-10-27 10:18:25	--	- for open proxies.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- For more information about the IRCHighWay network, such as our Privacy Policy,
+2020-10-27 10:18:25	--	- you are welcome to visit our main website at http://www.irchighway.net/
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- Server Admin:       OO7
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- Location : France EU
+2020-10-27 10:18:25	--	- Ports : 6660 to 6669 and 7000, as well as 6697 & 9999 for SSL.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- We do not, and never will hire IRCops. So don't bother asking.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- Bottler bots, Flood bots, Irc-Ork bots, Spam bots
+2020-10-27 10:18:25	--	- and all other abusive Bots will be Banned.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- Non-abusive bots are tolerated, *NOT* supported.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- We reserve the right to disconnect/ban any user from this server at any time
+2020-10-27 10:18:25	--	- for any reason. If you were banned (akilled) and you think that it was
+2020-10-27 10:18:25	--	- unjustified, feel free to email banned [at] irchighway.net. The ban will be
+2020-10-27 10:18:25	--	- reviewed, and may (or may not) be removed.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- You might want to have a look at these channels:
+2020-10-27 10:18:25	--	-     #irchighway   - for general chat
+2020-10-27 10:18:25	--	-     #help         - official help Channel
+2020-10-27 10:18:25	--	-     #abuse        - for reporting abusive users
+2020-10-27 10:18:25	--	-     #vhost        - for vHost registration
+2020-10-27 10:18:25	--	-     #script       - for mIRC scripting help
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- Enjoy your stay!
+2020-10-27 10:18:25	--	End of message of the day.
+2020-10-27 10:18:25	--	There are 893 users and 620 invisible on 19 servers
+2020-10-27 10:18:25	--	21 :operator(s) online
+2020-10-27 10:18:25	--	1 :unknown connections
+2020-10-27 10:18:25	--	696 :channels formed
+2020-10-27 10:18:25	--	I have 203 clients and 1 servers
+2020-10-27 10:18:25	--	Current Local Users: 203  Max: 287
+2020-10-27 10:18:25	--	Current Global Users: 1513  Max: 2312
+2020-10-27 10:18:25	--	ihw-3ikdc1.retail.telecomitalia.it :is now your displayed host
+2020-10-27 10:18:25	--	User mode [+x] by ozpekat_
+2020-10-27 10:18:25	--	infidel.fr.eu.irchighway.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-10-28 09:27:13	--	irc: connecting to server irc.irchighway.net/6697 (SSL)...
+2020-10-28 09:27:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-28 09:27:14	--	gnutls: receiving 1 certificate
+2020-10-28 09:27:14	--	 - certificate[1] info:
+2020-10-28 09:27:14	--	   - subject `C=World,ST=World,L=World,O=Irchighway,OU=Routing Team,CN=irc.irchighway.net', issuer `C=World,ST=World,L=World,O=Irchighway,OU=Routing Team,CN=irc.irchighway.net', serial 0x5709ac7b, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-04-10 01:30:48 UTC', expires `2019-04-10 01:30:48 UTC', pin-sha256="/FQ8fL9PT8auD67Fmx8iYf0GJKHkZk1CtxqJPRThybE="
+2020-10-28 09:27:14	=!=	gnutls: certificate has expired
+2020-10-28 09:27:14	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-28 09:27:14	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-28 09:27:14	--	irc: connected to irc.irchighway.net/6697 (5.196.95.102)
+2020-10-28 09:27:14	--	asgard.fr.eu.irchighway.net: *** Looking up your hostname...
+2020-10-28 09:27:14	--	irc: nickname "ozpekat" is already in use, trying nickname "ozpekat_"
+2020-10-28 09:27:14	--	asgard.fr.eu.irchighway.net: *** Found your hostname (host-79-45-18-248.retail.telecomitalia.it)
+2020-10-28 09:27:15	--	asgard.fr.eu.irchighway.net: Welcome to irchighway!
+2020-10-28 09:27:15	--	Welcome to the irchighway IRC Network ozpekat_!fra@host-79-45-18-248.retail.telecomitalia.it
+2020-10-28 09:27:15	--	Your host is asgard.fr.eu.irchighway.net, running version InspIRCd-2.0
+2020-10-28 09:27:15	--	This server was created 00:10:41 Jan 30 2018
+2020-10-28 09:27:15	--	asgard.fr.eu.irchighway.net InspIRCd-2.0 BIRSWghiorswx ACDIMNORSTabcdehiklmnopqrstvz Iabdehkloqv
+2020-10-28 09:27:15	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibe,k,dl,ACDMNORSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ACNORSTUcjmz FNC INVEX=I :are supported by this server
+2020-10-28 09:27:15	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=30 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=irchighway NICKLEN=31 PREFIX=(qaohv)~&@%+ SILENCE=32 SSL=5.196.95.102:6697 :are supported by this server
+2020-10-28 09:27:15	--	STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2020-10-28 09:27:15	--	563ABYDJN :your unique ID
+2020-10-28 09:27:15	--	asgard.fr.eu.irchighway.net message of the day
+2020-10-28 09:27:15	--	- -
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- You are connected to asgard.de.eu.irchighway.net, a server linked to the
+2020-10-28 09:27:15	--	- IRCHighWay network. The staff welcomes you!
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	-                                        _      ___
+2020-10-28 09:27:15	--	-                                       | |    / __)
+2020-10-28 09:27:15	--	-   ____   ___   ____   ____   ____   _ | |   | |__   ____      ____  _   _
+2020-10-28 09:27:15	--	-  / _  | /___) / _  | / _  | / ___) / || |   |  __) / ___)    / _  )| | | |
+2020-10-28 09:27:15	--	- ( ( | ||___ |( ( | |( ( | || |    ( (_| | _ | |   | |     _ ( (/ / | |_| |
+2020-10-28 09:27:15	--	-  \_||_|(___/  \_|| | \_||_||_|     \____|(_)|_|   |_|    (_) \____) \____|
+2020-10-28 09:27:15	--	-              (_____|
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- Please read this Message of the Day (MOTD) carefully.
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- ::: Network Information :::
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- The IRCHighWay network has been online for over a decade, always aiming to
+2020-10-28 09:27:15	--	- provide a flawless IRC experience to its users. For more information about
+2020-10-28 09:27:15	--	- the network, such as our Privacy Policy, you are welcome to visit our
+2020-10-28 09:27:15	--	- website, at http://www.irchighway.net/
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- ::: Server Information :::
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- Name                : asgard.fr.eu.irchighway.net
+2020-10-28 09:27:15	--	- Motto               : We are not capable of such primitive thinking
+2020-10-28 09:27:15	--	- Location            : France, Europe.
+2020-10-28 09:27:15	--	- Ports, non-SSL      : 6660-6669, 7000
+2020-10-28 09:27:15	--	- Ports, SSL          : 6697, 9999
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- ::: Server Staff :::
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- Server Admin:       AkaiWolf [Network Admin, Services Admin]
+2020-10-28 09:27:15	--	- Global Oper:        Grillerdude [Services Oper]
+2020-10-28 09:27:15	--	- Global Oper:        RPG_Gamer [Services Oper]
+2020-10-28 09:27:15	--	- Global Oper:        Xharky [Services Oper]
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- ::: Server Owners :::
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- Server provided by: AkaiWolf
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- ::: Disclaimer and Rules :::
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- The use of any services our network provides is a privilege, not a right.
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- By using the services provided by the IRCHighWay network, you implicitly
+2020-10-28 09:27:15	--	- agree with this network's Acceptable Use Policy (AUP), which can be found
+2020-10-28 09:27:15	--	- at http://irchighway.net/rules, and all other applicable rules or laws. You
+2020-10-28 09:27:15	--	- also implicitly agree you understand the rules and disclaimers in the AUP
+2020-10-28 09:27:15	--	- and this MOTD and will abide by them. If you choose to ignore these rules
+2020-10-28 09:27:15	--	- and disclaimers, do not be surprised when you find yourself removed.
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- We reserve the right to disconnect ("kill") and ban ("autokill" or "akill")
+2020-10-28 09:27:15	--	- any user or client from our network at any given time and for any reason we
+2020-10-28 09:27:15	--	- see fit, including no reason whatsoever. That may happen automatically as
+2020-10-28 09:27:15	--	- well. If you were banned ("autokilled" or "akilled") and you think your ban
+2020-10-28 09:27:15	--	- was unjustified, please send an email to banned [at] irchighway [dot] net.
+2020-10-28 09:27:15	--	- The ban will be reviewed, and may (or may not) be removed.
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- The network takes no responsibility whatsoever for the opinions expressed
+2020-10-28 09:27:15	--	- or the actions taken by users.
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- We do not and will not tolerate:
+2020-10-28 09:27:15	--	- * Flooding
+2020-10-28 09:27:15	--	- * Spamming
+2020-10-28 09:27:15	--	- * Channel or nick takeovers
+2020-10-28 09:27:15	--	- * Distribution of malware
+2020-10-28 09:27:15	--	- * Abusive clients of any sort
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- Upon connecting to the network, you will have your host scanned for open
+2020-10-28 09:27:15	--	- proxies and other abusive services. Please disregard these connections.
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- Non-abusive bots are tolerated, but NOT supported.
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- ::: Network Administration :::
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- Network decisions are decentralized on teams, but ultimately the Server
+2020-10-28 09:27:15	--	- Owners Commitee (SOC) holds the final say on network actions. Delicate
+2020-10-28 09:27:15	--	- matters can be handed directly to them: soc [at] irchighway [dot] net.
+2020-10-28 09:27:15	--	- Please do not contact SOC regarding akills or any trivial matters that can
+2020-10-28 09:27:15	--	- be solved by any operator online, because your email may simply be ignored.
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- ::: Becoming an IRC Operator :::
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- We do not hire IRCops. Don't waste your time asking.
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- ::: Interesting or Suggested Channels :::
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- The following are official network channels:
+2020-10-28 09:27:15	--	- * #irchighway            - General chat
+2020-10-28 09:27:15	--	- * #help                  - Network-related help
+2020-10-28 09:27:15	--	- * #abuse                 - Reports of abuse
+2020-10-28 09:27:15	--	- * #vhost                 - vHost registration
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- The following channels may also be interesting:
+2020-10-28 09:27:15	--	- * #irchdev               - See below
+2020-10-28 09:27:15	--	- * #norsemythologyservers - Official asgard.* server channel
+2020-10-28 09:27:15	--	- * #script                - Help with mIRC scripting
+2020-10-28 09:27:15	--	- * #unixhelp              - Help with Unix (Linux, BSD and others)
+2020-10-28 09:27:15	--	- * #idle-rpg              - IdleRPG, IRC idling game
+2020-10-28 09:27:15	--	- * #openttd               - OpenTTD, urban simulation game
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- ::: Final Words :::
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- We hope you enjoy your stay!
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	-
+2020-10-28 09:27:15	--	- -
+2020-10-28 09:27:15	--	End of message of the day.
+2020-10-28 09:27:15	--	There are 879 users and 644 invisible on 19 servers
+2020-10-28 09:27:15	--	21 :operator(s) online
+2020-10-28 09:27:15	--	712 :channels formed
+2020-10-28 09:27:15	--	I have 133 clients and 1 servers
+2020-10-28 09:27:15	--	Current Local Users: 133  Max: 232
+2020-10-28 09:27:15	--	Current Global Users: 1523  Max: 2195
+2020-10-28 09:27:15	--	ihw-o3kuk3.retail.telecomitalia.it :is now your displayed host
+2020-10-28 09:27:15	--	User mode [+x] by ozpekat_
+2020-10-28 09:27:15	--	asgard.fr.eu.irchighway.net: *** You are connected using SSL cipher "AES256-GCM-SHA384"
+2020-10-28 10:00:14	--	irc: connecting to server irc.irchighway.net/6697 (SSL)...
+2020-10-28 10:00:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-28 10:00:14	--	gnutls: receiving 1 certificate
+2020-10-28 10:00:14	--	 - certificate[1] info:
+2020-10-28 10:00:14	--	   - subject `EMAIL=irc@irchighway.net,CN=irc.irchighway.net,OU=irchighway,O=irchighway,L=World,ST=World,C=US', issuer `EMAIL=irc@irchighway.net,CN=irc.irchighway.net,OU=irchighway,O=irchighway,L=World,ST=World,C=US', serial 0x00b8b97dcb39272ad9, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-01-30 10:21:42 UTC', expires `2030-01-27 10:21:42 UTC', pin-sha256="AMjO0xTGA5fryHWCURohwUeDjpZWPn7FlY9ZjG3yI60="
+2020-10-28 10:00:14	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-28 10:00:14	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-28 10:00:14	--	irc: connected to irc.irchighway.net/6697 (89.221.171.12)
+2020-10-28 10:00:14	--	ceres.dk.eu.irchighway.net: *** Looking up your hostname...
+2020-10-28 10:00:14	--	irc: nickname "ozpekat" is already in use, trying nickname "ozpekat_"
+2020-10-28 10:00:19	--	ceres.dk.eu.irchighway.net: *** Could not resolve your hostname: Request timed out; using your IP address (79.45.18.248) instead.
+2020-10-28 10:00:19	--	ceres.dk.eu.irchighway.net: Welcome to irchighway!
+2020-10-28 10:00:19	--	Welcome to the irchighway IRC Network ozpekat_!fra@79.45.18.248
+2020-10-28 10:00:19	--	Your host is ceres.dk.eu.irchighway.net, running version InspIRCd-2.0
+2020-10-28 10:00:19	--	This server was created 11:19:54 Jan  7 2018
+2020-10-28 10:00:19	--	ceres.dk.eu.irchighway.net InspIRCd-2.0 BIRSWghiorswx ACDIMNORSTabcdehiklmnopqrstvz Iabdehkloqv
+2020-10-28 10:00:19	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibe,k,dl,ACDMNORSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ACNORSTUcjmz FNC INVEX=I :are supported by this server
+2020-10-28 10:00:19	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=30 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=irchighway NICKLEN=31 PREFIX=(qaohv)~&@%+ SILENCE=32 SSL=89.221.171.12:6697 :are supported by this server
+2020-10-28 10:00:19	--	STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2020-10-28 10:00:19	--	618AAE1P3 :your unique ID
+2020-10-28 10:00:19	--	ceres.dk.eu.irchighway.net message of the day
+2020-10-28 10:00:19	--	- no bottler clients please
+2020-10-28 10:00:19	--	- -
+2020-10-28 10:00:19	--	- The staff welcomes you at ceres.dk.eu.irchighway.net - IRCHighway Client Server
+2020-10-28 10:00:19	--	-
+2020-10-28 10:00:19	--	- This server is part of the the IRCHighWay network. If you do not disconnect
+2020-10-28 10:00:19	--	- right now, you agree with this network's Acceptable Use Policy (AUP)
+2020-10-28 10:00:19	--	- which can be found at the following URL:
+2020-10-28 10:00:19	--	-
+2020-10-28 10:00:19	--	- http://www.irchighway.net/rules
+2020-10-28 10:00:19	--	-
+2020-10-28 10:00:19	--	- By connecting to this network you agree to have your host scanned
+2020-10-28 10:00:19	--	- for open proxies.
+2020-10-28 10:00:19	--	-
+2020-10-28 10:00:19	--	- For more information about the IRCHighWay network, such as our Privacy Policy,
+2020-10-28 10:00:19	--	- you are welcome to visit our main website at http://www.irchighway.net/
+2020-10-28 10:00:19	--	-
+2020-10-28 10:00:19	--	- Server Admin:       JH <email: jh@irchighway.net>
+2020-10-28 10:00:19	--	-
+2020-10-28 10:00:19	--	- Location : Denmark EU
+2020-10-28 10:00:19	--	- Ports : 6660 to 6669 and 7000, as well as 6697 & 9999 for SSL.
+2020-10-28 10:00:19	--	-
+2020-10-28 10:00:19	--	- We do not, and never will hire IRCops. So don't bother asking.
+2020-10-28 10:00:19	--	-
+2020-10-28 10:00:19	--	- Bottler bots, Flood bots, Irc-Ork bots, Spam bots
+2020-10-28 10:00:19	--	- and all other abusive Bots will be Banned.
+2020-10-28 10:00:19	--	-
+2020-10-28 10:00:19	--	- Non-abusive bots are tolerated, *NOT* supported.
+2020-10-28 10:00:19	--	-
+2020-10-28 10:00:19	--	- We reserve the right to disconnect/ban any user from this server at any time
+2020-10-28 10:00:19	--	- for any reason. If you were banned (akilled) and you think that it was
+2020-10-28 10:00:19	--	- unjustified, feel free to email banned [at] irchighway.net. The ban will be
+2020-10-28 10:00:19	--	- reviewed, and may (or may not) be removed.
+2020-10-28 10:00:19	--	-
+2020-10-28 10:00:19	--	- You might want to have a look at these channels:
+2020-10-28 10:00:19	--	-     #irchighway   - for general chat
+2020-10-28 10:00:19	--	-     #help         - official help Channel
+2020-10-28 10:00:19	--	-     #abuse        - for reporting abusive users
+2020-10-28 10:00:19	--	-     #vhost        - for vHost registration
+2020-10-28 10:00:19	--	-     #script       - for mIRC scripting help
+2020-10-28 10:00:19	--	-
+2020-10-28 10:00:19	--	- Enjoy your stay!
+2020-10-28 10:00:19	--	End of message of the day.
+2020-10-28 10:00:19	--	There are 892 users and 644 invisible on 19 servers
+2020-10-28 10:00:19	--	21 :operator(s) online
+2020-10-28 10:00:19	--	710 :channels formed
+2020-10-28 10:00:19	--	I have 110 clients and 1 servers
+2020-10-28 10:00:19	--	Current Local Users: 110  Max: 139
+2020-10-28 10:00:19	--	Current Global Users: 1536  Max: 1705
+2020-10-28 10:00:19	--	ihw-1c2.hik.45.79.IP :is now your displayed host
+2020-10-28 10:00:19	--	User mode [+x] by ozpekat_
+2020-10-28 10:00:19	--	ceres.dk.eu.irchighway.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-10-28 15:00:35	--	irc: connecting to server irc.irchighway.net/6697 (SSL)...
+2020-10-28 15:00:36	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-28 15:00:36	--	gnutls: receiving 1 certificate
+2020-10-28 15:00:36	--	 - certificate[1] info:
+2020-10-28 15:00:36	--	   - subject `EMAIL=irc@irchighway.net,CN=irc.irchighway.net,OU=irchighway,O=irchighway,L=World,ST=World,C=US', issuer `EMAIL=irc@irchighway.net,CN=irc.irchighway.net,OU=irchighway,O=irchighway,L=World,ST=World,C=US', serial 0x00b8b97dcb39272ad9, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-01-30 10:21:42 UTC', expires `2030-01-27 10:21:42 UTC', pin-sha256="AMjO0xTGA5fryHWCURohwUeDjpZWPn7FlY9ZjG3yI60="
+2020-10-28 15:00:36	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-28 15:00:36	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-28 15:00:36	--	irc: connected to irc.irchighway.net/6697 (89.221.171.12)
+2020-10-28 15:00:36	--	ceres.dk.eu.irchighway.net: *** Looking up your hostname...
+2020-10-28 15:00:41	--	ceres.dk.eu.irchighway.net: *** Could not resolve your hostname: Request timed out; using your IP address (93.33.25.213) instead.
+2020-10-28 15:00:41	--	ceres.dk.eu.irchighway.net: Welcome to irchighway!
+2020-10-28 15:00:41	--	Welcome to the irchighway IRC Network ozpekat!fra@93.33.25.213
+2020-10-28 15:00:41	--	Your host is ceres.dk.eu.irchighway.net, running version InspIRCd-2.0
+2020-10-28 15:00:41	--	This server was created 11:19:54 Jan  7 2018
+2020-10-28 15:00:41	--	ceres.dk.eu.irchighway.net InspIRCd-2.0 BIRSWghiorswx ACDIMNORSTabcdehiklmnopqrstvz Iabdehkloqv
+2020-10-28 15:00:41	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibe,k,dl,ACDMNORSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ACNORSTUcjmz FNC INVEX=I :are supported by this server
+2020-10-28 15:00:41	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=30 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=irchighway NICKLEN=31 PREFIX=(qaohv)~&@%+ SILENCE=32 SSL=89.221.171.12:6697 :are supported by this server
+2020-10-28 15:00:41	--	STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2020-10-28 15:00:41	--	618AAE2LN :your unique ID
+2020-10-28 15:00:41	--	ceres.dk.eu.irchighway.net message of the day
+2020-10-28 15:00:41	--	- no bottler clients please
+2020-10-28 15:00:41	--	- -
+2020-10-28 15:00:41	--	- The staff welcomes you at ceres.dk.eu.irchighway.net - IRCHighway Client Server
+2020-10-28 15:00:41	--	-
+2020-10-28 15:00:41	--	- This server is part of the the IRCHighWay network. If you do not disconnect
+2020-10-28 15:00:41	--	- right now, you agree with this network's Acceptable Use Policy (AUP)
+2020-10-28 15:00:41	--	- which can be found at the following URL:
+2020-10-28 15:00:41	--	-
+2020-10-28 15:00:41	--	- http://www.irchighway.net/rules
+2020-10-28 15:00:41	--	-
+2020-10-28 15:00:41	--	- By connecting to this network you agree to have your host scanned
+2020-10-28 15:00:41	--	- for open proxies.
+2020-10-28 15:00:41	--	-
+2020-10-28 15:00:41	--	- For more information about the IRCHighWay network, such as our Privacy Policy,
+2020-10-28 15:00:41	--	- you are welcome to visit our main website at http://www.irchighway.net/
+2020-10-28 15:00:41	--	-
+2020-10-28 15:00:41	--	- Server Admin:       JH <email: jh@irchighway.net>
+2020-10-28 15:00:41	--	-
+2020-10-28 15:00:41	--	- Location : Denmark EU
+2020-10-28 15:00:41	--	- Ports : 6660 to 6669 and 7000, as well as 6697 & 9999 for SSL.
+2020-10-28 15:00:41	--	-
+2020-10-28 15:00:41	--	- We do not, and never will hire IRCops. So don't bother asking.
+2020-10-28 15:00:41	--	-
+2020-10-28 15:00:41	--	- Bottler bots, Flood bots, Irc-Ork bots, Spam bots
+2020-10-28 15:00:41	--	- and all other abusive Bots will be Banned.
+2020-10-28 15:00:41	--	-
+2020-10-28 15:00:41	--	- Non-abusive bots are tolerated, *NOT* supported.
+2020-10-28 15:00:41	--	-
+2020-10-28 15:00:41	--	- We reserve the right to disconnect/ban any user from this server at any time
+2020-10-28 15:00:41	--	- for any reason. If you were banned (akilled) and you think that it was
+2020-10-28 15:00:41	--	- unjustified, feel free to email banned [at] irchighway.net. The ban will be
+2020-10-28 15:00:41	--	- reviewed, and may (or may not) be removed.
+2020-10-28 15:00:41	--	-
+2020-10-28 15:00:41	--	- You might want to have a look at these channels:
+2020-10-28 15:00:41	--	-     #irchighway   - for general chat
+2020-10-28 15:00:41	--	-     #help         - official help Channel
+2020-10-28 15:00:41	--	-     #abuse        - for reporting abusive users
+2020-10-28 15:00:41	--	-     #vhost        - for vHost registration
+2020-10-28 15:00:41	--	-     #script       - for mIRC scripting help
+2020-10-28 15:00:41	--	-
+2020-10-28 15:00:41	--	- Enjoy your stay!
+2020-10-28 15:00:41	--	End of message of the day.
+2020-10-28 15:00:41	--	There are 931 users and 652 invisible on 19 servers
+2020-10-28 15:00:41	--	20 :operator(s) online
+2020-10-28 15:00:41	--	715 :channels formed
+2020-10-28 15:00:41	--	I have 109 clients and 1 servers
+2020-10-28 15:00:41	--	Current Local Users: 109  Max: 139
+2020-10-28 15:00:41	--	Current Global Users: 1583  Max: 1705
+2020-10-28 15:00:41	--	ihw-c6u.epr.33.93.IP :is now your displayed host
+2020-10-28 15:00:41	--	User mode [+x] by ozpekat
+2020-10-28 15:00:41	--	ceres.dk.eu.irchighway.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-10-30 11:35:07	--	irc: connecting to server irc.irchighway.net/6697 (SSL)...
+2020-10-30 11:35:08	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-30 11:35:08	--	gnutls: receiving 1 certificate
+2020-10-30 11:35:08	--	 - certificate[1] info:
+2020-10-30 11:35:08	--	   - subject `EMAIL=irc@irchighway.net,CN=irc.irchighway.net,OU=irchighway,O=irchighway,L=World,ST=World,C=US', issuer `EMAIL=irc@irchighway.net,CN=irc.irchighway.net,OU=irchighway,O=irchighway,L=World,ST=World,C=US', serial 0x00b8b97dcb39272ad9, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-01-30 10:21:42 UTC', expires `2030-01-27 10:21:42 UTC', pin-sha256="AMjO0xTGA5fryHWCURohwUeDjpZWPn7FlY9ZjG3yI60="
+2020-10-30 11:35:08	=!=	gnutls: peer's certificate is NOT trusted
+2020-10-30 11:35:08	=!=	gnutls: peer's certificate issuer is unknown
+2020-10-30 11:35:08	--	irc: connected to irc.irchighway.net/6697 (89.221.171.12)
+2020-10-30 11:35:08	--	ceres.dk.eu.irchighway.net: *** Looking up your hostname...
+2020-10-30 11:35:13	--	ceres.dk.eu.irchighway.net: *** Could not resolve your hostname: Request timed out; using your IP address (79.24.14.3) instead.
+2020-10-30 11:35:13	--	ceres.dk.eu.irchighway.net: Welcome to irchighway!
+2020-10-30 11:35:13	--	Welcome to the irchighway IRC Network ozpekat!fra@79.24.14.3
+2020-10-30 11:35:13	--	Your host is ceres.dk.eu.irchighway.net, running version InspIRCd-2.0
+2020-10-30 11:35:13	--	This server was created 11:19:54 Jan  7 2018
+2020-10-30 11:35:13	--	ceres.dk.eu.irchighway.net InspIRCd-2.0 BIRSWghiorswx ACDIMNORSTabcdehiklmnopqrstvz Iabdehkloqv
+2020-10-30 11:35:13	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibe,k,dl,ACDMNORSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ACNORSTUcjmz FNC INVEX=I :are supported by this server
+2020-10-30 11:35:13	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=30 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=irchighway NICKLEN=31 PREFIX=(qaohv)~&@%+ SILENCE=32 SSL=89.221.171.12:6697 :are supported by this server
+2020-10-30 11:35:13	--	STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2020-10-30 11:35:13	--	618AAE85H :your unique ID
+2020-10-30 11:35:13	--	ceres.dk.eu.irchighway.net message of the day
+2020-10-30 11:35:13	--	- no bottler clients please
+2020-10-30 11:35:13	--	- -
+2020-10-30 11:35:13	--	- The staff welcomes you at ceres.dk.eu.irchighway.net - IRCHighway Client Server
+2020-10-30 11:35:13	--	-
+2020-10-30 11:35:13	--	- This server is part of the the IRCHighWay network. If you do not disconnect
+2020-10-30 11:35:13	--	- right now, you agree with this network's Acceptable Use Policy (AUP)
+2020-10-30 11:35:13	--	- which can be found at the following URL:
+2020-10-30 11:35:13	--	-
+2020-10-30 11:35:13	--	- http://www.irchighway.net/rules
+2020-10-30 11:35:13	--	-
+2020-10-30 11:35:13	--	- By connecting to this network you agree to have your host scanned
+2020-10-30 11:35:13	--	- for open proxies.
+2020-10-30 11:35:13	--	-
+2020-10-30 11:35:13	--	- For more information about the IRCHighWay network, such as our Privacy Policy,
+2020-10-30 11:35:13	--	- you are welcome to visit our main website at http://www.irchighway.net/
+2020-10-30 11:35:13	--	-
+2020-10-30 11:35:13	--	- Server Admin:       JH <email: jh@irchighway.net>
+2020-10-30 11:35:13	--	-
+2020-10-30 11:35:13	--	- Location : Denmark EU
+2020-10-30 11:35:13	--	- Ports : 6660 to 6669 and 7000, as well as 6697 & 9999 for SSL.
+2020-10-30 11:35:13	--	-
+2020-10-30 11:35:13	--	- We do not, and never will hire IRCops. So don't bother asking.
+2020-10-30 11:35:13	--	-
+2020-10-30 11:35:13	--	- Bottler bots, Flood bots, Irc-Ork bots, Spam bots
+2020-10-30 11:35:13	--	- and all other abusive Bots will be Banned.
+2020-10-30 11:35:13	--	-
+2020-10-30 11:35:13	--	- Non-abusive bots are tolerated, *NOT* supported.
+2020-10-30 11:35:13	--	-
+2020-10-30 11:35:13	--	- We reserve the right to disconnect/ban any user from this server at any time
+2020-10-30 11:35:13	--	- for any reason. If you were banned (akilled) and you think that it was
+2020-10-30 11:35:13	--	- unjustified, feel free to email banned [at] irchighway.net. The ban will be
+2020-10-30 11:35:13	--	- reviewed, and may (or may not) be removed.
+2020-10-30 11:35:13	--	-
+2020-10-30 11:35:13	--	- You might want to have a look at these channels:
+2020-10-30 11:35:13	--	-     #irchighway   - for general chat
+2020-10-30 11:35:13	--	-     #help         - official help Channel
+2020-10-30 11:35:13	--	-     #abuse        - for reporting abusive users
+2020-10-30 11:35:13	--	-     #vhost        - for vHost registration
+2020-10-30 11:35:13	--	-     #script       - for mIRC scripting help
+2020-10-30 11:35:13	--	-
+2020-10-30 11:35:13	--	- Enjoy your stay!
+2020-10-30 11:35:13	--	End of message of the day.
+2020-10-30 11:35:13	--	There are 920 users and 652 invisible on 19 servers
+2020-10-30 11:35:13	--	21 :operator(s) online
+2020-10-30 11:35:13	--	714 :channels formed
+2020-10-30 11:35:13	--	I have 108 clients and 1 servers
+2020-10-30 11:35:13	--	Current Local Users: 108  Max: 139
+2020-10-30 11:35:13	--	Current Global Users: 1572  Max: 1705
+2020-10-30 11:35:13	--	ihw-up4.ovv.24.79.IP :is now your displayed host
+2020-10-30 11:35:13	--	User mode [+x] by ozpekat
+2020-10-30 11:35:13	--	ceres.dk.eu.irchighway.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-11-04 09:29:44	--	irc: connecting to server irc.irchighway.net/6697 (SSL)...
+2020-11-04 09:29:44	=!=	irc: address "irc.irchighway.net" not found
+2020-11-04 09:29:44	=!=	irc: error: Temporary failure in name resolution
+2020-11-04 09:29:44	--	irc: reconnecting to server in 10 seconds
+2020-11-04 09:29:54	--	irc: reconnecting to server...
+2020-11-04 09:29:54	--	irc: connecting to server irc.irchighway.net/6697 (SSL)...
+2020-11-04 09:29:55	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-11-04 09:29:55	--	gnutls: receiving 1 certificate
+2020-11-04 09:29:55	--	 - certificate[1] info:
+2020-11-04 09:29:55	--	   - subject `EMAIL=irc@irchighway.net,CN=irc.irchighway.net,OU=irchighway,O=irchighway,L=World,ST=World,C=US', issuer `EMAIL=irc@irchighway.net,CN=irc.irchighway.net,OU=irchighway,O=irchighway,L=World,ST=World,C=US', serial 0x00b8b97dcb39272ad9, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-01-30 10:21:42 UTC', expires `2030-01-27 10:21:42 UTC', pin-sha256="AMjO0xTGA5fryHWCURohwUeDjpZWPn7FlY9ZjG3yI60="
+2020-11-04 09:29:55	=!=	gnutls: peer's certificate is NOT trusted
+2020-11-04 09:29:55	=!=	gnutls: peer's certificate issuer is unknown
+2020-11-04 09:29:55	--	irc: connected to irc.irchighway.net/6697 (89.221.171.12)
+2020-11-04 09:29:55	--	ceres.dk.eu.irchighway.net: *** Looking up your hostname...
+2020-11-04 09:29:55	--	irc: nickname "ozpekat" is already in use, trying nickname "ozpekat_"
+2020-11-04 09:30:01	--	ceres.dk.eu.irchighway.net: *** Could not resolve your hostname: Request timed out; using your IP address (79.20.55.218) instead.
+2020-11-04 09:30:01	--	ceres.dk.eu.irchighway.net: Welcome to irchighway!
+2020-11-04 09:30:01	--	Welcome to the irchighway IRC Network ozpekat_!fra@79.20.55.218
+2020-11-04 09:30:01	--	Your host is ceres.dk.eu.irchighway.net, running version InspIRCd-2.0
+2020-11-04 09:30:01	--	This server was created 11:19:54 Jan  7 2018
+2020-11-04 09:30:01	--	ceres.dk.eu.irchighway.net InspIRCd-2.0 BIRSWghiorswx ACDIMNORSTabcdehiklmnopqrstvz Iabdehkloqv
+2020-11-04 09:30:01	--	AWAYLEN=200 CALLERID=g CASEMAPPING=rfc1459 CHANMODES=Ibe,k,dl,ACDMNORSTcimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU ESILENCE EXCEPTS=e EXTBAN=,ACNORSTUcjmz FNC INVEX=I :are supported by this server
+2020-11-04 09:30:01	--	KICKLEN=255 MAP MAXBANS=60 MAXCHANNELS=30 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=irchighway NICKLEN=31 PREFIX=(qaohv)~&@%+ SILENCE=32 SSL=89.221.171.12:6697 :are supported by this server
+2020-11-04 09:30:01	--	STARTTLS STATUSMSG=~&@%+ TOPICLEN=307 UHNAMES USERIP VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2020-11-04 09:30:01	--	618AAFQV5 :your unique ID
+2020-11-04 09:30:01	--	ceres.dk.eu.irchighway.net message of the day
+2020-11-04 09:30:01	--	- no bottler clients please
+2020-11-04 09:30:01	--	- -
+2020-11-04 09:30:01	--	- The staff welcomes you at ceres.dk.eu.irchighway.net - IRCHighway Client Server
+2020-11-04 09:30:01	--	-
+2020-11-04 09:30:01	--	- This server is part of the the IRCHighWay network. If you do not disconnect
+2020-11-04 09:30:01	--	- right now, you agree with this network's Acceptable Use Policy (AUP)
+2020-11-04 09:30:01	--	- which can be found at the following URL:
+2020-11-04 09:30:01	--	-
+2020-11-04 09:30:01	--	- http://www.irchighway.net/rules
+2020-11-04 09:30:01	--	-
+2020-11-04 09:30:01	--	- By connecting to this network you agree to have your host scanned
+2020-11-04 09:30:01	--	- for open proxies.
+2020-11-04 09:30:01	--	-
+2020-11-04 09:30:01	--	- For more information about the IRCHighWay network, such as our Privacy Policy,
+2020-11-04 09:30:01	--	- you are welcome to visit our main website at http://www.irchighway.net/
+2020-11-04 09:30:01	--	-
+2020-11-04 09:30:01	--	- Server Admin:       JH <email: jh@irchighway.net>
+2020-11-04 09:30:01	--	-
+2020-11-04 09:30:01	--	- Location : Denmark EU
+2020-11-04 09:30:01	--	- Ports : 6660 to 6669 and 7000, as well as 6697 & 9999 for SSL.
+2020-11-04 09:30:01	--	-
+2020-11-04 09:30:01	--	- We do not, and never will hire IRCops. So don't bother asking.
+2020-11-04 09:30:01	--	-
+2020-11-04 09:30:01	--	- Bottler bots, Flood bots, Irc-Ork bots, Spam bots
+2020-11-04 09:30:01	--	- and all other abusive Bots will be Banned.
+2020-11-04 09:30:01	--	-
+2020-11-04 09:30:01	--	- Non-abusive bots are tolerated, *NOT* supported.
+2020-11-04 09:30:01	--	-
+2020-11-04 09:30:01	--	- We reserve the right to disconnect/ban any user from this server at any time
+2020-11-04 09:30:01	--	- for any reason. If you were banned (akilled) and you think that it was
+2020-11-04 09:30:01	--	- unjustified, feel free to email banned [at] irchighway.net. The ban will be
+2020-11-04 09:30:01	--	- reviewed, and may (or may not) be removed.
+2020-11-04 09:30:01	--	-
+2020-11-04 09:30:01	--	- You might want to have a look at these channels:
+2020-11-04 09:30:01	--	-     #irchighway   - for general chat
+2020-11-04 09:30:01	--	-     #help         - official help Channel
+2020-11-04 09:30:01	--	-     #abuse        - for reporting abusive users
+2020-11-04 09:30:01	--	-     #vhost        - for vHost registration
+2020-11-04 09:30:01	--	-     #script       - for mIRC scripting help
+2020-11-04 09:30:01	--	-
+2020-11-04 09:30:01	--	- Enjoy your stay!
+2020-11-04 09:30:01	--	End of message of the day.
+2020-11-04 09:30:01	--	There are 874 users and 631 invisible on 19 servers
+2020-11-04 09:30:01	--	21 :operator(s) online
+2020-11-04 09:30:01	--	707 :channels formed
+2020-11-04 09:30:01	--	I have 105 clients and 1 servers
+2020-11-04 09:30:01	--	Current Local Users: 105  Max: 139
+2020-11-04 09:30:01	--	Current Global Users: 1505  Max: 1729
+2020-11-04 09:30:01	--	ihw-d2g.42o.20.79.IP :is now your displayed host
+2020-11-04 09:30:01	--	User mode [+x] by ozpekat_
+2020-11-04 09:30:01	--	ceres.dk.eu.irchighway.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"

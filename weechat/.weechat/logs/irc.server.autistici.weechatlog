@@ -1,0 +1,615 @@
+2020-10-16 16:20:20	--	irc: connecting to server irc.autistici.org/6697 (SSL)...
+2020-10-16 16:20:20	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-16 16:20:20	--	gnutls: receiving 2 certificates
+2020-10-16 16:20:20	--	 - certificate[1] info:
+2020-10-16 16:20:20	--	   - subject `CN=irc.autistici.org', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0445e36bf257d22624ed4a4ab665e7c6c8ed, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-04 08:05:40 UTC', expires `2021-01-02 08:05:40 UTC', pin-sha256="KqVdW2O2+x3MPhb8Lqq2t+KNXhtk65sA9DrnFBjjSls="
+2020-10-16 16:20:20	--	 - certificate[2] info:
+2020-10-16 16:20:20	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2020-10-16 16:20:20	--	gnutls: peer's certificate is trusted
+2020-10-16 16:20:20	--	irc: connected to irc.autistici.org/6697 (46.226.109.4)
+2020-10-16 16:20:21	--	ai.irc.mufhd0.net: *** Looking up your hostname...
+2020-10-16 16:20:21	--	ai.irc.mufhd0.net: *** Found your hostname (xvm-109-4.dc2.ghst.net) -- cached
+2020-10-16 16:20:21	--	irc: nickname "brasello" is already in use, trying nickname "brasello_"
+2020-10-16 16:20:22	--	ai.irc.mufhd0.net: Welcome to Mufhd0!
+2020-10-16 16:20:22	--	Welcome to the Mufhd0 IRC Network brasello_!fra@xvm-109-4.dc2.ghst.net
+2020-10-16 16:20:22	--	Your host is ai.irc.mufhd0.net, running version InspIRCd-2.0
+2020-10-16 16:20:22	--	This server was created on Debian
+2020-10-16 16:20:22	--	ai.irc.mufhd0.net InspIRCd-2.0 BIRhiorswx KMRVabehiklmnopqrstvz Vabehkloqv
+2020-10-16 16:20:22	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=be,k,l,KMRimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RUz FNC KICKLEN=255 MAP MAXBANS=60 :are supported by this server
+2020-10-16 16:20:22	--	MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mufhd0 NICKLEN=31 PREFIX=(qaohvV)~&@%+- SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+- TOPICLEN=307 VBANLIST :are supported by this server
+2020-10-16 16:20:22	--	WALLCHOPS WALLVOICES :are supported by this server
+2020-10-16 16:20:22	--	890AAABB5 :your unique ID
+2020-10-16 16:20:22	--	ai.irc.mufhd0.net message of the day
+2020-10-16 16:20:22	--	- Benvenuti su mufhd0.net
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	- Le comunicazioni su IRC avvengono di default in chiaro; IRC non e' un
+2020-10-16 16:20:22	--	- protocollo adatto alle comunicazioni riservate.
+2020-10-16 16:20:22	--	- Visita https://www.autistici.org/docs/jabber/ per
+2020-10-16 16:20:22	--	- avere informazioni su metodi di comunicazione piu' sicuri.
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	- E' possibile registrare nickname e canali interagendo con i servizi
+2020-10-16 16:20:22	--	- NickServ e ChanServ.
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	- NON SONO PERMESSI BOT.
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	- Alcuni canali che potrebbero interessarti:
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	-     #hackit99
+2020-10-16 16:20:22	--	-     Canale ufficiale di Hackmeeting: https://www.hackmeeting.org
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	-     #ai
+2020-10-16 16:20:22	--	-     Canale di supporto per gli utenti di Autistici/Inventati.
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	- Per segnalare problemi *gravi* relativi al servizio IRC: irc@autistici.org
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	- ################################################################################
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	- Welcome to mufhd0.net
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	- All communications on IRC are unencrypted by default; IRC it's not
+2020-10-16 16:20:22	--	- suitable for confidential communications.
+2020-10-16 16:20:22	--	- See https://www.autistici.org/docs/jabber/ for more informations
+2020-10-16 16:20:22	--	- about secure communications methods.
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	- You can register your nickname or channel by interacting with the
+2020-10-16 16:20:22	--	- NickServ and ChanServ services.
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	- NO BOTS ARE ALLOWED.
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	- A list of channels that may interest you:
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	-     #hackit99
+2020-10-16 16:20:22	--	-     The official channel of Hackmeeting: https://www.hackmeeting.org
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	-     #ai
+2020-10-16 16:20:22	--	-     Support channel for Autistici/Inventati users.
+2020-10-16 16:20:22	--	-
+2020-10-16 16:20:22	--	- To report serious issues related to the IRC service: irc@autistici.org
+2020-10-16 16:20:22	--	End of message of the day.
+2020-10-16 16:20:22	--	There are 84 users and 49 invisible on 3 servers
+2020-10-16 16:20:22	--	50 :channels formed
+2020-10-16 16:20:22	--	I have 117 clients and 2 servers
+2020-10-16 16:20:22	--	Current Local Users: 117  Max: 119
+2020-10-16 16:20:22	--	Current Global Users: 133  Max: 137
+2020-10-16 16:20:22	--	mufhd0-vid.fnh.a95gas.IP :is now your displayed host
+2020-10-16 16:20:22	--	User mode [+xw] by brasello_
+2020-10-16 16:20:22	--	ai.irc.mufhd0.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-10-16 16:33:49	--	irc: lag is high, reconnecting to server autistici
+2020-10-16 16:33:49	--	irc: disconnected from server
+2020-10-16 16:33:49	--	irc: reconnecting to server in 10 seconds
+2020-10-16 16:33:59	--	irc: reconnecting to server...
+2020-10-16 16:33:59	--	irc: connecting to server irc.autistici.org/6697 (SSL)...
+2020-10-16 16:34:00	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-16 16:34:00	--	gnutls: receiving 2 certificates
+2020-10-16 16:34:00	--	 - certificate[1] info:
+2020-10-16 16:34:00	--	   - subject `CN=irc.autistici.org', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0445e36bf257d22624ed4a4ab665e7c6c8ed, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-04 08:05:40 UTC', expires `2021-01-02 08:05:40 UTC', pin-sha256="KqVdW2O2+x3MPhb8Lqq2t+KNXhtk65sA9DrnFBjjSls="
+2020-10-16 16:34:00	--	 - certificate[2] info:
+2020-10-16 16:34:00	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2020-10-16 16:34:00	--	gnutls: peer's certificate is trusted
+2020-10-16 16:34:00	--	irc: connected to irc.autistici.org/6697 (46.226.109.4)
+2020-10-16 16:34:00	--	ai.irc.mufhd0.net: *** Looking up your hostname...
+2020-10-16 16:34:00	--	ai.irc.mufhd0.net: *** Found your hostname (xvm-109-4.dc2.ghst.net)
+2020-10-16 16:34:01	--	ai.irc.mufhd0.net: Welcome to Mufhd0!
+2020-10-16 16:34:01	--	Welcome to the Mufhd0 IRC Network brasello_!fra@xvm-109-4.dc2.ghst.net
+2020-10-16 16:34:01	--	Your host is ai.irc.mufhd0.net, running version InspIRCd-2.0
+2020-10-16 16:34:01	--	This server was created on Debian
+2020-10-16 16:34:01	--	ai.irc.mufhd0.net InspIRCd-2.0 BIRhiorswx KMRVabehiklmnopqrstvz Vabehkloqv
+2020-10-16 16:34:01	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=be,k,l,KMRimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RUz FNC KICKLEN=255 MAP MAXBANS=60 :are supported by this server
+2020-10-16 16:34:01	--	MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mufhd0 NICKLEN=31 PREFIX=(qaohvV)~&@%+- SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+- TOPICLEN=307 VBANLIST :are supported by this server
+2020-10-16 16:34:01	--	WALLCHOPS WALLVOICES :are supported by this server
+2020-10-16 16:34:01	--	890AAABB6 :your unique ID
+2020-10-16 16:34:01	--	ai.irc.mufhd0.net message of the day
+2020-10-16 16:34:01	--	- Benvenuti su mufhd0.net
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	- Le comunicazioni su IRC avvengono di default in chiaro; IRC non e' un
+2020-10-16 16:34:01	--	- protocollo adatto alle comunicazioni riservate.
+2020-10-16 16:34:01	--	- Visita https://www.autistici.org/docs/jabber/ per
+2020-10-16 16:34:01	--	- avere informazioni su metodi di comunicazione piu' sicuri.
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	- E' possibile registrare nickname e canali interagendo con i servizi
+2020-10-16 16:34:01	--	- NickServ e ChanServ.
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	- NON SONO PERMESSI BOT.
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	- Alcuni canali che potrebbero interessarti:
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	-     #hackit99
+2020-10-16 16:34:01	--	-     Canale ufficiale di Hackmeeting: https://www.hackmeeting.org
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	-     #ai
+2020-10-16 16:34:01	--	-     Canale di supporto per gli utenti di Autistici/Inventati.
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	- Per segnalare problemi *gravi* relativi al servizio IRC: irc@autistici.org
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	- ################################################################################
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	- Welcome to mufhd0.net
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	- All communications on IRC are unencrypted by default; IRC it's not
+2020-10-16 16:34:01	--	- suitable for confidential communications.
+2020-10-16 16:34:01	--	- See https://www.autistici.org/docs/jabber/ for more informations
+2020-10-16 16:34:01	--	- about secure communications methods.
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	- You can register your nickname or channel by interacting with the
+2020-10-16 16:34:01	--	- NickServ and ChanServ services.
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	- NO BOTS ARE ALLOWED.
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	- A list of channels that may interest you:
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	-     #hackit99
+2020-10-16 16:34:01	--	-     The official channel of Hackmeeting: https://www.hackmeeting.org
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	-     #ai
+2020-10-16 16:34:01	--	-     Support channel for Autistici/Inventati users.
+2020-10-16 16:34:01	--	-
+2020-10-16 16:34:01	--	- To report serious issues related to the IRC service: irc@autistici.org
+2020-10-16 16:34:01	--	End of message of the day.
+2020-10-16 16:34:01	--	There are 81 users and 49 invisible on 3 servers
+2020-10-16 16:34:01	--	50 :channels formed
+2020-10-16 16:34:01	--	I have 114 clients and 2 servers
+2020-10-16 16:34:01	--	Current Local Users: 114  Max: 119
+2020-10-16 16:34:01	--	Current Global Users: 130  Max: 137
+2020-10-16 16:34:01	--	mufhd0-vid.fnh.a95gas.IP :is now your displayed host
+2020-10-16 16:34:01	--	User mode [+xw] by brasello_
+2020-10-16 16:34:01	--	ai.irc.mufhd0.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-10-27 10:18:24	--	irc: connecting to server irc.autistici.org/6697 (SSL)...
+2020-10-27 10:18:24	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-27 10:18:24	--	gnutls: receiving 2 certificates
+2020-10-27 10:18:24	--	 - certificate[1] info:
+2020-10-27 10:18:24	--	   - subject `CN=irc.autistici.org', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0445e36bf257d22624ed4a4ab665e7c6c8ed, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-04 08:05:40 UTC', expires `2021-01-02 08:05:40 UTC', pin-sha256="KqVdW2O2+x3MPhb8Lqq2t+KNXhtk65sA9DrnFBjjSls="
+2020-10-27 10:18:24	--	 - certificate[2] info:
+2020-10-27 10:18:24	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2020-10-27 10:18:24	--	gnutls: peer's certificate is trusted
+2020-10-27 10:18:24	--	irc: connected to irc.autistici.org/6697 (46.226.109.4)
+2020-10-27 10:18:24	--	ai.irc.mufhd0.net: *** Looking up your hostname...
+2020-10-27 10:18:24	--	ai.irc.mufhd0.net: *** Found your hostname (xvm-109-4.dc2.ghst.net) -- cached
+2020-10-27 10:18:24	--	irc: nickname "brasello" is already in use, trying nickname "brasello_"
+2020-10-27 10:18:25	--	ai.irc.mufhd0.net: Welcome to Mufhd0!
+2020-10-27 10:18:25	--	Welcome to the Mufhd0 IRC Network brasello_!fra@xvm-109-4.dc2.ghst.net
+2020-10-27 10:18:25	--	Your host is ai.irc.mufhd0.net, running version InspIRCd-2.0
+2020-10-27 10:18:25	--	This server was created on Debian
+2020-10-27 10:18:25	--	ai.irc.mufhd0.net InspIRCd-2.0 BIRhiorswx KMRVabehiklmnopqrstvz Vabehkloqv
+2020-10-27 10:18:25	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=be,k,l,KMRimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RUz FNC KICKLEN=255 MAP MAXBANS=60 :are supported by this server
+2020-10-27 10:18:25	--	MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mufhd0 NICKLEN=31 PREFIX=(qaohvV)~&@%+- SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+- TOPICLEN=307 VBANLIST :are supported by this server
+2020-10-27 10:18:25	--	WALLCHOPS WALLVOICES :are supported by this server
+2020-10-27 10:18:25	--	890AAC4VM :your unique ID
+2020-10-27 10:18:25	--	ai.irc.mufhd0.net message of the day
+2020-10-27 10:18:25	--	- Benvenuti su mufhd0.net
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- Le comunicazioni su IRC avvengono di default in chiaro; IRC non e' un
+2020-10-27 10:18:25	--	- protocollo adatto alle comunicazioni riservate.
+2020-10-27 10:18:25	--	- Visita https://www.autistici.org/docs/jabber/ per
+2020-10-27 10:18:25	--	- avere informazioni su metodi di comunicazione piu' sicuri.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- E' possibile registrare nickname e canali interagendo con i servizi
+2020-10-27 10:18:25	--	- NickServ e ChanServ.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- NON SONO PERMESSI BOT.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- Alcuni canali che potrebbero interessarti:
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	-     #hackit99
+2020-10-27 10:18:25	--	-     Canale ufficiale di Hackmeeting: https://www.hackmeeting.org
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	-     #ai
+2020-10-27 10:18:25	--	-     Canale di supporto per gli utenti di Autistici/Inventati.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- Per segnalare problemi *gravi* relativi al servizio IRC: irc@autistici.org
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- ################################################################################
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- Welcome to mufhd0.net
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- All communications on IRC are unencrypted by default; IRC it's not
+2020-10-27 10:18:25	--	- suitable for confidential communications.
+2020-10-27 10:18:25	--	- See https://www.autistici.org/docs/jabber/ for more informations
+2020-10-27 10:18:25	--	- about secure communications methods.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- You can register your nickname or channel by interacting with the
+2020-10-27 10:18:25	--	- NickServ and ChanServ services.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- NO BOTS ARE ALLOWED.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- A list of channels that may interest you:
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	-     #hackit99
+2020-10-27 10:18:25	--	-     The official channel of Hackmeeting: https://www.hackmeeting.org
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	-     #ai
+2020-10-27 10:18:25	--	-     Support channel for Autistici/Inventati users.
+2020-10-27 10:18:25	--	-
+2020-10-27 10:18:25	--	- To report serious issues related to the IRC service: irc@autistici.org
+2020-10-27 10:18:25	--	End of message of the day.
+2020-10-27 10:18:25	--	There are 81 users and 46 invisible on 3 servers
+2020-10-27 10:18:25	--	47 :channels formed
+2020-10-27 10:18:25	--	I have 112 clients and 2 servers
+2020-10-27 10:18:25	--	Current Local Users: 112  Max: 120
+2020-10-27 10:18:25	--	Current Global Users: 127  Max: 138
+2020-10-27 10:18:25	--	mufhd0-vid.fnh.a95gas.IP :is now your displayed host
+2020-10-27 10:18:25	--	User mode [+xw] by brasello_
+2020-10-27 10:18:25	--	ai.irc.mufhd0.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-10-28 09:27:13	--	irc: connecting to server irc.autistici.org/6697 (SSL)...
+2020-10-28 09:27:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-28 09:27:14	--	gnutls: receiving 2 certificates
+2020-10-28 09:27:14	--	 - certificate[1] info:
+2020-10-28 09:27:14	--	   - subject `CN=irc.autistici.org', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0445e36bf257d22624ed4a4ab665e7c6c8ed, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-04 08:05:40 UTC', expires `2021-01-02 08:05:40 UTC', pin-sha256="KqVdW2O2+x3MPhb8Lqq2t+KNXhtk65sA9DrnFBjjSls="
+2020-10-28 09:27:14	--	 - certificate[2] info:
+2020-10-28 09:27:14	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2020-10-28 09:27:14	--	gnutls: peer's certificate is trusted
+2020-10-28 09:27:14	--	irc: connected to irc.autistici.org/6697 (46.226.109.4)
+2020-10-28 09:27:14	--	ai.irc.mufhd0.net: *** Looking up your hostname...
+2020-10-28 09:27:14	--	ai.irc.mufhd0.net: *** Found your hostname (xvm-109-4.dc2.ghst.net) -- cached
+2020-10-28 09:27:14	--	irc: nickname "brasello" is already in use, trying nickname "brasello_"
+2020-10-28 09:27:14	--	ai.irc.mufhd0.net: Welcome to Mufhd0!
+2020-10-28 09:27:14	--	Welcome to the Mufhd0 IRC Network brasello_!fra@xvm-109-4.dc2.ghst.net
+2020-10-28 09:27:14	--	Your host is ai.irc.mufhd0.net, running version InspIRCd-2.0
+2020-10-28 09:27:14	--	This server was created on Debian
+2020-10-28 09:27:14	--	ai.irc.mufhd0.net InspIRCd-2.0 BIRhiorswx KMRVabehiklmnopqrstvz Vabehkloqv
+2020-10-28 09:27:14	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=be,k,l,KMRimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RUz FNC KICKLEN=255 MAP MAXBANS=60 :are supported by this server
+2020-10-28 09:27:14	--	MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mufhd0 NICKLEN=31 PREFIX=(qaohvV)~&@%+- SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+- TOPICLEN=307 VBANLIST :are supported by this server
+2020-10-28 09:27:14	--	WALLCHOPS WALLVOICES :are supported by this server
+2020-10-28 09:27:14	--	890AAD01Z :your unique ID
+2020-10-28 09:27:14	--	ai.irc.mufhd0.net message of the day
+2020-10-28 09:27:14	--	- Benvenuti su mufhd0.net
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	- Le comunicazioni su IRC avvengono di default in chiaro; IRC non e' un
+2020-10-28 09:27:14	--	- protocollo adatto alle comunicazioni riservate.
+2020-10-28 09:27:14	--	- Visita https://www.autistici.org/docs/jabber/ per
+2020-10-28 09:27:14	--	- avere informazioni su metodi di comunicazione piu' sicuri.
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	- E' possibile registrare nickname e canali interagendo con i servizi
+2020-10-28 09:27:14	--	- NickServ e ChanServ.
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	- NON SONO PERMESSI BOT.
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	- Alcuni canali che potrebbero interessarti:
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	-     #hackit99
+2020-10-28 09:27:14	--	-     Canale ufficiale di Hackmeeting: https://www.hackmeeting.org
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	-     #ai
+2020-10-28 09:27:14	--	-     Canale di supporto per gli utenti di Autistici/Inventati.
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	- Per segnalare problemi *gravi* relativi al servizio IRC: irc@autistici.org
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	- ################################################################################
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	- Welcome to mufhd0.net
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	- All communications on IRC are unencrypted by default; IRC it's not
+2020-10-28 09:27:14	--	- suitable for confidential communications.
+2020-10-28 09:27:14	--	- See https://www.autistici.org/docs/jabber/ for more informations
+2020-10-28 09:27:14	--	- about secure communications methods.
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	- You can register your nickname or channel by interacting with the
+2020-10-28 09:27:14	--	- NickServ and ChanServ services.
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	- NO BOTS ARE ALLOWED.
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	- A list of channels that may interest you:
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	-     #hackit99
+2020-10-28 09:27:14	--	-     The official channel of Hackmeeting: https://www.hackmeeting.org
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	-     #ai
+2020-10-28 09:27:14	--	-     Support channel for Autistici/Inventati users.
+2020-10-28 09:27:14	--	-
+2020-10-28 09:27:14	--	- To report serious issues related to the IRC service: irc@autistici.org
+2020-10-28 09:27:14	--	End of message of the day.
+2020-10-28 09:27:14	--	There are 76 users and 43 invisible on 3 servers
+2020-10-28 09:27:14	--	45 :channels formed
+2020-10-28 09:27:14	--	I have 105 clients and 2 servers
+2020-10-28 09:27:14	--	Current Local Users: 105  Max: 120
+2020-10-28 09:27:14	--	Current Global Users: 119  Max: 138
+2020-10-28 09:27:14	--	mufhd0-vid.fnh.a95gas.IP :is now your displayed host
+2020-10-28 09:27:14	--	User mode [+xw] by brasello_
+2020-10-28 09:27:14	--	ai.irc.mufhd0.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-10-28 10:00:14	--	irc: connecting to server irc.autistici.org/6697 (SSL)...
+2020-10-28 10:00:14	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-28 10:00:14	--	gnutls: receiving 2 certificates
+2020-10-28 10:00:14	--	 - certificate[1] info:
+2020-10-28 10:00:14	--	   - subject `CN=irc.autistici.org', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0445e36bf257d22624ed4a4ab665e7c6c8ed, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-04 08:05:40 UTC', expires `2021-01-02 08:05:40 UTC', pin-sha256="KqVdW2O2+x3MPhb8Lqq2t+KNXhtk65sA9DrnFBjjSls="
+2020-10-28 10:00:14	--	 - certificate[2] info:
+2020-10-28 10:00:14	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2020-10-28 10:00:14	--	gnutls: peer's certificate is trusted
+2020-10-28 10:00:14	--	irc: connected to irc.autistici.org/6697 (46.226.109.4)
+2020-10-28 10:00:14	--	ai.irc.mufhd0.net: *** Looking up your hostname...
+2020-10-28 10:00:14	--	ai.irc.mufhd0.net: *** Found your hostname (xvm-109-4.dc2.ghst.net) -- cached
+2020-10-28 10:00:14	--	irc: nickname "brasello" is already in use, trying nickname "brasello_"
+2020-10-28 10:00:15	--	ai.irc.mufhd0.net: Welcome to Mufhd0!
+2020-10-28 10:00:15	--	Welcome to the Mufhd0 IRC Network brasello_!fra@xvm-109-4.dc2.ghst.net
+2020-10-28 10:00:15	--	Your host is ai.irc.mufhd0.net, running version InspIRCd-2.0
+2020-10-28 10:00:15	--	This server was created on Debian
+2020-10-28 10:00:15	--	ai.irc.mufhd0.net InspIRCd-2.0 BIRhiorswx KMRVabehiklmnopqrstvz Vabehkloqv
+2020-10-28 10:00:15	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=be,k,l,KMRimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RUz FNC KICKLEN=255 MAP MAXBANS=60 :are supported by this server
+2020-10-28 10:00:15	--	MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mufhd0 NICKLEN=31 PREFIX=(qaohvV)~&@%+- SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+- TOPICLEN=307 VBANLIST :are supported by this server
+2020-10-28 10:00:15	--	WALLCHOPS WALLVOICES :are supported by this server
+2020-10-28 10:00:15	--	890AAD1TV :your unique ID
+2020-10-28 10:00:15	--	ai.irc.mufhd0.net message of the day
+2020-10-28 10:00:15	--	- Benvenuti su mufhd0.net
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	- Le comunicazioni su IRC avvengono di default in chiaro; IRC non e' un
+2020-10-28 10:00:15	--	- protocollo adatto alle comunicazioni riservate.
+2020-10-28 10:00:15	--	- Visita https://www.autistici.org/docs/jabber/ per
+2020-10-28 10:00:15	--	- avere informazioni su metodi di comunicazione piu' sicuri.
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	- E' possibile registrare nickname e canali interagendo con i servizi
+2020-10-28 10:00:15	--	- NickServ e ChanServ.
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	- NON SONO PERMESSI BOT.
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	- Alcuni canali che potrebbero interessarti:
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	-     #hackit99
+2020-10-28 10:00:15	--	-     Canale ufficiale di Hackmeeting: https://www.hackmeeting.org
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	-     #ai
+2020-10-28 10:00:15	--	-     Canale di supporto per gli utenti di Autistici/Inventati.
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	- Per segnalare problemi *gravi* relativi al servizio IRC: irc@autistici.org
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	- ################################################################################
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	- Welcome to mufhd0.net
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	- All communications on IRC are unencrypted by default; IRC it's not
+2020-10-28 10:00:15	--	- suitable for confidential communications.
+2020-10-28 10:00:15	--	- See https://www.autistici.org/docs/jabber/ for more informations
+2020-10-28 10:00:15	--	- about secure communications methods.
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	- You can register your nickname or channel by interacting with the
+2020-10-28 10:00:15	--	- NickServ and ChanServ services.
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	- NO BOTS ARE ALLOWED.
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	- A list of channels that may interest you:
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	-     #hackit99
+2020-10-28 10:00:15	--	-     The official channel of Hackmeeting: https://www.hackmeeting.org
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	-     #ai
+2020-10-28 10:00:15	--	-     Support channel for Autistici/Inventati users.
+2020-10-28 10:00:15	--	-
+2020-10-28 10:00:15	--	- To report serious issues related to the IRC service: irc@autistici.org
+2020-10-28 10:00:15	--	End of message of the day.
+2020-10-28 10:00:15	--	There are 80 users and 44 invisible on 3 servers
+2020-10-28 10:00:15	--	5 :unknown connections
+2020-10-28 10:00:15	--	45 :channels formed
+2020-10-28 10:00:15	--	I have 110 clients and 2 servers
+2020-10-28 10:00:15	--	Current Local Users: 110  Max: 120
+2020-10-28 10:00:15	--	Current Global Users: 124  Max: 138
+2020-10-28 10:00:15	--	mufhd0-vid.fnh.a95gas.IP :is now your displayed host
+2020-10-28 10:00:15	--	User mode [+xw] by brasello_
+2020-10-28 10:00:15	--	ai.irc.mufhd0.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-10-28 15:00:35	--	irc: connecting to server irc.autistici.org/6697 (SSL)...
+2020-10-28 15:00:36	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-28 15:00:36	--	gnutls: receiving 2 certificates
+2020-10-28 15:00:36	--	 - certificate[1] info:
+2020-10-28 15:00:36	--	   - subject `CN=irc.autistici.org', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0445e36bf257d22624ed4a4ab665e7c6c8ed, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-04 08:05:40 UTC', expires `2021-01-02 08:05:40 UTC', pin-sha256="KqVdW2O2+x3MPhb8Lqq2t+KNXhtk65sA9DrnFBjjSls="
+2020-10-28 15:00:36	--	 - certificate[2] info:
+2020-10-28 15:00:36	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2020-10-28 15:00:36	--	gnutls: peer's certificate is trusted
+2020-10-28 15:00:36	--	irc: connected to irc.autistici.org/6697 (46.226.109.4)
+2020-10-28 15:00:36	--	ai.irc.mufhd0.net: *** Looking up your hostname...
+2020-10-28 15:00:36	--	ai.irc.mufhd0.net: *** Found your hostname (xvm-109-4.dc2.ghst.net) -- cached
+2020-10-28 15:00:36	--	ai.irc.mufhd0.net: Welcome to Mufhd0!
+2020-10-28 15:00:36	--	Welcome to the Mufhd0 IRC Network brasello!fra@xvm-109-4.dc2.ghst.net
+2020-10-28 15:00:36	--	Your host is ai.irc.mufhd0.net, running version InspIRCd-2.0
+2020-10-28 15:00:36	--	This server was created on Debian
+2020-10-28 15:00:36	--	ai.irc.mufhd0.net InspIRCd-2.0 BIRhiorswx KMRVabehiklmnopqrstvz Vabehkloqv
+2020-10-28 15:00:36	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=be,k,l,KMRimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RUz FNC KICKLEN=255 MAP MAXBANS=60 :are supported by this server
+2020-10-28 15:00:36	--	MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mufhd0 NICKLEN=31 PREFIX=(qaohvV)~&@%+- SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+- TOPICLEN=307 VBANLIST :are supported by this server
+2020-10-28 15:00:36	--	WALLCHOPS WALLVOICES :are supported by this server
+2020-10-28 15:00:36	--	890AAD8UE :your unique ID
+2020-10-28 15:00:36	--	ai.irc.mufhd0.net message of the day
+2020-10-28 15:00:36	--	- Benvenuti su mufhd0.net
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	- Le comunicazioni su IRC avvengono di default in chiaro; IRC non e' un
+2020-10-28 15:00:36	--	- protocollo adatto alle comunicazioni riservate.
+2020-10-28 15:00:36	--	- Visita https://www.autistici.org/docs/jabber/ per
+2020-10-28 15:00:36	--	- avere informazioni su metodi di comunicazione piu' sicuri.
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	- E' possibile registrare nickname e canali interagendo con i servizi
+2020-10-28 15:00:36	--	- NickServ e ChanServ.
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	- NON SONO PERMESSI BOT.
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	- Alcuni canali che potrebbero interessarti:
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	-     #hackit99
+2020-10-28 15:00:36	--	-     Canale ufficiale di Hackmeeting: https://www.hackmeeting.org
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	-     #ai
+2020-10-28 15:00:36	--	-     Canale di supporto per gli utenti di Autistici/Inventati.
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	- Per segnalare problemi *gravi* relativi al servizio IRC: irc@autistici.org
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	- ################################################################################
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	- Welcome to mufhd0.net
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	- All communications on IRC are unencrypted by default; IRC it's not
+2020-10-28 15:00:36	--	- suitable for confidential communications.
+2020-10-28 15:00:36	--	- See https://www.autistici.org/docs/jabber/ for more informations
+2020-10-28 15:00:36	--	- about secure communications methods.
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	- You can register your nickname or channel by interacting with the
+2020-10-28 15:00:36	--	- NickServ and ChanServ services.
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	- NO BOTS ARE ALLOWED.
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	- A list of channels that may interest you:
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	-     #hackit99
+2020-10-28 15:00:36	--	-     The official channel of Hackmeeting: https://www.hackmeeting.org
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	-     #ai
+2020-10-28 15:00:36	--	-     Support channel for Autistici/Inventati users.
+2020-10-28 15:00:36	--	-
+2020-10-28 15:00:36	--	- To report serious issues related to the IRC service: irc@autistici.org
+2020-10-28 15:00:36	--	End of message of the day.
+2020-10-28 15:00:36	--	There are 86 users and 73 invisible on 3 servers
+2020-10-28 15:00:36	--	51 :channels formed
+2020-10-28 15:00:36	--	I have 143 clients and 2 servers
+2020-10-28 15:00:36	--	Current Local Users: 143  Max: 143
+2020-10-28 15:00:36	--	Current Global Users: 159  Max: 159
+2020-10-28 15:00:36	--	mufhd0-vid.fnh.a95gas.IP :is now your displayed host
+2020-10-28 15:00:36	--	User mode [+xw] by brasello
+2020-10-28 15:00:36	--	ai.irc.mufhd0.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-10-30 11:35:07	--	irc: connecting to server irc.autistici.org/6697 (SSL)...
+2020-10-30 11:35:07	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-10-30 11:35:07	--	gnutls: receiving 2 certificates
+2020-10-30 11:35:07	--	 - certificate[1] info:
+2020-10-30 11:35:07	--	   - subject `CN=irc.autistici.org', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0445e36bf257d22624ed4a4ab665e7c6c8ed, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-04 08:05:40 UTC', expires `2021-01-02 08:05:40 UTC', pin-sha256="KqVdW2O2+x3MPhb8Lqq2t+KNXhtk65sA9DrnFBjjSls="
+2020-10-30 11:35:07	--	 - certificate[2] info:
+2020-10-30 11:35:07	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2020-10-30 11:35:07	--	gnutls: peer's certificate is trusted
+2020-10-30 11:35:07	--	irc: connected to irc.autistici.org/6697 (46.226.109.4)
+2020-10-30 11:35:08	--	ai.irc.mufhd0.net: *** Looking up your hostname...
+2020-10-30 11:35:08	--	ai.irc.mufhd0.net: *** Found your hostname (xvm-109-4.dc2.ghst.net) -- cached
+2020-10-30 11:35:09	--	ai.irc.mufhd0.net: Welcome to Mufhd0!
+2020-10-30 11:35:09	--	Welcome to the Mufhd0 IRC Network brasello!fra@xvm-109-4.dc2.ghst.net
+2020-10-30 11:35:09	--	Your host is ai.irc.mufhd0.net, running version InspIRCd-2.0
+2020-10-30 11:35:09	--	This server was created on Debian
+2020-10-30 11:35:09	--	ai.irc.mufhd0.net InspIRCd-2.0 BIRhiorswx KMRVabehiklmnopqrstvz Vabehkloqv
+2020-10-30 11:35:09	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=be,k,l,KMRimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RUz FNC KICKLEN=255 MAP MAXBANS=60 :are supported by this server
+2020-10-30 11:35:09	--	MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mufhd0 NICKLEN=31 PREFIX=(qaohvV)~&@%+- SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+- TOPICLEN=307 VBANLIST :are supported by this server
+2020-10-30 11:35:09	--	WALLCHOPS WALLVOICES :are supported by this server
+2020-10-30 11:35:09	--	890AAFZQ3 :your unique ID
+2020-10-30 11:35:09	--	ai.irc.mufhd0.net message of the day
+2020-10-30 11:35:09	--	- Benvenuti su mufhd0.net
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	- Le comunicazioni su IRC avvengono di default in chiaro; IRC non e' un
+2020-10-30 11:35:09	--	- protocollo adatto alle comunicazioni riservate.
+2020-10-30 11:35:09	--	- Visita https://www.autistici.org/docs/jabber/ per
+2020-10-30 11:35:09	--	- avere informazioni su metodi di comunicazione piu' sicuri.
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	- E' possibile registrare nickname e canali interagendo con i servizi
+2020-10-30 11:35:09	--	- NickServ e ChanServ.
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	- NON SONO PERMESSI BOT.
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	- Alcuni canali che potrebbero interessarti:
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	-     #hackit99
+2020-10-30 11:35:09	--	-     Canale ufficiale di Hackmeeting: https://www.hackmeeting.org
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	-     #ai
+2020-10-30 11:35:09	--	-     Canale di supporto per gli utenti di Autistici/Inventati.
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	- Per segnalare problemi *gravi* relativi al servizio IRC: irc@autistici.org
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	- ################################################################################
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	- Welcome to mufhd0.net
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	- All communications on IRC are unencrypted by default; IRC it's not
+2020-10-30 11:35:09	--	- suitable for confidential communications.
+2020-10-30 11:35:09	--	- See https://www.autistici.org/docs/jabber/ for more informations
+2020-10-30 11:35:09	--	- about secure communications methods.
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	- You can register your nickname or channel by interacting with the
+2020-10-30 11:35:09	--	- NickServ and ChanServ services.
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	- NO BOTS ARE ALLOWED.
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	- A list of channels that may interest you:
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	-     #hackit99
+2020-10-30 11:35:09	--	-     The official channel of Hackmeeting: https://www.hackmeeting.org
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	-     #ai
+2020-10-30 11:35:09	--	-     Support channel for Autistici/Inventati users.
+2020-10-30 11:35:09	--	-
+2020-10-30 11:35:09	--	- To report serious issues related to the IRC service: irc@autistici.org
+2020-10-30 11:35:09	--	End of message of the day.
+2020-10-30 11:35:09	--	There are 77 users and 44 invisible on 3 servers
+2020-10-30 11:35:09	--	45 :channels formed
+2020-10-30 11:35:09	--	I have 108 clients and 2 servers
+2020-10-30 11:35:09	--	Current Local Users: 108  Max: 161
+2020-10-30 11:35:09	--	Current Global Users: 121  Max: 178
+2020-10-30 11:35:09	--	mufhd0-vid.fnh.a95gas.IP :is now your displayed host
+2020-10-30 11:35:09	--	User mode [+xw] by brasello
+2020-10-30 11:35:09	--	ai.irc.mufhd0.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
+2020-11-04 09:29:44	--	irc: connecting to server irc.autistici.org/6697 (SSL)...
+2020-11-04 09:29:44	=!=	irc: address "irc.autistici.org" not found
+2020-11-04 09:29:44	=!=	irc: error: Temporary failure in name resolution
+2020-11-04 09:29:44	--	irc: reconnecting to server in 10 seconds
+2020-11-04 09:29:54	--	irc: reconnecting to server...
+2020-11-04 09:29:54	--	irc: connecting to server irc.autistici.org/6697 (SSL)...
+2020-11-04 09:29:54	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2020-11-04 09:29:54	--	gnutls: receiving 2 certificates
+2020-11-04 09:29:54	--	 - certificate[1] info:
+2020-11-04 09:29:54	--	   - subject `CN=irc.autistici.org', issuer `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', serial 0x0445e36bf257d22624ed4a4ab665e7c6c8ed, RSA key 2048 bits, signed using RSA-SHA256, activated `2020-10-04 08:05:40 UTC', expires `2021-01-02 08:05:40 UTC', pin-sha256="KqVdW2O2+x3MPhb8Lqq2t+KNXhtk65sA9DrnFBjjSls="
+2020-11-04 09:29:54	--	 - certificate[2] info:
+2020-11-04 09:29:54	--	   - subject `CN=Let's Encrypt Authority X3,O=Let's Encrypt,C=US', issuer `CN=DST Root CA X3,O=Digital Signature Trust Co.', serial 0x0a0141420000015385736a0b85eca708, RSA key 2048 bits, signed using RSA-SHA256, activated `2016-03-17 16:40:46 UTC', expires `2021-03-17 16:40:46 UTC', pin-sha256="YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+2020-11-04 09:29:54	--	gnutls: peer's certificate is trusted
+2020-11-04 09:29:54	--	irc: connected to irc.autistici.org/6697 (46.226.109.4)
+2020-11-04 09:29:55	--	ai.irc.mufhd0.net: *** Looking up your hostname...
+2020-11-04 09:29:55	--	ai.irc.mufhd0.net: *** Found your hostname (xvm-109-4.dc2.ghst.net) -- cached
+2020-11-04 09:29:55	--	irc: nickname "brasello" is already in use, trying nickname "brasello_"
+2020-11-04 09:29:55	--	ai.irc.mufhd0.net: Welcome to Mufhd0!
+2020-11-04 09:29:55	--	Welcome to the Mufhd0 IRC Network brasello_!fra@xvm-109-4.dc2.ghst.net
+2020-11-04 09:29:55	--	Your host is ai.irc.mufhd0.net, running version InspIRCd-2.0
+2020-11-04 09:29:55	--	This server was created on Debian
+2020-11-04 09:29:55	--	ai.irc.mufhd0.net InspIRCd-2.0 BIRhiorswx KMRVabehiklmnopqrstvz Vabehkloqv
+2020-11-04 09:29:55	--	AWAYLEN=200 CASEMAPPING=rfc1459 CHANMODES=be,k,l,KMRimnprstz CHANNELLEN=64 CHANTYPES=# CHARSET=ascii ELIST=MU EXCEPTS=e EXTBAN=,RUz FNC KICKLEN=255 MAP MAXBANS=60 :are supported by this server
+2020-11-04 09:29:55	--	MAXCHANNELS=20 MAXPARA=32 MAXTARGETS=20 MODES=20 NAMESX NETWORK=Mufhd0 NICKLEN=31 PREFIX=(qaohvV)~&@%+- SSL=[::]:6697 STARTTLS STATUSMSG=~&@%+- TOPICLEN=307 VBANLIST :are supported by this server
+2020-11-04 09:29:55	--	WALLCHOPS WALLVOICES :are supported by this server
+2020-11-04 09:29:55	--	890AAKMCW :your unique ID
+2020-11-04 09:29:55	--	ai.irc.mufhd0.net message of the day
+2020-11-04 09:29:55	--	- Benvenuti su mufhd0.net
+2020-11-04 09:29:55	--	-
+2020-11-04 09:29:55	--	- Le comunicazioni su IRC avvengono di default in chiaro; IRC non e' un
+2020-11-04 09:29:55	--	- protocollo adatto alle comunicazioni riservate.
+2020-11-04 09:29:55	--	- Visita https://www.autistici.org/docs/jabber/ per
+2020-11-04 09:29:55	--	- avere informazioni su metodi di comunicazione piu' sicuri.
+2020-11-04 09:29:55	--	-
+2020-11-04 09:29:55	--	- E' possibile registrare nickname e canali interagendo con i servizi
+2020-11-04 09:29:55	--	- NickServ e ChanServ.
+2020-11-04 09:29:55	--	-
+2020-11-04 09:29:55	--	- NON SONO PERMESSI BOT.
+2020-11-04 09:29:55	--	-
+2020-11-04 09:29:55	--	- Alcuni canali che potrebbero interessarti:
+2020-11-04 09:29:55	--	-
+2020-11-04 09:29:55	--	-     #hackit99
+2020-11-04 09:29:55	--	-     Canale ufficiale di Hackmeeting: https://www.hackmeeting.org
+2020-11-04 09:29:55	--	-
+2020-11-04 09:29:55	--	-     #ai
+2020-11-04 09:29:55	--	-     Canale di supporto per gli utenti di Autistici/Inventati.
+2020-11-04 09:29:55	--	-
+2020-11-04 09:29:55	--	- Per segnalare problemi *gravi* relativi al servizio IRC: irc@autistici.org
+2020-11-04 09:29:55	--	-
+2020-11-04 09:29:55	--	- ################################################################################
+2020-11-04 09:29:55	--	-
+2020-11-04 09:29:55	--	- Welcome to mufhd0.net
+2020-11-04 09:29:55	--	-
+2020-11-04 09:29:55	--	- All communications on IRC are unencrypted by default; IRC it's not
+2020-11-04 09:29:55	--	- suitable for confidential communications.
+2020-11-04 09:29:55	--	- See https://www.autistici.org/docs/jabber/ for more informations
+2020-11-04 09:29:56	--	- about secure communications methods.
+2020-11-04 09:29:56	--	-
+2020-11-04 09:29:56	--	- You can register your nickname or channel by interacting with the
+2020-11-04 09:29:56	--	- NickServ and ChanServ services.
+2020-11-04 09:29:56	--	-
+2020-11-04 09:29:56	--	- NO BOTS ARE ALLOWED.
+2020-11-04 09:29:56	--	-
+2020-11-04 09:29:56	--	- A list of channels that may interest you:
+2020-11-04 09:29:56	--	-
+2020-11-04 09:29:56	--	-     #hackit99
+2020-11-04 09:29:56	--	-     The official channel of Hackmeeting: https://www.hackmeeting.org
+2020-11-04 09:29:56	--	-
+2020-11-04 09:29:56	--	-     #ai
+2020-11-04 09:29:56	--	-     Support channel for Autistici/Inventati users.
+2020-11-04 09:29:56	--	-
+2020-11-04 09:29:56	--	- To report serious issues related to the IRC service: irc@autistici.org
+2020-11-04 09:29:56	--	End of message of the day.
+2020-11-04 09:29:56	--	There are 77 users and 45 invisible on 3 servers
+2020-11-04 09:29:56	--	45 :channels formed
+2020-11-04 09:29:56	--	I have 107 clients and 2 servers
+2020-11-04 09:29:56	--	Current Local Users: 107  Max: 161
+2020-11-04 09:29:56	--	Current Global Users: 122  Max: 178
+2020-11-04 09:29:56	--	mufhd0-vid.fnh.a95gas.IP :is now your displayed host
+2020-11-04 09:29:56	--	User mode [+xw] by brasello_
+2020-11-04 09:29:56	--	ai.irc.mufhd0.net: *** You are connected using SSL cipher "ECDHE-RSA-AES-256-GCM-AEAD"
